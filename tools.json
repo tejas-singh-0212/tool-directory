@@ -107,27 +107,27 @@
     {
         "name":  "Gog Galaxy",
         "url":  "https://www.gog.com/galaxy",
-        "purpose":  "All Games at one place (Download)"
+        "purpose":  "Game discovery and download platform"
     },
     {
         "name":  "fitgirl-repacks",
         "url":  "https://fitgirl-repacks.site/popular-repacks/",
-        "purpose":  "All Games at one place (Download)"
+        "purpose":  "Game discovery and download platform"
     },
     {
         "name":  "Deep L",
         "url":  "https://deepl.com/",
-        "purpose":  "Alternate for Google translate"
+        "purpose":  "Alternative machine translation tool"
     },
     {
         "name":  "Rows",
         "url":  "https://rows.com",
-        "purpose":  "Alternate of Excel"
+        "purpose":  "Spreadsheet alternative"
     },
     {
         "name":  "Perplexity",
         "url":  "https://perplexity.ai",
-        "purpose":  "Alternate of Wikipedia"
+        "purpose":  "Alternative research and answer engine"
     },
     {
         "name":  "Magic Hour",
@@ -142,12 +142,12 @@
     {
         "name":  "Ten Ten",
         "url":  "https://play.google.com/store/apps/details?id=com.tenten.app\u0026hl=en_IN",
-        "purpose":  "App to connect two phones as walkie-talkie"
+        "purpose":  "Walkie-talkie style phone communication app"
     },
     {
         "name":  "PrePost SEO",
         "url":  "https://www.prepostseo.com/",
-        "purpose":  "Automated Praraphrasing for essays"
+        "purpose":  "Automated paraphrasing for essays"
     },
     {
         "name":  "Krisp",
@@ -157,7 +157,7 @@
     {
         "name":  "Video to blog",
         "url":  "https://www.videotoblog.ai/",
-        "purpose":  "Blogpost from youtube video"
+        "purpose":  "Generate blog posts from YouTube videos"
     },
     {
         "name":  "Axiom",
@@ -182,12 +182,12 @@
     {
         "name":  "MS Designer",
         "url":  "https://designer.microsoft.com/",
-        "purpose":  "Canva + ChatGPT"
+        "purpose":  "Design and AI-assisted content creation"
     },
     {
         "name":  "Predis",
         "url":  "https://predis.ai/",
-        "purpose":  "Canva + ChatGPT + Hootsuite"
+        "purpose":  "Design, AI content, and social media workflow tool"
     },
     {
         "name":  "3D Tuning",
@@ -222,7 +222,7 @@
     {
         "name":  "Compose",
         "url":  "https://www.compose.ai/",
-        "purpose":  "Chrome extenson to automte writing"
+        "purpose":  "Browser extension for AI-assisted writing"
     },
     {
         "name":  "Same new",
@@ -232,7 +232,7 @@
     {
         "name":  "Galileo",
         "url":  "https://www.usegalileo.ai/",
-        "purpose":  "Co-pilot for interface designing"
+        "purpose":  "AI copilot for interface design"
     },
     {
         "name":  "You",
@@ -262,12 +262,12 @@
     {
         "name":  "Color Mind",
         "url":  "https://colormind.io",
-        "purpose":  "Color Pallete generator"
+        "purpose":  "Color palette generator"
     },
     {
         "name":  "Hue Mint",
         "url":  "https://huemint.com/",
-        "purpose":  "Color Pallete generator"
+        "purpose":  "Color palette generator"
     },
     {
         "name":  "GenColor",
@@ -322,7 +322,7 @@
     {
         "name":  "My Fridge Food",
         "url":  "https://myfridgefood.com/",
-        "purpose":  "Custom recipies as per available stuff"
+        "purpose":  "Recipe suggestions based on available ingredients"
     },
     {
         "name":  "Moe Walls",
@@ -342,7 +342,7 @@
     {
         "name":  "Twain",
         "url":  "https://www.twain.ai/",
-        "purpose":  "E-mail writer"
+        "purpose":  "AI-assisted email writing"
     },
     {
         "name":  "Clip Drop",
@@ -352,7 +352,7 @@
     {
         "name":  "Numerous",
         "url":  "https://numerous.ai/",
-        "purpose":  "Excel work"
+        "purpose":  "AI assistance for spreadsheet work"
     },
     {
         "name":  "Imagine Explainers",
@@ -362,7 +362,7 @@
     {
         "name":  "Whitescreen",
         "url":  "https://www.whitescreen.online/",
-        "purpose":  "Fake Screen"
+        "purpose":  "Blank white screen utility"
     },
     {
         "name":  "Lightning",
@@ -387,12 +387,12 @@
     {
         "name":  "Replit Ghost Writer",
         "url":  "https://replit.com/site/ghostwriter",
-        "purpose":  "For better and faster coding"
+        "purpose":  "AI-assisted coding productivity tool"
     },
     {
         "name":  "Art-Board Studio",
         "url":  "https://artboard.studio/",
-        "purpose":  "For online designing"
+        "purpose":  "Online design and mockup tool"
     },
     {
         "name":  "Notion",
@@ -407,7 +407,7 @@
     {
         "name":  "Adescargar",
         "url":  "https://adescargar.online/category/aplicaciones/",
-        "purpose":  "Free Premium apps"
+        "purpose":  "Directory for app resources"
     },
     {
         "name":  "Codeium",
@@ -427,62 +427,62 @@
     {
         "name":  "Codingame (Prefer for Java)",
         "url":  "https://www.codingame.com/start",
-        "purpose":  "Game to enhance coding skills"
+        "purpose":  "Coding skills practice game"
     },
     {
         "name":  "Code Combat",
         "url":  "https://codecombat.com/",
-        "purpose":  "Game to enhance coding skills"
+        "purpose":  "Coding skills practice game"
     },
     {
         "name":  "Code Wars",
         "url":  "https://www.codewars.com/",
-        "purpose":  "Game to enhance coding skills"
+        "purpose":  "Coding skills practice game"
     },
     {
         "name":  "Robo Code",
         "url":  "https://robocode.sourceforge.io/",
-        "purpose":  "Game to enhance coding skills"
+        "purpose":  "Coding skills practice game"
     },
     {
         "name":  "Elevator Saga (prefer for Javascript)",
         "url":  "https://play.elevatorsaga.com/",
-        "purpose":  "Game to enhance coding skills"
+        "purpose":  "Coding skills practice game"
     },
     {
         "name":  "CheckIO (Python \u0026 Typescript)",
         "url":  "https://checkio.org/",
-        "purpose":  "Game to enhance coding skills"
+        "purpose":  "Coding skills practice game"
     },
     {
         "name":  "Boolean Method",
         "url":  "https://boolean.method.ac/",
-        "purpose":  "Game to enhance designing skills"
+        "purpose":  "Design skills practice game"
     },
     {
         "name":  "Color Method",
         "url":  "https://color.method.ac/",
-        "purpose":  "Game to enhance designing skills"
+        "purpose":  "Design skills practice game"
     },
     {
         "name":  "Supremo",
         "url":  "https://www.supremo.co.uk/designers-eye/",
-        "purpose":  "Game to enhance designing skills"
+        "purpose":  "Design skills practice game"
     },
     {
         "name":  "POG unblocked",
         "url":  "https://sites.google.com/view/pogunblocked",
-        "purpose":  "Games by google"
+        "purpose":  "Browser-based games collection"
     },
     {
         "name":  "Rocket AI",
         "url":  "https://www.rocketai.io/",
-        "purpose":  "Generates creative images for unique brand style"
+        "purpose":  "Generates creative brand-style images"
     },
     {
         "name":  "Stock IMG",
         "url":  "https://stockimg.ai/",
-        "purpose":  "Generates high quality stock images"
+        "purpose":  "Generates high-quality stock images"
     },
     {
         "name":  "Bria",
@@ -492,87 +492,87 @@
     {
         "name":  "Nightcafe-Creator",
         "url":  "https://creator.nightcafe.studio/",
-        "purpose":  "Generates real art"
+        "purpose":  "AI art generation platform"
     },
     {
         "name":  "WriteSonic",
         "url":  "https://writesonic.com/",
-        "purpose":  "Generates texts and images about trending topics"
+        "purpose":  "Generates text and images on trending topics"
     },
     {
         "name":  "Mult dev",
         "url":  "https://mult.dev/",
-        "purpose":  "Geo map animator"
+        "purpose":  "Geographic route and map animation tool"
     },
     {
         "name":  "You Learn",
         "url":  "https://www.youlearn.ai/",
-        "purpose":  "Gives summary of youtube videos"
+        "purpose":  "Summarizes YouTube videos"
     },
     {
         "name":  "Socra",
         "url":  "https://socra.com/",
-        "purpose":  "Goal Guidance AI"
+        "purpose":  "AI goal planning and guidance assistant"
     },
     {
         "name":  "Text Behind Image",
         "url":  "https://textbehindimage.com/",
-        "purpose":  "Image editing tools"
+        "purpose":  "AI image editing tools"
     },
     {
         "name":  "Image Upscaling",
         "url":  "https://image-upscaling.net/",
-        "purpose":  "Image editing tools"
+        "purpose":  "AI image editing tools"
     },
     {
         "name":  "Hugging Face",
         "url":  "https://huggingface.co/spaces/lllyasviel/iclight-v2-vary",
-        "purpose":  "Image editing tools"
+        "purpose":  "AI image editing tools"
     },
     {
         "name":  "Remove Photos",
         "url":  "https://remove.photos/",
-        "purpose":  "Image editing tools"
+        "purpose":  "AI image editing tools"
     },
     {
         "name":  "Krea",
         "url":  "https://www.krea.ai/home",
-        "purpose":  "Image editing tools"
+        "purpose":  "AI image editing tools"
     },
     {
         "name":  "Deep-Image",
         "url":  "https://deep-image.ai/",
-        "purpose":  "Image editing tools"
+        "purpose":  "AI image editing tools"
     },
     {
         "name":  "Lets Enhance",
         "url":  "https://letsenhance.io/",
-        "purpose":  "Image editing tools"
+        "purpose":  "AI image editing tools"
     },
     {
         "name":  "Lupa",
         "url":  "https://lupa.art/",
-        "purpose":  "Image editing tools"
+        "purpose":  "AI image editing tools"
     },
     {
         "name":  "Viesus",
         "url":  "https://www.viesus.com/",
-        "purpose":  "Image editing tools"
+        "purpose":  "AI image editing tools"
     },
     {
         "name":  "Snap Edit",
         "url":  "https://snapedit.app/",
-        "purpose":  "Image editing tools"
+        "purpose":  "AI image editing tools"
     },
     {
         "name":  "I Love Img",
         "url":  "https://www.iloveimg.com/",
-        "purpose":  "Image editing tools"
+        "purpose":  "AI image editing tools"
     },
     {
         "name":  "Magic Studio",
         "url":  "https://magicstudio.com/",
-        "purpose":  "Image editing tools"
+        "purpose":  "AI image editing tools"
     },
     {
         "name":  "Simplify",
@@ -582,22 +582,22 @@
     {
         "name":  "W3School",
         "url":  "https://www.w3schools.com/",
-        "purpose":  "Learn coding for free"
+        "purpose":  "Free coding learning resource"
     },
     {
         "name":  "Geek for Geeks",
         "url":  "https://www.geeksforgeeks.org/",
-        "purpose":  "Learn coding for free"
+        "purpose":  "Free coding learning resource"
     },
     {
         "name":  "Java Point",
         "url":  "https://www.javatpoint.com/",
-        "purpose":  "Learn coding for free"
+        "purpose":  "Free coding learning resource"
     },
     {
         "name":  "Tutorials Point",
         "url":  "https://www.tutorialspoint.com/index.htm",
-        "purpose":  "Learn coding for free"
+        "purpose":  "Free coding learning resource"
     },
     {
         "name":  "EdX AI Tutor",
@@ -607,22 +607,22 @@
     {
         "name":  "Work Ninja",
         "url":  "https://www.workninja.com/",
-        "purpose":  "Long Essay Writer"
+        "purpose":  "Long-form writing assistant"
     },
     {
         "name":  "Market Plan",
         "url":  "https://marketplan.io/",
-        "purpose":  "Market Strategy Creator"
+        "purpose":  "Marketing strategy planning tool"
     },
     {
         "name":  "Ltx studio",
         "url":  "https://ltx.studio",
-        "purpose":  "Match-cut effect"
+        "purpose":  "AI video editing and match-cut workflows"
     },
     {
         "name":  "Piggy AI",
         "url":  "https://www.piggy.to/",
-        "purpose":  "Mobile Content creator"
+        "purpose":  "Mobile-first content creation tool"
     },
     {
         "name":  "InterviewAI",
@@ -632,27 +632,27 @@
     {
         "name":  "PlayBack",
         "url":  "https://playback.fm/birthday-song",
-        "purpose":  "Most popular song on your day of birth"
+        "purpose":  "Find popular songs by birth date"
     },
     {
         "name":  "Simplified",
         "url":  "https://simplified.com/",
-        "purpose":  "Multiple AI"
+        "purpose":  "Multi-tool AI platform"
     },
     {
         "name":  "AI Tools Directory",
         "url":  "https://aitoolsdirectory.com/",
-        "purpose":  "Multiple AI"
+        "purpose":  "Multi-tool AI platform"
     },
     {
         "name":  "ArenaAI",
         "url":  "https://arena.ai",
-        "purpose":  "Multiple AI"
+        "purpose":  "Multi-tool AI platform"
     },
     {
         "name":  "Design Arena",
         "url":  "https://www.designarena.ai/",
-        "purpose":  "Multiple AI"
+        "purpose":  "Multi-tool AI platform"
     },
     {
         "name":  "Z.ai",
@@ -667,7 +667,7 @@
     {
         "name":  "123Apps",
         "url":  "https://123apps.com/",
-        "purpose":  "Multiple Online editing tools"
+        "purpose":  "Online media editing toolkit"
     },
     {
         "name":  "Mubert",
@@ -697,12 +697,12 @@
     {
         "name":  "Uiball",
         "url":  "https://uiball.com/ldrs/",
-        "purpose":  "Open source loaders and spinners"
+        "purpose":  "Open-source loaders and spinner assets"
     },
     {
         "name":  "Make my drive fun",
         "url":  "https://makemydrivefun.com",
-        "purpose":  "Optimal route for road trip"
+        "purpose":  "Road trip route optimization tool"
     },
     {
         "name":  "Topaz",
@@ -752,12 +752,12 @@
     {
         "name":  "Doc Sity",
         "url":  "https://www.docsity.com/en/",
-        "purpose":  "Previous Papers and notes"
+        "purpose":  "Past papers and study notes"
     },
     {
         "name":  "Pebblely",
         "url":  "https://pebblely.com/",
-        "purpose":  "Product Photos"
+        "purpose":  "Product photo generation tool"
     },
     {
         "name":  "Key Gen Ninja",
@@ -782,7 +782,7 @@
     {
         "name":  "Entertrained",
         "url":  "https://entertrained.app/",
-        "purpose":  "Read and type practice any book"
+        "purpose":  "Typing and reading practice tool"
     },
     {
         "name":  "Voice Mod",
@@ -807,27 +807,27 @@
     {
         "name":  "FishBowl",
         "url":  "https://fishbowlapp.com",
-        "purpose":  "Remote Jobs"
+        "purpose":  "Remote job discovery platform"
     },
     {
         "name":  "WellFound",
         "url":  "https://wellfound.com",
-        "purpose":  "Remote Jobs"
+        "purpose":  "Remote job discovery platform"
     },
     {
         "name":  "FoundIt",
         "url":  "https://foundit.in",
-        "purpose":  "Remote Jobs"
+        "purpose":  "Remote job discovery platform"
     },
     {
         "name":  "i fix it",
         "url":  "https://www.ifixit.com/",
-        "purpose":  "Repair manual for almost everything"
+        "purpose":  "Repair manuals and DIY guides"
     },
     {
         "name":  "Sribble fusion",
         "url":  "https://scribblediffusion.com/",
-        "purpose":  "Rough drawing to image generator"
+        "purpose":  "Converts rough sketches into images"
     },
     {
         "name":  "Zingoy",
@@ -837,17 +837,17 @@
     {
         "name":  "FreeUp",
         "url":  "https://www.freeup.app/",
-        "purpose":  "Sell old clothes"
+        "purpose":  "Marketplace for pre-owned clothing"
     },
     {
         "name":  "Etsy",
         "url":  "https://www.etsy.com/in-en/market/itashi",
-        "purpose":  "Sell old clothes"
+        "purpose":  "Marketplace for pre-owned clothing"
     },
     {
         "name":  "Api Way",
         "url":  "https://apiway.ai/",
-        "purpose":  "Send leads to google sheets ad CRM"
+        "purpose":  "Send leads to Google Sheets and CRM tools"
     },
     {
         "name":  "Hootsuite",
@@ -857,7 +857,7 @@
     {
         "name":  "Github-Copilot",
         "url":  "https://github.com/features/copilot",
-        "purpose":  "Suggests codes and entire functions in real time"
+        "purpose":  "Real-time code and function suggestions"
     },
     {
         "name":  "Scholarcy",
@@ -877,22 +877,22 @@
     {
         "name":  "ReCraft",
         "url":  "https://www.recraft.ai/",
-        "purpose":  "Text to Poster generation"
+        "purpose":  "Text-to-poster generation tool"
     },
     {
         "name":  "Thumbly",
         "url":  "https://thumbly.ai/",
-        "purpose":  "Thumbnail generator"
+        "purpose":  "Thumbnail generation tool"
     },
     {
         "name":  "Ni3",
         "url":  "https://ni3.app",
-        "purpose":  "Thumbnail generator"
+        "purpose":  "Thumbnail generation tool"
     },
     {
         "name":  "NeaMx",
         "url":  "https://neamx.com/",
-        "purpose":  "Thumbnail generator"
+        "purpose":  "Thumbnail generation tool"
     },
     {
         "name":  "SVGator",
@@ -912,167 +912,167 @@
     {
         "name":  "Imagica",
         "url":  "https://get.imagica.ai/",
-        "purpose":  "To buid AI tools and apps"
+        "purpose":  "Build AI tools and applications"
     },
     {
         "name":  "Convex chef",
         "url":  "https://chef.convex.dev/",
-        "purpose":  "To buid AI tools and apps"
+        "purpose":  "Build AI tools and applications"
     },
     {
         "name":  "Chat pdf",
         "url":  "https://chatpdf.com",
-        "purpose":  "To comprehend any textbook, handout or presentaton"
+        "purpose":  "Understand textbooks, handouts, and presentations"
     },
     {
         "name":  "Chrome Remote Desktop",
         "url":  "https://remotedesktop.google.com/",
-        "purpose":  "To control laptop from phone"
+        "purpose":  "Remote desktop control from phone"
     },
     {
         "name":  "Ewasion Github",
         "url":  "https://ewasion.github.io/opendirectory-finder/",
-        "purpose":  "to download almost everything"
+        "purpose":  "Open directory and resource index tool"
     },
     {
         "name":  "Deep Web Nest",
         "url":  "https://deepwebnest.com/",
-        "purpose":  "to download almost everything"
+        "purpose":  "Open directory and resource index tool"
     },
     {
         "name":  "Keenious",
         "url":  "https://keenious.com",
-        "purpose":  "To enhance academic reading and writing"
+        "purpose":  "Enhances academic reading and writing"
     },
     {
         "name":  "Osint techniques",
         "url":  "https://osinttechniques.com",
-        "purpose":  "Public data investigation tools"
+        "purpose":  "Public data investigation toolkit"
     },
     {
         "name":  "Fakename generators",
         "url":  "https://fakenamegenerator.com",
-        "purpose":  "Test data and Persona generation"
+        "purpose":  "Test data and persona generation"
     },
     {
         "name":  "Hacking loops",
         "url":  "https://hackingloops.com",
-        "purpose":  "To learn ethical hacking for free"
+        "purpose":  "Free ethical hacking learning resource"
     },
     {
         "name":  "Pentest GPT",
         "url":  "https://pentestgpt.ai/",
-        "purpose":  "To learn ethical hacking for free"
+        "purpose":  "Free ethical hacking learning resource"
     },
     {
         "name":  "D-ID",
         "url":  "https://www.d-id.com/",
-        "purpose":  "To make a photo say something"
+        "purpose":  "Create talking-photo style videos"
     },
     {
         "name":  "CSS Battle",
         "url":  "https://cssbattle.dev/",
-        "purpose":  "To practice coding"
+        "purpose":  "Coding practice platform"
     },
     {
         "name":  "JS Challenger",
         "url":  "https://www.jschallenger.com/",
-        "purpose":  "To practice coding"
+        "purpose":  "Coding practice platform"
     },
     {
         "name":  "Hacker Rank",
         "url":  "https://www.hackerrank.com/",
-        "purpose":  "To practice coding"
+        "purpose":  "Coding practice platform"
     },
     {
         "name":  "Leet Code",
         "url":  "https://leetcode.com/",
-        "purpose":  "To practice coding"
+        "purpose":  "Coding practice platform"
     },
     {
         "name":  "Coddy",
         "url":  "https://coddy.tech/",
-        "purpose":  "To practice coding"
+        "purpose":  "Coding practice platform"
     },
     {
         "name":  "Wise One",
         "url":  "https://wiseone.io",
-        "purpose":  "To summarize research papers"
+        "purpose":  "Summarizes research papers"
     },
     {
         "name":  "Homework is trash",
         "url":  "https://www.homeworkistrash.ml/",
-        "purpose":  "Web proxy \u0026 bypass tool"
+        "purpose":  "Web proxy and access tool"
     },
     {
         "name":  "Super Human",
         "url":  "https://superhuman.com/",
-        "purpose":  "To write E-Mails faster"
+        "purpose":  "Faster email drafting assistant"
     },
     {
         "name":  "Breifly AI",
         "url":  "https://www.brieflyai.com/",
-        "purpose":  "Transcribes meetings automatically"
+        "purpose":  "Automatic meeting transcription tool"
     },
     {
         "name":  "Mult",
         "url":  "https://mult.dev/",
-        "purpose":  "Travel map animation"
+        "purpose":  "Travel route map animation tool"
     },
     {
         "name":  "Run Way ML",
         "url":  "https://runwayml.com/",
-        "purpose":  "Turns any image, short video, text to video"
+        "purpose":  "Generates video from text, images, or short clips"
     },
     {
         "name":  "Uizard",
         "url":  "https://uizard.io/",
-        "purpose":  "Turns screenshot to editable format"
+        "purpose":  "Converts screenshots into editable layouts"
     },
     {
         "name":  "Rapcut",
         "url":  "https://rapcut.app/",
-        "purpose":  "Turns screenshot to editable format"
+        "purpose":  "Converts screenshots into editable layouts"
     },
     {
         "name":  "Hailuo AI",
         "url":  "https://hailuoai.video/",
-        "purpose":  "Turns text into videos with ai voices"
+        "purpose":  "Converts text into videos with AI voices"
     },
     {
         "name":  "Fliki",
         "url":  "https://fliki.ai",
-        "purpose":  "Turns text into videos with ai voices"
+        "purpose":  "Converts text into videos with AI voices"
     },
     {
         "name":  "Production crate",
         "url":  "https://www.productioncrate.com/",
-        "purpose":  "VFX Clips"
+        "purpose":  "VFX clips and assets"
     },
     {
         "name":  "Visla",
         "url":  "https://www.visla.us/",
-        "purpose":  "Video Sorytelling"
+        "purpose":  "Video storytelling tool"
     },
     {
         "name":  "Fine Share",
         "url":  "https://www.fineshare.com/",
-        "purpose":  "Video and Voice AI"
+        "purpose":  "Video and voice AI toolkit"
     },
     {
         "name":  "Muse AI",
         "url":  "https://muse.ai/",
-        "purpose":  "Videography"
+        "purpose":  "Video hosting and management platform"
     },
     {
         "name":  "Durable",
         "url":  "https://durable.co/",
-        "purpose":  "Website Builder"
+        "purpose":  "Website builder platform"
     },
     {
         "name":  "Modulify",
         "url":  "https://www.modulify.ai/",
-        "purpose":  "Website Builder"
+        "purpose":  "Website builder platform"
     },
     {
         "name":  "With Diode",
@@ -1092,7 +1092,7 @@
     {
         "name":  "8x Engineer",
         "url":  "https://8xengineer.com/",
-        "purpose":  "Sort of Unstop"
+        "purpose":  "Early-career opportunities and challenges platform"
     },
     {
         "name":  "Meigen AI",
