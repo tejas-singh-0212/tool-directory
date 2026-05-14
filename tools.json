@@ -85,8 +85,13 @@
         "purpose":  "AI content writer"
     },
     {
-        "name":  "Pepper Type\u003c/a\u003e \u003c/td\u003e \u003ctd\u003eAI content writer\u003c/td\u003e \u003c/tr\u003e \u003ctr\u003e \u003ctd\u003e\u003ca href=\"https://zerogpt.com\" target=\"_blank\" rel=\"noopener\"\u003eZeroGPT",
+        "name":  "Pepper Type",
         "url":  "https://www.peppercontent.io/peppertype-ai/",
+        "purpose":  "AI content writer"
+    },
+    {
+        "name":  "ZeroGPT",
+        "url":  "https://zerogpt.com",
         "purpose":  "AI detector"
     },
     {
@@ -380,8 +385,13 @@
         "purpose":  "For 3D animation"
     },
     {
-        "name":  "Replit Ghost Writer\u003c/a\u003e \u003c/td\u003e \u003ctd\u003eFor better and faster coding\u003c/td\u003e \u003c/tr\u003e \u003ctr\u003e \u003ctd\u003e\u003ca href=\"https://artboard.studio/\" target=\"_blank\" rel=\"noopener\"\u003eArt-Board Studio",
+        "name":  "Replit Ghost Writer",
         "url":  "https://replit.com/site/ghostwriter",
+        "purpose":  "For better and faster coding"
+    },
+    {
+        "name":  "Art-Board Studio",
+        "url":  "https://artboard.studio/",
         "purpose":  "For online designing"
     },
     {
@@ -480,8 +490,13 @@
         "purpose":  "Generates images from text"
     },
     {
-        "name":  "Nightcafe-Creator\u003c/a\u003e \u003c/td\u003e \u003ctd\u003eGenerates real art\u003c/td\u003e \u003c/tr\u003e \u003ctr\u003e \u003ctd\u003e\u003ca href=\"https://writesonic.com/\" target=\"_blank\" rel=\"noopener\"\u003eWriteSonic",
+        "name":  "Nightcafe-Creator",
         "url":  "https://creator.nightcafe.studio/",
+        "purpose":  "Generates real art"
+    },
+    {
+        "name":  "WriteSonic",
+        "url":  "https://writesonic.com/",
         "purpose":  "Generates texts and images about trending topics"
     },
     {
@@ -910,8 +925,13 @@
         "purpose":  "To comprehend any textbook, handout or presentaton"
     },
     {
-        "name":  "Chrome Remote Desktop\u003c/a\u003e \u003c/td\u003e \u003ctd\u003eTo control laptop from phone\u003c/td\u003e \u003c/tr\u003e \u003ctr\u003e \u003ctd\u003e\u003ca href=\"https://ewasion.github.io/opendirectory-finder/\" target=\"_blank\" rel=\"noopener\"\u003eEwasion Github",
+        "name":  "Chrome Remote Desktop",
         "url":  "https://remotedesktop.google.com/",
+        "purpose":  "To control laptop from phone"
+    },
+    {
+        "name":  "Ewasion Github",
+        "url":  "https://ewasion.github.io/opendirectory-finder/",
         "purpose":  "to download almost everything"
     },
     {
@@ -1085,8 +1105,13 @@
         "purpose":  "Learn SQL"
     },
     {
-        "name":  "SQL Island\u003c/a\u003e \u003c/td\u003e \u003ctd\u003eLearn SQL\u003c/td\u003e \u003c/tr\u003e \u003ctr\u003e \u003ctd\u003e\u003ca href=\"https://mystery.knightlab.com/\" target=\"_blank\" rel=\"noopener\"\u003eSQL murder mystery",
+        "name":  "SQL Island",
         "url":  "https://sql-island.informatik.uni-kl.de/",
+        "purpose":  "Learn SQL"
+    },
+    {
+        "name":  "SQL murder mystery",
+        "url":  "https://mystery.knightlab.com/",
         "purpose":  "Learn SQL"
     },
     {
@@ -1105,8 +1130,18 @@
         "purpose":  "Learn DSA"
     },
     {
-        "name":  "University of San Francisco\u003c/a\u003e \u003c/td\u003e \u003ctd\u003eLearn DSA\u003c/td\u003e \u003c/tr\u003e \u003ctr\u003e \u003ctd\u003e\u003ca href=\"https://www.youtube.com/@MichaelSambol\" target=\"_blank\" rel=\"noopener\"\u003eMichael Sambol\u003c/a\u003e \u003c/td\u003e \u003ctd\u003eLearn DSA\u003c/td\u003e \u003c/tr\u003e \u003ctr\u003e \u003ctd\u003e\u003ca href=\"https://distrosea.com/\" target=\"_blank\" rel=\"noopener\"\u003eDistro Sea",
+        "name":  "University of San Francisco",
         "url":  "https://www.cs.usfca.edu/~galles/visualization/Algorithms.html",
+        "purpose":  "Learn DSA"
+    },
+    {
+        "name":  "Michael Sambol",
+        "url":  "https://www.youtube.com/@MichaelSambol",
+        "purpose":  "Learn DSA"
+    },
+    {
+        "name":  "Distro Sea",
+        "url":  "https://distrosea.com/",
         "purpose":  "Test Linux distros in browser"
     },
     {
