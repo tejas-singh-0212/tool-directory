@@ -1148,5 +1148,10 @@
         "name":  "Creepy Link",
         "url":  "https://creepylink.com/",
         "purpose":  "Make any URL look suspicious"
+    },
+    {
+        "name": "Road Trippers",
+        "url": "https://roadtrippers.com/",
+        "purpose": "Road trip planning tool"
     }
 ]
