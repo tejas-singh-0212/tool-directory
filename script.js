@@ -2,6 +2,14 @@
 
 let allTools = [];
 
+function sortToolsByName(tools) {
+    return [...tools].sort((a, b) => {
+        const nameA = (a.name || '').toLowerCase();
+        const nameB = (b.name || '').toLowerCase();
+        return nameA.localeCompare(nameB);
+    });
+}
+
 function renderTableRows(tools) {
     const tbody = document.getElementById('toolTableBody');
     const noResults = document.getElementById('noResults');
@@ -48,7 +56,7 @@ async function loadTools() {
         }
 
         const data = await response.json();
-        allTools = Array.isArray(data) ? data : [];
+        allTools = sortToolsByName(Array.isArray(data) ? data : []);
         renderTableRows(allTools);
     } catch (error) {
         tbody.innerHTML = `
