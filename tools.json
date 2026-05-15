@@ -1153,5 +1153,10 @@
         "name": "Road Trippers",
         "url": "https://roadtrippers.com/",
         "purpose": "Road trip planning tool"
+    },
+    {
+        "name": "Name in Landsat",
+        "url": "https://science.nasa.gov/specials/your-name-in-landsat/",
+        "purpose": "Get your name as earth landscapes"
     }
 ]
