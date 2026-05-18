@@ -213,6 +213,7 @@ a:hover {
         bottom: 140px;
         font-size: 11px;
         padding: 10px 16px;
+        transition: opacity 0.3s, transform 0.3s;
     }
     #toolSearch {
         padding: 10px;
