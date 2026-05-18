@@ -8,10 +8,10 @@ This site is now data-driven:
 - Dynamic logic (fetch + render + search + theme): `script.js`
 - Tool database: `tools.json`
 
-The page loads tool records from `tools.json` at runtime and renders the table dynamically.
+The page loads tool records from `tools.json` at runtime and renders the table dynamically. Clicking the copy button copies a tool's URL to the clipboard and shows an animated "Link copied to clipboard!" toast notification in the bottom-right corner.
 
 ## Deployment Notes
-Ensure `tools.json` is deployed in the same directory level as `index.html` so this fetch path works:
+As long as all files are deployed in the same directory the following fetch path works:
 
 ```js
 fetch('tools.json')
