@@ -84,21 +84,3 @@ a:hover {
     color: var(--accent-color);
     text-shadow: 0 0 5px var(--accent-color);
 }
-
-.copy-btn {
-    background: transparent;
-    color: var(--text-color);
-    border: 1px solid var(--border-color);
-    padding: 0.4rem 0.8rem;
-    font-family: var(--font-family);
-    font-size: 0.8rem;
-    cursor: pointer;
-    transition: all 0.2s;
-}
-
-.copy-btn:hover, .copy-btn.copied {
-    background: var(--text-color);
-    color: var(--bg-color);
-    border-color: var(--text-color);
-    box-shadow: 0 0 5px var(--text-color);
-}
