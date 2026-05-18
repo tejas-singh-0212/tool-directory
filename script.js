@@ -16,10 +16,19 @@ function sortToolsByName(tools) {
 function copyLink(button, url) {
     navigator.clipboard.writeText(url).then(() => {
         button.innerHTML = checkSVG;
+        showToast();
         setTimeout(() => {
             button.innerHTML = planeSVG;
         }, 2000);
     });
+}
+
+function showToast() {
+    const toast = document.getElementById('toast');
+    toast.classList.add('show');
+    setTimeout(() => {
+        toast.classList.remove('show');
+    }, 2000);
 }
 
 function renderTableRows(tools) {

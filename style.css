@@ -174,7 +174,33 @@ a:hover {
     color: var(--neon-pink);
 }
 
-/* 9. MOBILE RESPONSIVENESS */
+/* 9. TOAST NOTIFICATION */
+#toast {
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    background: var(--bg-table);
+    color: var(--neon-cyan);
+    border: 2px solid var(--neon-cyan);
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-family: 'Orbitron';
+    font-size: 13px;
+    box-shadow: 0 0 15px var(--shadow-color);
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.3s, transform 0.3s;
+    pointer-events: none;
+    z-index: 1100;
+    text-shadow: 0 0 5px var(--neon-cyan);
+}
+
+#toast.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* 10. MOBILE RESPONSIVENESS */
 @media screen and (max-width: 600px) {
     td, th {
         font-size: 13px;
@@ -182,6 +208,11 @@ a:hover {
     }
     .copy-col {
         width: 65px; /* Scaled down for mobile font sizes */
+    }
+    #toast {
+        bottom: 140px;
+        font-size: 11px;
+        padding: 10px 16px;
     }
     #toolSearch {
         padding: 10px;
