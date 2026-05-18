@@ -89,6 +89,10 @@ th {
     text-shadow: 0 0 8px var(--neon-pink);
 }
 
+.copy-col {
+    width: 140px; /* Exact size to snugly fit the copy button */
+}
+
 td {
     font-size: 16px;
     padding: 12px 15px;
@@ -171,6 +175,9 @@ a:hover {
     td, th {
         font-size: 13px;
         padding: 8px 10px;
+    }
+    .copy-col {
+        width: 110px; /* Scaled down for mobile font sizes */
     }
     #toolSearch {
         padding: 10px;
