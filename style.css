@@ -149,7 +149,24 @@ a:hover {
     transform: scale(1.05);
 }
 
-/* 8. MOBILE RESPONSIVENESS */
+/* 8. COPY BUTTON */
+.copy-btn {
+    background: transparent;
+    border: 1px solid var(--neon-cyan);
+    color: var(--neon-cyan);
+    padding: 8px 12px;
+    cursor: pointer;
+    font-family: 'Orbitron', sans-serif;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+.copy-btn:hover {
+    border-color: var(--neon-pink);
+    color: var(--neon-pink);
+}
+
+/* 9. MOBILE RESPONSIVENESS */
 @media screen and (max-width: 600px) {
     td, th {
         font-size: 13px;

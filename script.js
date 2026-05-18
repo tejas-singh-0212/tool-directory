@@ -10,6 +10,15 @@ function sortToolsByName(tools) {
     });
 }
 
+function copyLink(button, url) {
+    navigator.clipboard.writeText(url).then(() => {
+        button.textContent = 'Copied!';
+        setTimeout(() => {
+            button.textContent = 'Copy Link';
+        }, 2000);
+    });
+}
+
 function renderTableRows(tools) {
     const tbody = document.getElementById('toolTableBody');
     const noResults = document.getElementById('noResults');
@@ -23,6 +32,7 @@ function renderTableRows(tools) {
             <tr>
                 <td><a href="${safeUrl}" target="_blank" rel="noopener">${safeName}</a></td>
                 <td>${safePurpose}</td>
+                <td><button class="copy-btn" onclick="copyLink(this, '${safeUrl}')">Copy Link</button></td>
             </tr>
         `;
     }).join('');
@@ -61,7 +71,7 @@ async function loadTools() {
     } catch (error) {
         tbody.innerHTML = `
             <tr>
-                <td colspan="2">Failed to load tools.json. Start a local server (for example: <code>python -m http.server</code>) and open the site through <code>http://localhost:8000</code>.</td>
+                <td colspan="3">Failed to load tools.json. Start a local server (for example: <code>python -m http.server</code>) and open the site through <code>http://localhost:8000</code>.</td>
             </tr>
         `;
     }
