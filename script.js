@@ -2,6 +2,9 @@
 
 let allTools = [];
 
+const planeSVG = `<svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M21 16v-2l-8-5V3.5c0-.83-.67-1.5-1.5-1.5S10 2.67 10 3.5V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z"/></svg>`;
+const checkSVG = `<svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M9 16.17 4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>`;
+
 function sortToolsByName(tools) {
     return [...tools].sort((a, b) => {
         const nameA = (a.name || '').toLowerCase();
@@ -12,9 +15,9 @@ function sortToolsByName(tools) {
 
 function copyLink(button, url) {
     navigator.clipboard.writeText(url).then(() => {
-        button.textContent = 'Copied!';
+        button.innerHTML = checkSVG;
         setTimeout(() => {
-            button.textContent = 'Copy Link';
+            button.innerHTML = planeSVG;
         }, 2000);
     });
 }
@@ -32,7 +35,7 @@ function renderTableRows(tools) {
             <tr>
                 <td><a href="${safeUrl}" target="_blank" rel="noopener">${safeName}</a></td>
                 <td>${safePurpose}</td>
-                <td><button class="copy-btn" onclick="copyLink(this, '${safeUrl}')">Copy Link</button></td>
+                <td><button class="copy-btn" title="Copy Link" onclick="copyLink(this, '${safeUrl}')">${planeSVG}</button></td>
             </tr>
         `;
     }).join('');
