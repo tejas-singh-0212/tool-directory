@@ -1158,5 +1158,10 @@
         "name": "Name in Landsat",
         "url": "https://science.nasa.gov/specials/your-name-in-landsat/",
         "purpose": "Get your name as earth landscapes"
+    },
+    {
+        "name": "Zoo Dev",
+        "url": "https://zoo.dev/zookeeper",
+        "purpose": "Text to 3D CAD designs"
     }
 ]
