@@ -1163,5 +1163,10 @@
         "name": "Zoo Dev",
         "url": "https://zoo.dev/zookeeper",
         "purpose": "Text to 3D CAD designs"
+    },
+    {
+        "name": "Crio",
+        "url": "https://www.crio.do/",
+        "purpose": "Project-based learning platform for software engineers"
     }
 ]
