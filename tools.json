@@ -1178,5 +1178,10 @@
         "name": "Atoms",
         "url": "https://atoms.dev/",
         "purpose": "AI based product website builder"
+    },
+    {
+        "name": "Git MVP",
+        "url": "https://www.gitmvp.com/",
+        "purpose": "MVP prompt from repositories on GitHub"
     }
 ]
