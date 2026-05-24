@@ -1203,5 +1203,10 @@
         "name": "Cadam",
         "url": "https://github.com/Adam-CAD/CADAM",
         "purpose": "AI-assisted text to CAD design tool"
+    },
+    {
+        "name": "Quenq GTA",
+        "url": "https://quenq.com/apps/vice-city/",
+        "purpose": "Play GTA Vice City in browser"
     }
 ]
