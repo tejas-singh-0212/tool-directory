@@ -1193,5 +1193,10 @@
         "name": "Goalkicker",
         "url": "https://books.goalkicker.com/",
         "purpose": "Free programming books on various programming languages and topics"
+    },
+    {
+        "name": "Staying",
+        "url": "https://staying.fun/en/features/algorithm-visualize",
+        "purpose": "Python / JS code visualizer"
     }
 ]
