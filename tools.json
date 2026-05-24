@@ -1183,5 +1183,10 @@
         "name": "Git MVP",
         "url": "https://www.gitmvp.com/",
         "purpose": "MVP prompt from repositories on GitHub"
+    },
+    {
+        "name": "UitHub",
+        "url": "https://uithub.com/",
+        "purpose": "Provides details of repo for context to ask an LLM"
     }
 ]
