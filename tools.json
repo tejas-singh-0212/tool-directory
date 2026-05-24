@@ -1188,5 +1188,10 @@
         "name": "UitHub",
         "url": "https://uithub.com/",
         "purpose": "Provides details of repo for context to ask an LLM"
+    },
+    {
+        "name": "Goalkicker",
+        "url": "https://books.goalkicker.com/",
+        "purpose": "Free programming books on various programming languages and topics"
     }
 ]
