@@ -1173,5 +1173,10 @@
         "name": "OpenRouter",
         "url": "https://openrouter.ai/",
         "purpose": "Free API key for multiple LLMs"
+    },
+    {
+        "name": "Atoms",
+        "url": "https://atoms.dev/",
+        "purpose": "AI based product website builder"
     }
 ]
