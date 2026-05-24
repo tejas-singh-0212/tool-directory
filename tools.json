@@ -1168,5 +1168,10 @@
         "name": "Crio",
         "url": "https://www.crio.do/",
         "purpose": "Project-based learning platform for software engineers"
+    },
+    {
+        "name": "OpenRouter",
+        "url": "https://openrouter.ai/",
+        "purpose": "Free API key for multiple LLMs"
     }
 ]
