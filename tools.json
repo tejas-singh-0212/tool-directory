@@ -1213,5 +1213,10 @@
         "name": "Framer",
         "url": "https://www.framer.com/",
         "purpose": "AI app / website builder"
+    },
+    {
+        "name": "Orchid",
+        "url": "https://www.orchids.app/",
+        "purpose": "AI app / website builder"
     }
 ]
