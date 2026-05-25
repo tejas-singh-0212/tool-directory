@@ -1223,5 +1223,10 @@
         "name": "Deep Site",
         "url": "https://enzostvs-deepsite.hf.space/",
         "purpose": "AI app / website builder"
+    },
+    {
+        "name": "TRAE",
+        "url": "https://www.trae.ai/",
+        "purpose": "AI powered IDE"
     }
 ]
