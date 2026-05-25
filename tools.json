@@ -1228,5 +1228,10 @@
         "name": "TRAE",
         "url": "https://www.trae.ai/",
         "purpose": "AI powered IDE"
+    },
+    {
+        "name": "Neal Fun",
+        "url": "https://neal.fun/",
+        "purpose": "Fun interactive web experiments for boredom"
     }
 ]
