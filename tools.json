@@ -1218,5 +1218,10 @@
         "name": "Orchid",
         "url": "https://www.orchids.app/",
         "purpose": "AI app / website builder"
+    },
+    {
+        "name": "Deep Site",
+        "url": "https://enzostvs-deepsite.hf.space/",
+        "purpose": "AI app / website builder"
     }
 ]
