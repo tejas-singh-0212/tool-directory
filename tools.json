@@ -1208,5 +1208,10 @@
         "name": "Quenq GTA",
         "url": "https://quenq.com/apps/vice-city/",
         "purpose": "Play GTA Vice City in browser"
+    },
+    {
+        "name": "Framer",
+        "url": "https://www.framer.com/",
+        "purpose": "AI app / website builder"
     }
 ]
