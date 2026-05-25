@@ -1233,5 +1233,10 @@
         "name": "Neal Fun",
         "url": "https://neal.fun/",
         "purpose": "Fun interactive web experiments for boredom"
+    },
+    {
+        "name": "Medical certificates generator",
+        "url": "https://medicalcertificategenerator.com/",
+        "purpose": "Generate fake medical certificates"
     }
 ]
