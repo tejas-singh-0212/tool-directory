@@ -1253,5 +1253,10 @@
         "name" : "Logo diffusion",
         "url": "https://logodiffusion.com/",
         "purpose": "AI logo generator"
+    },
+    {
+        "name" : "Meshy AI",
+        "url": "https://www.meshy.ai/",
+        "purpose": "AI 3D model generator and editor"
     }
 ]
