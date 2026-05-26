@@ -1258,5 +1258,10 @@
         "name" : "Logo diffusion",
         "url": "https://logodiffusion.com/",
         "purpose": "AI logo generator"
+    },
+    {
+        "name": "Newly",
+        "url": "https://newly.app/",
+        "purpose": "Mobile app builder with AI assistance"
     }
 ]
