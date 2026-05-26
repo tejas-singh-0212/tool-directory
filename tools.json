@@ -1238,5 +1238,10 @@
         "name": "Medical certificates generator",
         "url": "https://medicalcertificategenerator.com/",
         "purpose": "Generate fake medical certificates (not for misuse)"
+    },
+    {
+        "name": "ProjectX",
+        "url": "https://projectx.cloud/",
+        "purpose": "Cloud based OS (supports heavy tasks)"
     }
 ]
