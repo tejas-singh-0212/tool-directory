@@ -94,7 +94,9 @@ async function loadTools() {
 function updateToolCount(count = allTools.length) {
     const counter = document.querySelector('.tool-counter');
     if (counter) {
-        counter.textContent = count;
+        counter.textContent = `TOOLS: ${count}`;
+        counter.setAttribute('aria-label', `${count} tools in directory`);
+        counter.title = `${count} tools in directory`;
     }
 }
 

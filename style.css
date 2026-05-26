@@ -129,49 +129,41 @@ a:hover {
     text-shadow: 0 0 10px var(--neon-pink);
 }
 
-/* 7. THEME TOGGLE BUTTON */
-.theme-toggle {
+/* 7. FLOATING CONTROLS */
+.floating-controls {
     position: fixed;
-    bottom: 20px; /* Moved to bottom-right for better UX */
     right: 20px;
-    padding: 12px;
-    background: var(--bg-table);
-    border: 2px solid var(--neon-cyan);
-    color: var(--neon-cyan);
-    cursor: pointer;
-    font-family: 'Orbitron';
-    font-weight: bold;
-    border-radius: 5px;
-    z-index: 1000;
-    box-shadow: 0 0 10px var(--shadow-color);
-    transition: 0.3s;
-}
-
-.theme-toggle:hover {
-    border-color: var(--neon-pink);
-    color: var(--neon-pink);
-    transform: scale(1.05);
-}
-
-/* 7.1 TOOL COUNTER BUTTON */
-.tool-counter {
-    position: fixed;
     bottom: 20px;
-    right: 80px; /* Positioned to the left of theme toggle */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    z-index: 1000;
+}
+
+.theme-toggle,
+.tool-counter {
     padding: 12px;
     background: var(--bg-table);
     border: 2px solid var(--neon-cyan);
     color: var(--neon-cyan);
-    cursor: default;
     font-family: 'Orbitron';
     font-weight: bold;
     border-radius: 5px;
-    z-index: 1000;
     box-shadow: 0 0 10px var(--shadow-color);
     transition: 0.3s;
-    user-select: none;
 }
 
+.theme-toggle {
+    cursor: pointer;
+}
+
+.tool-counter {
+    cursor: default;
+    user-select: none;
+    white-space: nowrap;
+}
+
+.theme-toggle:hover,
 .tool-counter:hover {
     border-color: var(--neon-pink);
     color: var(--neon-pink);
@@ -243,5 +235,16 @@ a:hover {
     #toolSearch {
         padding: 10px;
         font-size: 14px;
+    }
+    .floating-controls {
+        right: 10px;
+        bottom: 10px;
+        gap: 8px;
+    }
+
+    .theme-toggle,
+    .tool-counter {
+        padding: 10px;
+        font-size: 11px;
     }
 }
