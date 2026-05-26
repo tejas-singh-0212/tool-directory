@@ -1243,5 +1243,10 @@
         "name": "ProjectX",
         "url": "https://projectx.cloud/",
         "purpose": "Cloud based OS (supports even heavy tasks)"
+    },
+    {
+        "name": "Flora",
+        "url": "https://flora.ai/",
+        "purpose": "Combine photos for designs and logos with AI"
     }
 ]
