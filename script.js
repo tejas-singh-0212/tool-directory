@@ -80,12 +80,21 @@ async function loadTools() {
         const data = await response.json();
         allTools = sortToolsByName(Array.isArray(data) ? data : []);
         renderTableRows(allTools);
+        updateToolCount();
     } catch (error) {
         tbody.innerHTML = `
             <tr>
                 <td colspan="3">Failed to load tools.json. Start a local server (for example: <code>python -m http.server</code>) and open the site through <code>http://localhost:8000</code>.</td>
             </tr>
         `;
+        updateToolCount(0);
+    }
+}
+
+function updateToolCount(count = allTools.length) {
+    const counter = document.querySelector('.tool-counter');
+    if (counter) {
+        counter.textContent = count;
     }
 }
 

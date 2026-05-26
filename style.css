@@ -153,6 +153,31 @@ a:hover {
     transform: scale(1.05);
 }
 
+/* 7.1 TOOL COUNTER BUTTON */
+.tool-counter {
+    position: fixed;
+    bottom: 20px;
+    right: 80px; /* Positioned to the left of theme toggle */
+    padding: 12px;
+    background: var(--bg-table);
+    border: 2px solid var(--neon-cyan);
+    color: var(--neon-cyan);
+    cursor: default;
+    font-family: 'Orbitron';
+    font-weight: bold;
+    border-radius: 5px;
+    z-index: 1000;
+    box-shadow: 0 0 10px var(--shadow-color);
+    transition: 0.3s;
+    user-select: none;
+}
+
+.tool-counter:hover {
+    border-color: var(--neon-pink);
+    color: var(--neon-pink);
+    transform: scale(1.05);
+}
+
 /* 8. COPY BUTTON */
 .copy-btn {
     background: transparent;
