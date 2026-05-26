@@ -12,7 +12,6 @@
 
 <body>
     <button class="theme-toggle" onclick="toggleTheme()">LIGHT_MODE</button>
-    <button class="tool-counter" aria-label="Number of tools">0</button>
     <input type="text" id="toolSearch" onkeyup="searchTable()" placeholder="Search for tools...">
 
     <table id="myTable">
@@ -20,7 +19,7 @@
             <tr>
                 <th>Name</th>
                 <th>Purpose</th>
-                <th class="copy-col">Link</th>
+            <th class="copy-col">Link</th>
             </tr>
         </thead>
         <tbody id="toolTableBody"></tbody>
