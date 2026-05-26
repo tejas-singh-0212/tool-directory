@@ -1248,5 +1248,10 @@
         "name": "Flora",
         "url": "https://flora.ai/",
         "purpose": "Combine photos for designs and logos with AI"
+    },
+    {
+        "name" : "Logo diffusion",
+        "url": "https://logodiffusion.com/",
+        "purpose": "AI logo generator"
     }
 ]
