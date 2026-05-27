@@ -35,19 +35,44 @@ function renderTableRows(tools) {
     const tbody = document.getElementById('toolTableBody');
     const noResults = document.getElementById('noResults');
 
-    tbody.innerHTML = tools.map((tool) => {
+    tbody.innerHTML = '';
+
+    tools.forEach((tool) => {
         const safeName = tool.name || 'Untitled';
         const safeUrl = tool.url || '#';
         const safePurpose = tool.purpose || '';
 
-        return `
-            <tr>
-                <td><a href="${safeUrl}" target="_blank" rel="noopener">${safeName}</a></td>
-                <td>${safePurpose}</td>
-                <td><button class="copy-btn" title="Copy Link" onclick="copyLink(this, '${safeUrl}')">${planeSVG}</button></td>
-            </tr>
-        `;
-    }).join('');
+        const row = document.createElement('tr');
+
+        const nameCell = document.createElement('td');
+        const link = document.createElement('a');
+        link.textContent = safeName;
+        link.href = safeUrl;
+        link.target = '_blank';
+        link.rel = 'noopener noreferrer';
+        nameCell.appendChild(link);
+
+        const purposeCell = document.createElement('td');
+        purposeCell.textContent = safePurpose;
+
+        const copyCell = document.createElement('td');
+        const copyButton = document.createElement('button');
+        copyButton.className = 'copy-btn';
+        copyButton.title = 'Copy Link';
+        copyButton.setAttribute('aria-label', `Copy link for ${safeName}`);
+        copyButton.innerHTML = planeSVG;
+        copyButton.addEventListener('click', () => {
+            copyLink(copyButton, safeUrl);
+        });
+
+        copyCell.appendChild(copyButton);
+
+        row.appendChild(nameCell);
+        row.appendChild(purposeCell);
+        row.appendChild(copyCell);
+
+        tbody.appendChild(row);
+    });
 
     noResults.style.display = tools.length === 0 ? 'block' : 'none';
 }
