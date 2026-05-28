@@ -217,6 +217,13 @@ a:hover {
     transform: translateY(0);
 }
 
+#toast.error {
+    color: #ff4d6d;
+    border-color: #ff4d6d;
+    text-shadow: 0 0 5px #ff4d6d;
+    box-shadow: 0 0 15px rgba(255, 77, 109, 0.4);
+}
+
 /* 10. MOBILE RESPONSIVENESS */
 @media screen and (max-width: 600px) {
     td, th {

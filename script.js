@@ -14,20 +14,74 @@ function sortToolsByName(tools) {
 }
 
 function copyLink(button, url) {
-    navigator.clipboard.writeText(url).then(() => {
+    const handleSuccess = () => {
         button.innerHTML = checkSVG;
-        showToast();
+        showToast('Link copied to clipboard!');
+
         setTimeout(() => {
             button.innerHTML = planeSVG;
         }, 2000);
+    };
+
+    const handleError = (error) => {
+        console.error('Failed to copy link:', error);
+        showToast('Could not copy link.', true);
+    };
+
+    if (navigator.clipboard && window.isSecureContext) {
+        navigator.clipboard.writeText(url)
+            .then(handleSuccess)
+            .catch(() => {
+                fallbackCopyText(url)
+                    .then(handleSuccess)
+                    .catch(handleError);
+            });
+    } else {
+        fallbackCopyText(url)
+            .then(handleSuccess)
+            .catch(handleError);
+    }
+}
+
+function fallbackCopyText(text) {
+    return new Promise((resolve, reject) => {
+        const textarea = document.createElement('textarea');
+
+        textarea.value = text;
+        textarea.setAttribute('readonly', '');
+        textarea.style.position = 'fixed';
+        textarea.style.top = '-9999px';
+        textarea.style.left = '-9999px';
+
+        document.body.appendChild(textarea);
+        textarea.select();
+
+        try {
+            const successful = document.execCommand('copy');
+            document.body.removeChild(textarea);
+
+            if (successful) {
+                resolve();
+            } else {
+                reject(new Error('Fallback copy command failed'));
+            }
+        } catch (error) {
+            document.body.removeChild(textarea);
+            reject(error);
+        }
     });
 }
 
-function showToast() {
+function showToast(message = 'Link copied to clipboard!', isError = false) {
     const toast = document.getElementById('toast');
+
+    toast.textContent = message;
+    toast.classList.toggle('error', isError);
     toast.classList.add('show');
+
     setTimeout(() => {
         toast.classList.remove('show');
+        toast.classList.remove('error');
     }, 2000);
 }
 
