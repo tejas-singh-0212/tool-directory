@@ -1263,5 +1263,10 @@
         "name": "Newly",
         "url": "https://newly.app/",
         "purpose": "Mobile app builder with AI assistance"
+    },
+    {
+        "name": "DSA Animator",
+        "url": "https://dsaanimator.com/",
+        "purpose": "Visualize data structures and algorithms"
     }
 ]
