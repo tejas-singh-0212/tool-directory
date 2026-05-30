@@ -1268,5 +1268,10 @@
         "name": "DSA Animator",
         "url": "https://dsaanimator.com/",
         "purpose": "Visualize data structures and algorithms"
+    },
+    {
+        "name" : "This person does not exist",
+        "url": "https://thispersondoesnotexist.com/",
+        "purpose":"Generate realistic human faces using AI"
     }
 ]
