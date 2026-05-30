@@ -147,9 +147,23 @@ function searchTable() {
     renderTableRows(filtered);
 }
 
+function showLoadingState() {
+    const tbody = document.getElementById('toolTableBody');
+    const noResults = document.getElementById('noResults');
+
+    tbody.innerHTML = `
+        <tr>
+            <td colspan="3" class="loading-cell">Loading tools...</td>
+        </tr>
+    `;
+
+    noResults.style.display = 'none';
+}
+
 async function loadTools() {
     const tbody = document.getElementById('toolTableBody');
 
+    showLoadingState();
     try {
         const response = await fetch('tools.json', { cache: 'no-store' });
         if (!response.ok) {
@@ -161,9 +175,11 @@ async function loadTools() {
         renderTableRows(allTools);
         updateToolCount();
     } catch (error) {
+        console.error('Failed to load tools:', error);
+
         tbody.innerHTML = `
             <tr>
-                <td colspan="3">Failed to load tools.json. Start a local server (for example: <code>python -m http.server</code>) and open the site through <code>http://localhost:8000</code>.</td>
+                <td colspan="3">Failed to load tools.json. Start a local server or check that tools.json exists and contains valid JSON.</td>
             </tr>
         `;
         updateToolCount(0);

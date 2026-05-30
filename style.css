@@ -113,6 +113,26 @@ tr:hover td {
     text-shadow: 0 0 5px var(--neon-cyan);
 }
 
+.loading-cell {
+    padding: 24px;
+    color: var(--neon-cyan);
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-shadow: 0 0 8px var(--neon-cyan);
+    animation: pulseLoading 1.2s ease-in-out infinite;
+}
+
+@keyframes pulseLoading {
+    0%, 100% {
+        opacity: 0.45;
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
+
 /* 6. LINK STYLES */
 a {
     display: block;
