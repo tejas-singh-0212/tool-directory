@@ -175,13 +175,18 @@ async function loadTools() {
         renderTableRows(allTools);
         updateToolCount();
     } catch (error) {
-        console.error('Failed to load tools:', error);
+        console.error('Failed to load tools.json:', error);
 
         tbody.innerHTML = `
             <tr>
-                <td colspan="3">Failed to load tools.json. Start a local server or check that tools.json exists and contains valid JSON.</td>
+                <td colspan="3" class="error-cell">
+                    <strong>Failed to load tools.</strong><br>
+                    Please check that <code>tools.json</code> exists, is valid JSON, and is deployed in the same folder as <code>index.html</code>.<br>
+                    If you are opening this site locally, run it through a local server such as <code>python -m http.server</code>.
+                </td>
             </tr>
         `;
+
         updateToolCount(0);
     }
 }
