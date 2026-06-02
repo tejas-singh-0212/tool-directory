@@ -275,3 +275,19 @@ a:hover {
         font-size: 11px;
     }
 }
+
+.error-cell {
+    padding: 24px;
+    color: var(--neon-pink);
+    text-align: center;
+    line-height: 1.6;
+    font-weight: bold;
+    text-shadow: 0 0 8px var(--neon-pink);
+}
+
+.error-cell code {
+    color: var(--neon-cyan);
+    background: rgba(0, 255, 255, 0.08);
+    padding: 2px 5px;
+    border-radius: 4px;
+}
