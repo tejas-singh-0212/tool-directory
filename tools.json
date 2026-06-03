@@ -1273,5 +1273,10 @@
         "name" : "This person does not exist",
         "url": "https://thispersondoesnotexist.com/",
         "purpose":"Generate realistic human faces using AI"
+    },
+    {
+        "name": "Tensorflow Playground",
+        "url": "https://playground.tensorflow.org/",
+        "purpose": "Interactive visualization of neural networks"
     }
 ]
