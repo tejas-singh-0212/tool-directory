@@ -12,9 +12,17 @@
 
 <body>
     <div class="floating-controls">
-    <div class="tool-counter" title="Total tools" aria-label="Total tools">TOOLS: 0</div>
-    <button class="theme-toggle" onclick="toggleTheme()">LIGHT_MODE</button>
-</div>
+        <div class="tool-counter" title="Total tools" aria-label="Total tools">TOOLS: 0</div>
+        <button class="theme-toggle" onclick="toggleTheme()">LIGHT_MODE</button>
+    </div>
+
+    <header class="site-header">
+        <h1>Ultimate Tool Directory</h1>
+        <p>
+            A searchable collection of useful AI, coding, design, productivity, learning, and utility tools.
+        </p>
+    </header>
+
     <input type="text" id="toolSearch" onkeyup="searchTable()" placeholder="Search for tools...">
 
     <table id="myTable">
