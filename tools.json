@@ -1278,5 +1278,10 @@
         "name": "Tensorflow Playground",
         "url": "https://playground.tensorflow.org/",
         "purpose": "Interactive visualization of neural networks"
+    },
+    {
+        "name": "RX Resume",
+        "url": "https://rxresu.me/",
+        "purpose": "AI-assisted resume builder"
     }
 ]
