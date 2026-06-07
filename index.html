@@ -23,16 +23,28 @@
         </p>
     </header>
 
-    <input type="text" id="toolSearch" onkeyup="searchTable()" placeholder="Search for tools...">
-
+    <label for="toolSearch" class="sr-only">Search tools</label>
+    <input
+        type="text"
+        id="toolSearch"
+        onkeyup="searchTable()"
+        placeholder="Search for tools..."
+        autocomplete="off"
+    >
+    
     <table id="myTable">
+        <caption class="sr-only">
+            Searchable directory of tools with names, purposes, and links.
+        </caption>
+
         <thead>
             <tr>
-                <th>Name</th>
-                <th>Purpose</th>
-            <th class="copy-col">Link</th>
+                <th scope="col">Name</th>
+                <th scope="col">Purpose</th>
+                <th scope="col" class="copy-col">Link</th>
             </tr>
         </thead>
+
         <tbody id="toolTableBody"></tbody>
     </table>
 
