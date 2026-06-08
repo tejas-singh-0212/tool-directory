@@ -2,8 +2,8 @@
 
 let allTools = [];
 
-const planeSVG = `<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="transform: translate(-1px, 1px);"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>`;
-const checkSVG = `<svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M9 16.17 4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>`;
+const planeSVG = `<svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="transform: translate(-1px, 1px);"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>`;
+const checkSVG = `<svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M9 16.17 4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>`;
 
 function sortToolsByName(tools) {
     return [...tools].sort((a, b) => {
@@ -14,12 +14,19 @@ function sortToolsByName(tools) {
 }
 
 function copyLink(button, url) {
+    const originalLabel = button.getAttribute('aria-label') || 'Copy link';
+
     const handleSuccess = () => {
         button.innerHTML = checkSVG;
+        button.setAttribute('aria-label', 'Link copied');
+        button.title = 'Link copied';
+
         showToast('Link copied to clipboard!');
 
         setTimeout(() => {
             button.innerHTML = planeSVG;
+            button.setAttribute('aria-label', originalLabel);
+            button.title = originalLabel;
         }, 2000);
     };
 
@@ -111,8 +118,9 @@ function renderTableRows(tools) {
 
         const copyCell = document.createElement('td');
         const copyButton = document.createElement('button');
+        copyButton.type = 'button';
         copyButton.className = 'copy-btn';
-        copyButton.title = 'Copy Link';
+        copyButton.title = `Copy link for ${safeName}`;
         copyButton.setAttribute('aria-label', `Copy link for ${safeName}`);
         copyButton.innerHTML = planeSVG;
         copyButton.addEventListener('click', () => {

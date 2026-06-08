@@ -248,6 +248,11 @@ a:hover {
     color: var(--neon-pink);
 }
 
+.copy-btn:focus-visible {
+    outline: 3px solid var(--neon-pink);
+    outline-offset: 3px;
+}
+
 /* 9. TOAST NOTIFICATION */
 #toast {
     position: fixed;
