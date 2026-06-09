@@ -1283,5 +1283,10 @@
         "name": "RX Resume",
         "url": "https://rxresu.me/",
         "purpose": "AI-assisted resume builder"
+    },
+    {
+        "name" : "Google's Backpropagation Visualizer",
+        "url": "https://developers-dot-devsite-v2-prod.appspot.com/machine-learning/crash-course/backprop-scroll",
+        "purpose": "Interactive visualization of backpropagation in neural networks"
     }
 ]
