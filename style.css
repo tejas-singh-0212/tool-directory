@@ -51,6 +51,11 @@ body {
     border: 0;
 }
 
+:focus-visible {
+    outline: 3px solid var(--neon-pink);
+    outline-offset: 3px;
+}
+
 /* 3.1 SITE HEADER */
 .site-header {
     max-width: 1200px;
@@ -98,6 +103,22 @@ body {
     border-color: var(--neon-pink);
 }
 
+#toolSearch:focus-visible {
+    outline: 3px solid var(--neon-pink);
+    outline-offset: 4px;
+}
+
+a:focus-visible,
+.copy-btn:focus-visible,
+.theme-toggle:focus-visible {
+    outline: 3px solid var(--neon-pink);
+    outline-offset: 4px;
+}
+
+a:focus-visible {
+    color: var(--neon-pink);
+    text-shadow: 0 0 10px var(--neon-pink);
+}
 /* 5. TABLE STYLES */
 table {
     border-collapse: collapse;
