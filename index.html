@@ -32,21 +32,23 @@
         autocomplete="off"
     >
     
-    <table id="myTable">
-        <caption class="sr-only">
-            Searchable directory of tools with names, purposes, and links.
-        </caption>
+    <div class="table-wrap" tabindex="0" aria-label="Scrollable tools table">
+        <table id="myTable">
+            <caption class="sr-only">
+                Searchable directory of tools with names, purposes, and links.
+            </caption>
 
-        <thead>
-            <tr>
-                <th scope="col">Name</th>
-                <th scope="col">Purpose</th>
-                <th scope="col" class="copy-col">Link</th>
-            </tr>
-        </thead>
+            <thead>
+                <tr>
+                    <th scope="col">Name</th>
+                    <th scope="col">Purpose</th>
+                    <th scope="col" class="copy-col">Link</th>
+                </tr>
+            </thead>
 
-        <tbody id="toolTableBody"></tbody>
-    </table>
+            <tbody id="toolTableBody"></tbody>
+        </table>
+    </div>
 
     <p id="noResults" style="text-align:center; display:none; margin-top:20px; color:#f0f;">
         No matching tools found.
