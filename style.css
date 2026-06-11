@@ -35,8 +35,8 @@ body {
     background-color: var(--bg-body);
     color: var(--text-main);
     margin: 0;
-    padding: 20px;
-    transition: background-color 0.3s, color 0.3s; /* Smooth theme switch */
+    padding: 20px 20px 90px;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 .sr-only {
@@ -120,16 +120,26 @@ a:focus-visible {
     text-shadow: 0 0 10px var(--neon-pink);
 }
 /* 5. TABLE STYLES */
-table {
-    border-collapse: collapse;
+.table-wrap {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    background-color: var(--bg-table);
+    overflow-x: auto;
     border-radius: 8px;
-    overflow: hidden;
-    border: 2px solid var(--border-color);
     box-shadow: 0 0 20px var(--shadow-color);
+}
+
+.table-wrap:focus-visible {
+    outline: 3px solid var(--neon-pink);
+    outline-offset: 4px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    min-width: 720px;
+    background-color: var(--bg-table);
+    border: 2px solid var(--border-color);
     table-layout: fixed;
 }
 
@@ -336,6 +346,18 @@ a:hover {
     .tool-counter {
         padding: 10px;
         font-size: 11px;
+    }
+    
+    body {
+        padding: 14px 12px 110px;
+    }
+
+    table {
+        min-width: 680px;
+    }
+
+    .table-wrap {
+        border-radius: 6px;
     }
 }
 
