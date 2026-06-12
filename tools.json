@@ -1288,5 +1288,10 @@
         "name" : "Google's Backpropagation Visualizer",
         "url": "https://developers-dot-devsite-v2-prod.appspot.com/machine-learning/crash-course/backprop-scroll",
         "purpose": "Interactive visualization of backpropagation in neural networks"
+    },
+    {
+        "name": "Beat sync",
+        "url": "https://beatsync.gg/",
+        "purpose": "Sync audio on mupltiple devices at once"
     }
 ]
