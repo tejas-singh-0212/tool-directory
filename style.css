@@ -119,6 +119,79 @@ a:focus-visible {
     color: var(--neon-pink);
     text-shadow: 0 0 10px var(--neon-pink);
 }
+
+/* CATEGORY FILTER */
+.filter-bar {
+    width: 100%;
+    max-width: 1200px;
+    margin: -8px auto 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#categoryFilter {
+    width: 100%;
+    max-width: 360px;
+    padding: 12px 14px;
+    background: var(--bg-table);
+    border: 2px solid var(--neon-cyan);
+    color: var(--text-main);
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    border-radius: 8px;
+    outline: none;
+    box-shadow: 0 0 10px var(--shadow-color);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#categoryFilter:hover,
+#categoryFilter:focus {
+    border-color: var(--neon-pink);
+    box-shadow: 0 0 20px var(--shadow-color);
+}
+
+#categoryFilter option {
+    background: var(--bg-table);
+    color: var(--text-main);
+}
+
+/* CATEGORY FILTER */
+.filter-bar {
+    width: 100%;
+    max-width: 1200px;
+    margin: -8px auto 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#categoryFilter {
+    width: 100%;
+    max-width: 360px;
+    padding: 12px 14px;
+    background: var(--bg-table);
+    border: 2px solid var(--neon-cyan);
+    color: var(--text-main);
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    border-radius: 8px;
+    outline: none;
+    box-shadow: 0 0 10px var(--shadow-color);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#categoryFilter:hover,
+#categoryFilter:focus {
+    border-color: var(--neon-pink);
+    box-shadow: 0 0 20px var(--shadow-color);
+}
+
+#categoryFilter option {
+    background: var(--bg-table);
+    color: var(--text-main);
+}
+
 /* 5. TABLE STYLES */
 .table-wrap {
     width: 100%;
