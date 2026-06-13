@@ -1293,5 +1293,10 @@
         "name": "Beat sync",
         "url": "https://beatsync.gg/",
         "purpose": "Sync audio on mupltiple devices at once"
+    },
+    {
+        "name": "Web Dev",
+        "url" : "https://web.dev/",
+        "purpose": "Learn Web development"
     }
 ]
