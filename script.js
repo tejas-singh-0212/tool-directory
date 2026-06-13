@@ -1,6 +1,7 @@
 ﻿/* script.js */
 
 let allTools = [];
+let currentCategory = 'all';
 
 const planeSVG = `<svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="transform: translate(-1px, 1px);"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>`;
 const checkSVG = `<svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M9 16.17 4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>`;
@@ -139,20 +140,52 @@ function renderTableRows(tools) {
     noResults.style.display = tools.length === 0 ? 'block' : 'none';
 }
 
-function searchTable() {
-    const input = document.getElementById('toolSearch').value.trim().toUpperCase();
+function getToolCategory(tool) {
+    const category = (tool.category || '').trim();
+    return category || 'Uncategorized';
+}
 
-    if (!input) {
-        renderTableRows(allTools);
-        return;
-    }
+function populateCategoryFilter(tools) {
+    const categoryFilter = document.getElementById('categoryFilter');
 
-    const filtered = allTools.filter((tool) => {
-        const haystack = `${tool.name || ''} ${tool.purpose || ''} ${tool.url || ''}`.toUpperCase();
-        return haystack.includes(input);
+    if (!categoryFilter) return;
+
+    const categories = [...new Set(tools.map(getToolCategory))]
+        .sort((a, b) => a.localeCompare(b));
+
+    categoryFilter.innerHTML = '<option value="all">All categories</option>';
+
+    categories.forEach((category) => {
+        const option = document.createElement('option');
+        option.value = category;
+        option.textContent = category;
+        categoryFilter.appendChild(option);
     });
 
-    renderTableRows(filtered);
+    categoryFilter.value = currentCategory;
+}
+
+function getFilteredTools() {
+    const searchInput = document.getElementById('toolSearch');
+    const searchTerm = searchInput ? searchInput.value.trim().toUpperCase() : '';
+
+    return allTools.filter((tool) => {
+        const category = getToolCategory(tool);
+
+        const matchesCategory =
+            currentCategory === 'all' || category === currentCategory;
+
+        const haystack = `${tool.name || ''} ${tool.purpose || ''} ${tool.url || ''} ${category}`.toUpperCase();
+
+        const matchesSearch =
+            !searchTerm || haystack.includes(searchTerm);
+
+        return matchesCategory && matchesSearch;
+    });
+}
+
+function searchTable() {
+    renderTableRows(getFilteredTools());
 }
 
 function showLoadingState() {
@@ -180,7 +213,9 @@ async function loadTools() {
 
         const data = await response.json();
         allTools = sortToolsByName(Array.isArray(data) ? data : []);
-        renderTableRows(allTools);
+
+        populateCategoryFilter(allTools);
+        renderTableRows(getFilteredTools());
         updateToolCount();
     } catch (error) {
         console.error('Failed to load tools.json:', error);
@@ -231,4 +266,15 @@ function toggleTheme() {
     }
 })();
 
-document.addEventListener('DOMContentLoaded', loadTools);
+document.addEventListener('DOMContentLoaded', () => {
+    const categoryFilter = document.getElementById('categoryFilter');
+
+    if (categoryFilter) {
+        categoryFilter.addEventListener('change', () => {
+            currentCategory = categoryFilter.value;
+            renderTableRows(getFilteredTools());
+        });
+    }
+
+    loadTools();
+});
