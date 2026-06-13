@@ -1298,5 +1298,10 @@
         "name": "Web Dev",
         "url" : "https://web.dev/",
         "purpose": "Learn Web development"
+    },
+    {
+        "name" : "Free  Claude Code",
+        "url" : "https://github.com/Alishahryar1/free-claude-code",
+        "purpose" : "Repository to setup Claude code for free"
     }
 ]
