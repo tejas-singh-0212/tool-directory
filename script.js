@@ -185,7 +185,9 @@ function getFilteredTools() {
 }
 
 function searchTable() {
-    renderTableRows(getFilteredTools());
+    const filteredTools = getFilteredTools();
+    renderTableRows(filteredTools);
+    updateToolCount(filteredTools.length);
 }
 
 function showLoadingState() {
@@ -215,8 +217,10 @@ async function loadTools() {
         allTools = sortToolsByName(Array.isArray(data) ? data : []);
 
         populateCategoryFilter(allTools);
-        renderTableRows(getFilteredTools());
-        updateToolCount();
+
+        const filteredTools = getFilteredTools();
+        renderTableRows(filteredTools);
+        updateToolCount(filteredTools.length);
     } catch (error) {
         console.error('Failed to load tools.json:', error);
 
@@ -234,12 +238,24 @@ async function loadTools() {
     }
 }
 
-function updateToolCount(count = allTools.length) {
+function updateToolCount(visibleCount = allTools.length) {
     const counter = document.querySelector('.tool-counter');
-    if (counter) {
-        counter.textContent = `TOOLS: ${count}`;
-        counter.setAttribute('aria-label', `${count} tools in directory`);
-        counter.title = `${count} tools in directory`;
+    const searchInput = document.getElementById('toolSearch');
+
+    if (!counter) return;
+
+    const searchTerm = searchInput ? searchInput.value.trim() : '';
+    const isFiltering = searchTerm || currentCategory !== 'all';
+    const totalCount = allTools.length;
+
+    if (isFiltering) {
+        counter.textContent = `SHOWING: ${visibleCount} / ${totalCount}`;
+        counter.setAttribute('aria-label', `Showing ${visibleCount} of ${totalCount} tools`);
+        counter.title = `Showing ${visibleCount} of ${totalCount} tools`;
+    } else {
+        counter.textContent = `TOOLS: ${totalCount}`;
+        counter.setAttribute('aria-label', `${totalCount} tools in directory`);
+        counter.title = `${totalCount} tools in directory`;
     }
 }
 
@@ -272,7 +288,10 @@ document.addEventListener('DOMContentLoaded', () => {
     if (categoryFilter) {
         categoryFilter.addEventListener('change', () => {
             currentCategory = categoryFilter.value;
-            renderTableRows(getFilteredTools());
+
+            const filteredTools = getFilteredTools();
+            renderTableRows(filteredTools);
+            updateToolCount(filteredTools.length);
         });
     }
 
