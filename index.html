@@ -12,7 +12,15 @@
 
 <body>
     <div class="floating-controls">
-        <div class="tool-counter" title="Total tools" aria-label="Total tools">TOOLS: 0</div>
+        <div
+            class="tool-counter"
+            title="Total tools"
+            aria-label="Total tools"
+            role="status"
+            aria-live="polite"
+        >
+            TOOLS: 0
+        </div>
         <button class="theme-toggle" onclick="toggleTheme()">LIGHT_MODE</button>
     </div>
 
