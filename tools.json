@@ -1218,12 +1218,6 @@
         "category": "Productivity"
     },
     {
-        "name": "Mult",
-        "url": "https://mult.dev/",
-        "purpose": "Travel route map animation tool",
-        "category": "Travel"
-    },
-    {
         "name": "Run Way ML",
         "url": "https://runwayml.com/",
         "purpose": "Generates video from text, images, or short clips",
