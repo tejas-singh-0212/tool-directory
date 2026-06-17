@@ -1564,5 +1564,11 @@
         "url" : "https://deploysafe.io/",
         "purpose" : "Runs cyber attack simulations on deployments",
         "category": "Cybersecurity"
+    },
+    {
+        "name" : "Learn Kata",
+        "url" : "https://learnkata.ai/",
+        "purpose": "AI learning assistant",
+        "category" : "Learning"
     }
 ]
