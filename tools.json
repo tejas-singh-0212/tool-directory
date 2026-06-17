@@ -1576,5 +1576,11 @@
         "url": "https://github.com/anomalyco/opencode",
         "purpose" : "Repository of OpenCode TUI coding agent",
         "category": "Developer Tools"
+    },
+    {
+        "name": "Anything AI",
+        "url": "https://www.anything.ai/",
+        "purpose": "AI app builder for creating and deploying full-stack applications",
+        "category": "Web Builder"
     }
 ]
