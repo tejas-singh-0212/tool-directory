@@ -138,7 +138,7 @@
         "category": "Games"
     },
     {
-        "name": "Deep L",
+        "name": "DeepL",
         "url": "https://deepl.com/",
         "purpose": "Alternative machine translation tool",
         "category": "AI Writing"
@@ -162,7 +162,7 @@
         "category": "Video"
     },
     {
-        "name": "Lord Icon",
+        "name": "Lordicon",
         "url": "https://lordicon.com/",
         "purpose": "Animated Icons",
         "category": "Design"
@@ -182,11 +182,11 @@
     {
         "name": "Krisp",
         "url": "https://krisp.ai/",
-        "purpose": "Background noise cancelation",
+        "purpose": "Background noise cancellation",
         "category": "Audio & Music"
     },
     {
-        "name": "Video to blog",
+        "name": "VideoToBlog",
         "url": "https://www.videotoblog.ai/",
         "purpose": "Generate blog posts from YouTube videos",
         "category": "AI Writing"
@@ -306,7 +306,7 @@
         "category": "AI Coding"
     },
     {
-        "name": "Code Pen",
+        "name": "CodePen",
         "url": "https://codepen.io/",
         "purpose": "Front-end testing",
         "category": "Developer Tools"
@@ -344,7 +344,7 @@
     {
         "name": "Auto Regex",
         "url": "https://www.autoregex.xyz/",
-        "purpose": "Converts plain english to regex with natural language processing",
+        "purpose": "Converts plain English to regex with natural language processing",
         "category": "Developer Tools"
     },
     {
@@ -456,7 +456,7 @@
         "category": "3D & CAD"
     },
     {
-        "name": "Content core",
+        "name": "Content Core",
         "url": "https://contentcore.xyz/",
         "purpose": "For 3D animation",
         "category": "3D & CAD"
@@ -482,7 +482,7 @@
     {
         "name": "Vista Create",
         "url": "https://create.vista.com/",
-        "purpose": "Free Canva like templates",
+        "purpose": "Free Canva-like templates",
         "category": "Design"
     },
     {
@@ -696,13 +696,13 @@
         "category": "Jobs & Career"
     },
     {
-        "name": "W3School",
+        "name": "W3Schools",
         "url": "https://www.w3schools.com/",
         "purpose": "Free coding learning resource",
         "category": "Learning"
     },
     {
-        "name": "Geek for Geeks",
+        "name": "GeekforGeeks",
         "url": "https://www.geeksforgeeks.org/",
         "purpose": "Free coding learning resource",
         "category": "Learning"
@@ -738,7 +738,7 @@
         "category": "Productivity"
     },
     {
-        "name": "Ltx studio",
+        "name": "LTX Studio",
         "url": "https://ltx.studio",
         "purpose": "AI video editing and match-cut workflows",
         "category": "Video"
@@ -822,7 +822,7 @@
         "category": "Jobs & Career"
     },
     {
-        "name": "Emu games",
+        "name": "Emu Games",
         "url": "https://www.emugames.com/",
         "purpose": "Online console games",
         "category": "Games"
@@ -840,7 +840,7 @@
         "category": "Design"
     },
     {
-        "name": "Make my drive fun",
+        "name": "Make My Drive Fun",
         "url": "https://makemydrivefun.com",
         "purpose": "Road trip route optimization tool",
         "category": "Travel"
@@ -888,7 +888,7 @@
         "category": "Presentation"
     },
     {
-        "name": "Magic slide",
+        "name": "MagicSlides",
         "url": "https://www.magicslides.app/",
         "purpose": "Presentation generator",
         "category": "Presentation"
@@ -900,7 +900,7 @@
         "category": "Presentation"
     },
     {
-        "name": "Doc Sity",
+        "name": "Docsity",
         "url": "https://www.docsity.com/en/",
         "purpose": "Past papers and study notes",
         "category": "Learning"
@@ -944,7 +944,7 @@
     {
         "name": "Voice Mod",
         "url": "https://www.voicemod.net/",
-        "purpose": "Real time voice changing and custom sound effects",
+        "purpose": "Real-time voice changing and custom sound effects",
         "category": "Audio & Music"
     },
     {
@@ -984,14 +984,14 @@
         "category": "Jobs & Career"
     },
     {
-        "name": "i fix it",
+        "name": "iFixit",
         "url": "https://www.ifixit.com/",
         "purpose": "Repair manuals and DIY guides",
         "category": "Utilities"
     },
     {
-        "name": "Sribble fusion",
-        "url": "https://scribblediffusion.com/",
+        "name": "Sribble Diffusion",
+        "url": "https://scribblediffusion.ai/",
         "purpose": "Converts rough sketches into images",
         "category": "Image Generation"
     },
@@ -1026,7 +1026,7 @@
         "category": "Automation"
     },
     {
-        "name": "Github-Copilot",
+        "name": "Github Copilot",
         "url": "https://github.com/features/copilot",
         "purpose": "Real-time code and function suggestions",
         "category": "AI Coding"
@@ -1098,7 +1098,7 @@
         "category": "Web Builder"
     },
     {
-        "name": "Convex chef",
+        "name": "Convex Chef",
         "url": "https://chef.convex.dev/",
         "purpose": "Build AI tools and applications",
         "category": "Web Builder"
@@ -1212,13 +1212,13 @@
         "category": "Productivity"
     },
     {
-        "name": "Breifly AI",
+        "name": "Briefly AI",
         "url": "https://www.brieflyai.com/",
         "purpose": "Automatic meeting transcription tool",
         "category": "Productivity"
     },
     {
-        "name": "Run Way ML",
+        "name": "Runway ML",
         "url": "https://runwayml.com/",
         "purpose": "Generates video from text, images, or short clips",
         "category": "Video"
@@ -1290,7 +1290,7 @@
         "category": "Hardware & Simulation"
     },
     {
-        "name": "Wok Wi",
+        "name": "WokWi",
         "url": "https://wokwi.com/",
         "purpose": "Digital Electronics simulator",
         "category": "Hardware & Simulation"
@@ -1314,7 +1314,7 @@
         "category": "Image Generation"
     },
     {
-        "name": "SQL Squid game",
+        "name": "SQL Squid Game",
         "url": "https://datalemur.com/sql-game",
         "purpose": "Learn SQL",
         "category": "Coding Practice"
@@ -1326,7 +1326,7 @@
         "category": "Coding Practice"
     },
     {
-        "name": "SQL murder mystery",
+        "name": "SQL Murder Mystery",
         "url": "https://mystery.knightlab.com/",
         "purpose": "Learn SQL",
         "category": "Coding Practice"
@@ -1406,7 +1406,7 @@
     {
         "name": "Atoms",
         "url": "https://atoms.dev/",
-        "purpose": "AI based product website builder",
+        "purpose": "AI-based product website builder",
         "category": "Web Builder"
     },
     {
@@ -1416,7 +1416,7 @@
         "category": "Developer Tools"
     },
     {
-        "name": "UitHub",
+        "name": "uitHub",
         "url": "https://uithub.com/",
         "purpose": "Provides details of repo for context to ask an LLM",
         "category": "Developer Tools"
@@ -1484,7 +1484,7 @@
     {
         "name": "ProjectX",
         "url": "https://projectx.cloud/",
-        "purpose": "Cloud based OS (supports even heavy tasks)",
+        "purpose": "Cloud-based OS (supports even heavy tasks)",
         "category": "Utilities"
     },
     {
@@ -1500,7 +1500,7 @@
         "category": "3D & CAD"
     },
     {
-        "name": "Logo diffusion",
+        "name": "Logo Diffusion",
         "url": "https://logodiffusion.com/",
         "purpose": "AI logo generator",
         "category": "Design"
@@ -1544,7 +1544,7 @@
     {
         "name": "Beat sync",
         "url": "https://beatsync.gg/",
-        "purpose": "Sync audio on mupltiple devices at once",
+        "purpose": "Sync audio on multiple devices at once",
         "category": "Utilities"
     },
     {
@@ -1554,7 +1554,7 @@
         "category": "Learning"
     },
     {
-        "name": "Free  Claude Code",
+        "name": "Free Claude Code",
         "url": "https://github.com/Alishahryar1/free-claude-code",
         "purpose": "Repository to setup Claude code for free",
         "category": "Developer Tools"
@@ -1566,7 +1566,7 @@
         "category": "Cybersecurity"
     },
     {
-        "name" : "Learn Kata",
+        "name" : "LearnKata",
         "url" : "https://learnkata.ai/",
         "purpose": "AI learning assistant",
         "category" : "Learning"
