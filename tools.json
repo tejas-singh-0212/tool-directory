@@ -303,7 +303,7 @@
         "name": "Rocket",
         "url": "https://www.rocket.new/",
         "purpose": "Coding agent + project templates",
-        "category": "AI Coding"
+        "category": "AI Agents"
     },
     {
         "name": "CodePen",
@@ -1582,5 +1582,11 @@
         "url": "https://www.anything.ai/",
         "purpose": "AI app builder for creating and deploying full-stack applications",
         "category": "Web Builder"
+    },
+    {
+        "name": "Manus",
+        "url": "https://manus.im/",
+        "purpose": "Autonomous AI agent for planning and executing complex tasks",
+        "category": "AI Agents"
     }
 ]
