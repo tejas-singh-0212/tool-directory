@@ -20,13 +20,13 @@
     {
         "name": "BypassGPT",
         "url": "https://bypassgpt.ai",
-        "purpose": "AI Humanizer and rewriter",
+        "purpose": "Rewrite AI-generated text to sound more human",
         "category": "AI Writing"
     },
     {
         "name": "Word-Spinner",
         "url": "https://word-spinner.com/",
-        "purpose": "AI Humanizer and rewriter",
+        "purpose": "Paraphrase and rewrite text with AI-powered spinning",
         "category": "AI Writing"
     },
     {
@@ -50,19 +50,19 @@
     {
         "name": "Jobsuit AI",
         "url": "https://jobsuit.ai/",
-        "purpose": "AI Resume generator",
+        "purpose": "Generate tailored resumes and cover letters with AI",
         "category": "Jobs & Career"
     },
     {
         "name": "Kick Resume",
         "url": "https://www.kickresume.com/en/",
-        "purpose": "AI Resume generator",
+        "purpose": "Create professional resumes with AI-powered templates",
         "category": "Jobs & Career"
     },
     {
         "name": "Talent Else",
         "url": "https://talentelse.com",
-        "purpose": "AI Resume generator",
+        "purpose": "Build resumes and optimize job applications with AI",
         "category": "Jobs & Career"
     },
     {
@@ -74,37 +74,37 @@
     {
         "name": "Emergent",
         "url": "https://app.emergent.sh/",
-        "purpose": "AI app / website builder",
+        "purpose": "Build full-stack apps from prompts with AI",
         "category": "Web Builder"
     },
     {
         "name": "Replit",
         "url": "https://replit.com",
-        "purpose": "AI app / website builder",
+        "purpose": "Develop, host, and collaborate on coding projects online",
         "category": "Web Builder"
     },
     {
         "name": "Lovable",
         "url": "https://lovable.dev/",
-        "purpose": "AI app / website builder",
+        "purpose": "Build web apps from natural language prompts",
         "category": "Web Builder"
     },
     {
         "name": "Cursor",
         "url": "https://cursor.com/",
-        "purpose": "AI app / website builder",
+        "purpose": "Use an AI-powered code editor to build software faster",
         "category": "Web Builder"
     },
     {
         "name": "Word Hero",
         "url": "https://wordhero.co/",
-        "purpose": "AI content writer",
+        "purpose": "Generate blog posts and marketing content with AI",
         "category": "AI Writing"
     },
     {
         "name": "Pepper Type",
         "url": "https://www.peppercontent.io/peppertype-ai/",
-        "purpose": "AI content writer",
+        "purpose": "Create AI-powered content for blogs and social media",
         "category": "AI Writing"
     },
     {
@@ -128,13 +128,13 @@
     {
         "name": "Gog Galaxy",
         "url": "https://www.gog.com/galaxy",
-        "purpose": "Game discovery and download platform",
+        "purpose": "Discover and download DRM-free PC games",
         "category": "Games"
     },
     {
         "name": "fitgirl-repacks",
         "url": "https://fitgirl-repacks.site/popular-repacks/",
-        "purpose": "Game discovery and download platform",
+        "purpose": "Download compressed and repacked PC games",
         "category": "Games"
     },
     {
@@ -242,25 +242,25 @@
     {
         "name": "Chat Fuel",
         "url": "https://chatfuel.com",
-        "purpose": "Chatbot generator",
+        "purpose": "Build no-code chatbots for messaging platforms",
         "category": "AI Chat"
     },
     {
         "name": "Chat Shape",
         "url": "https://www.chatshape.com/",
-        "purpose": "Chatbot generator",
+        "purpose": "Create AI-powered chatbots for websites",
         "category": "AI Chat"
     },
     {
         "name": "Humata",
         "url": "https://humata.ai",
-        "purpose": "ChatGPT for research papers",
+        "purpose": "Ask questions and summarize research papers with AI",
         "category": "Research"
     },
     {
         "name": "Consensus",
         "url": "https://consensus.app/",
-        "purpose": "ChatGPT for research papers",
+        "purpose": "Search and synthesize findings from academic papers",
         "category": "Research"
     },
     {
@@ -284,19 +284,19 @@
     {
         "name": "You",
         "url": "https://you.com/",
-        "purpose": "Coding AI Agents",
+        "purpose": "Search and code with an AI assistant in the browser",
         "category": "AI Coding"
     },
     {
         "name": "Black Box",
         "url": "https://www.useblackbox.io/",
-        "purpose": "Coding AI Agents",
+        "purpose": "Get AI-powered code suggestions and answers",
         "category": "AI Coding"
     },
     {
         "name": "Traycer",
         "url": "https://traycer.ai/",
-        "purpose": "Coding AI Agents",
+        "purpose": "Automate coding tasks with AI agents",
         "category": "AI Coding"
     },
     {
@@ -314,13 +314,13 @@
     {
         "name": "Color Mind",
         "url": "https://colormind.io",
-        "purpose": "Color palette generator",
+        "purpose": "Generate color palettes with AI-powered design",
         "category": "Design"
     },
     {
         "name": "Hue Mint",
         "url": "https://huemint.com/",
-        "purpose": "Color palette generator",
+        "purpose": "Create accessible color palettes for web and brand design",
         "category": "Design"
     },
     {
@@ -368,19 +368,19 @@
     {
         "name": "Opus",
         "url": "https://www.opus.pro/agent",
-        "purpose": "Creates short videos",
+        "purpose": "Generate short-form videos from text with AI",
         "category": "Video"
     },
     {
         "name": "Super Creator",
         "url": "https://supercreator.ai",
-        "purpose": "Creates short videos",
+        "purpose": "Create short videos with AI-powered editing tools",
         "category": "Video"
     },
     {
         "name": "AutoAE (animation)",
         "url": "https://autoae.online/",
-        "purpose": "Creates short videos",
+        "purpose": "Generate animated short videos with AI automation",
         "category": "Video"
     },
     {
@@ -392,13 +392,13 @@
     {
         "name": "Moe Walls",
         "url": "https://moewalls.com/",
-        "purpose": "Wallpapers",
+        "purpose": "Download anime and themed wallpapers for desktop",
         "category": "Design"
     },
     {
         "name": "Wallpaper Flare",
         "url": "https://wallpaperflare.com/",
-        "purpose": "Wallpapers",
+        "purpose": "Browse and download HD wallpapers across categories",
         "category": "Design"
     },
     {
@@ -446,19 +446,19 @@
     {
         "name": "Cascadeur",
         "url": "https://cascadeur.com/",
-        "purpose": "For 3D animation",
+        "purpose": "Create realistic 3D character animations with physics tools",
         "category": "3D & CAD"
     },
     {
         "name": "Dimenxioner",
         "url": "https://dimenxioner.com/",
-        "purpose": "For 3D animation",
+        "purpose": "Design and animate 3D models and scenes",
         "category": "3D & CAD"
     },
     {
         "name": "Content Core",
         "url": "https://contentcore.xyz/",
-        "purpose": "For 3D animation",
+        "purpose": "Generate 3D animations and visual content",
         "category": "3D & CAD"
     },
     {
@@ -512,55 +512,55 @@
     {
         "name": "Codingame (Prefer for Java)",
         "url": "https://www.codingame.com/start",
-        "purpose": "Coding skills practice game",
+        "purpose": "Practice programming with game-based coding challenges",
         "category": "Coding Practice"
     },
     {
         "name": "Code Combat",
         "url": "https://codecombat.com/",
-        "purpose": "Coding skills practice game",
+        "purpose": "Learn programming through interactive game levels",
         "category": "Coding Practice"
     },
     {
         "name": "Code Wars",
         "url": "https://www.codewars.com/",
-        "purpose": "Coding skills practice game",
+        "purpose": "Improve coding skills with community challenges",
         "category": "Coding Practice"
     },
     {
         "name": "Robo Code",
         "url": "https://robocode.sourceforge.io/",
-        "purpose": "Coding skills practice game",
+        "purpose": "Program robot tanks and battle them in a coding game",
         "category": "Coding Practice"
     },
     {
         "name": "Elevator Saga (prefer for Javascript)",
         "url": "https://play.elevatorsaga.com/",
-        "purpose": "Coding skills practice game",
+        "purpose": "Practice JavaScript by programming elevator logic",
         "category": "Coding Practice"
     },
     {
         "name": "CheckIO (Python & Typescript)",
         "url": "https://checkio.org/",
-        "purpose": "Coding skills practice game",
+        "purpose": "Practice Python and TypeScript with coding missions",
         "category": "Coding Practice"
     },
     {
         "name": "Boolean Method",
         "url": "https://boolean.method.ac/",
-        "purpose": "Design skills practice game",
+        "purpose": "Practice boolean operations with a design game",
         "category": "Design"
     },
     {
         "name": "Color Method",
         "url": "https://color.method.ac/",
-        "purpose": "Design skills practice game",
+        "purpose": "Practice color perception and matching skills",
         "category": "Design"
     },
     {
         "name": "Supremo",
         "url": "https://www.supremo.co.uk/designers-eye/",
-        "purpose": "Design skills practice game",
+        "purpose": "Sharpen design eye and layout judgment skills",
         "category": "Design"
     },
     {
@@ -620,73 +620,73 @@
     {
         "name": "Text Behind Image",
         "url": "https://textbehindimage.com/",
-        "purpose": "AI image editing tools",
+        "purpose": "Place text behind subjects in images",
         "category": "Image Editing"
     },
     {
         "name": "Image Upscaling",
         "url": "https://image-upscaling.net/",
-        "purpose": "AI image editing tools",
+        "purpose": "Upscale and enhance low-resolution images",
         "category": "Image Editing"
     },
     {
         "name": "Hugging Face",
         "url": "https://huggingface.co/spaces/lllyasviel/iclight-v2-vary",
-        "purpose": "AI image editing tools",
+        "purpose": "Relight images using the IC-Light AI model",
         "category": "Image Editing"
     },
     {
         "name": "Remove Photos",
         "url": "https://remove.photos/",
-        "purpose": "AI image editing tools",
+        "purpose": "Remove backgrounds and unwanted objects from photos",
         "category": "Image Editing"
     },
     {
         "name": "Krea",
         "url": "https://www.krea.ai/home",
-        "purpose": "AI image editing tools",
+        "purpose": "Generate and enhance images with AI",
         "category": "Image Editing"
     },
     {
         "name": "Deep-Image",
         "url": "https://deep-image.ai/",
-        "purpose": "AI image editing tools",
+        "purpose": "Upscale, denoise, and enhance images with AI",
         "category": "Image Editing"
     },
     {
         "name": "Lets Enhance",
         "url": "https://letsenhance.io/",
-        "purpose": "AI image editing tools",
+        "purpose": "Improve image resolution, sharpness, and quality",
         "category": "Image Editing"
     },
     {
         "name": "Lupa",
         "url": "https://lupa.art/",
-        "purpose": "AI image editing tools",
+        "purpose": "Edit and enhance images with AI-powered tools",
         "category": "Image Editing"
     },
     {
         "name": "Viesus",
         "url": "https://www.viesus.com/",
-        "purpose": "AI image editing tools",
+        "purpose": "Automatically enhance photo quality and color",
         "category": "Image Editing"
     },
     {
         "name": "Snap Edit",
         "url": "https://snapedit.app/",
-        "purpose": "AI image editing tools",
+        "purpose": "Remove objects and edit photos with AI",
         "category": "Image Editing"
     },
     {
         "name": "I Love Img",
         "url": "https://www.iloveimg.com/",
-        "purpose": "AI image editing tools",
+        "purpose": "Compress, resize, convert, and edit images online",
         "category": "Image Editing"
     },
     {
         "name": "Magic Studio",
         "url": "https://magicstudio.com/",
-        "purpose": "AI image editing tools",
+        "purpose": "Remove backgrounds, erase objects, and generate images",
         "category": "Image Editing"
     },
     {
@@ -698,25 +698,25 @@
     {
         "name": "W3Schools",
         "url": "https://www.w3schools.com/",
-        "purpose": "Free coding learning resource",
+        "purpose": "Learn web development with tutorials and references",
         "category": "Learning"
     },
     {
         "name": "GeekforGeeks",
         "url": "https://www.geeksforgeeks.org/",
-        "purpose": "Free coding learning resource",
+        "purpose": "Learn programming with articles, tutorials, and interview prep",
         "category": "Learning"
     },
     {
         "name": "Java Point",
         "url": "https://www.javatpoint.com/",
-        "purpose": "Free coding learning resource",
+        "purpose": "Learn Java and related technologies with tutorials",
         "category": "Learning"
     },
     {
         "name": "Tutorials Point",
         "url": "https://www.tutorialspoint.com/index.htm",
-        "purpose": "Free coding learning resource",
+        "purpose": "Learn programming and technologies with online tutorials",
         "category": "Learning"
     },
     {
@@ -764,25 +764,25 @@
     {
         "name": "Simplified",
         "url": "https://simplified.com/",
-        "purpose": "Multi-tool AI platform",
+        "purpose": "Create content, edit videos, and design with AI in one platform",
         "category": "Other"
     },
     {
         "name": "AI Tools Directory",
         "url": "https://aitoolsdirectory.com/",
-        "purpose": "Multi-tool AI platform",
+        "purpose": "Discover and browse AI tools across categories",
         "category": "Other"
     },
     {
         "name": "ArenaAI",
         "url": "https://arena.ai",
-        "purpose": "Multi-tool AI platform",
+        "purpose": "Compare and evaluate AI models and tools",
         "category": "Other"
     },
     {
         "name": "Design Arena",
         "url": "https://www.designarena.ai/",
-        "purpose": "Multi-tool AI platform",
+        "purpose": "Generate UI designs and graphics with multiple AI tools",
         "category": "Other"
     },
     {
@@ -806,13 +806,13 @@
     {
         "name": "Mubert",
         "url": "https://mubert.com/",
-        "purpose": "Music generator",
+        "purpose": "Generate royalty-free AI music for content and videos",
         "category": "Audio & Music"
     },
     {
         "name": "Wavtool",
         "url": "https://wavtool.com/",
-        "purpose": "Music generator",
+        "purpose": "Create and compose music with AI-assisted tools",
         "category": "Audio & Music"
     },
     {
@@ -866,37 +866,37 @@
     {
         "name": "Gamma",
         "url": "https://gamma.app/",
-        "purpose": "Presentation generator",
+        "purpose": "Create AI-generated presentations, documents, and webpages",
         "category": "Presentation"
     },
     {
         "name": "Beautiful",
         "url": "https://beautiful.ai",
-        "purpose": "Presentation generator",
+        "purpose": "Design professional presentations with smart slide layouts",
         "category": "Presentation"
     },
     {
         "name": "Slides AI",
         "url": "https://www.slidesai.io/",
-        "purpose": "Presentation generator",
+        "purpose": "Generate Google Slides presentations from text",
         "category": "Presentation"
     },
     {
         "name": "Wepik",
         "url": "https://wepik.com/",
-        "purpose": "Presentation generator",
+        "purpose": "Create presentations and visual templates online",
         "category": "Presentation"
     },
     {
         "name": "MagicSlides",
         "url": "https://www.magicslides.app/",
-        "purpose": "Presentation generator",
+        "purpose": "Generate presentation slides from prompts or text",
         "category": "Presentation"
     },
     {
         "name": "ChronicleHq(design)",
         "url": "https://chroniclehq.com/",
-        "purpose": "Presentation generator",
+        "purpose": "Create interactive and visually polished presentations",
         "category": "Presentation"
     },
     {
@@ -968,19 +968,19 @@
     {
         "name": "FishBowl",
         "url": "https://fishbowlapp.com",
-        "purpose": "Remote job discovery platform",
+        "purpose": "Discover remote jobs and join professional discussions",
         "category": "Jobs & Career"
     },
     {
         "name": "WellFound",
         "url": "https://wellfound.com",
-        "purpose": "Remote job discovery platform",
+        "purpose": "Find startup and remote tech job opportunities",
         "category": "Jobs & Career"
     },
     {
         "name": "FoundIt",
         "url": "https://foundit.in",
-        "purpose": "Remote job discovery platform",
+        "purpose": "Search and apply for remote job listings",
         "category": "Jobs & Career"
     },
     {
@@ -1004,13 +1004,13 @@
     {
         "name": "FreeUp",
         "url": "https://www.freeup.app/",
-        "purpose": "Marketplace for pre-owned clothing",
+        "purpose": "Buy and sell pre-owned fashion and clothing",
         "category": "Marketplaces"
     },
     {
         "name": "Etsy",
         "url": "https://www.etsy.com/in-en/market/itashi",
-        "purpose": "Marketplace for pre-owned clothing",
+        "purpose": "Buy and sell vintage and handmade clothing and goods",
         "category": "Marketplaces"
     },
     {
@@ -1058,31 +1058,31 @@
     {
         "name": "Thumbly",
         "url": "https://thumbly.ai/",
-        "purpose": "Thumbnail generation tool",
+        "purpose": "Generate YouTube thumbnails with AI",
         "category": "Image Generation"
     },
     {
         "name": "Ni3",
         "url": "https://ni3.app",
-        "purpose": "Thumbnail generation tool",
+        "purpose": "Create custom thumbnails with AI-powered design tools",
         "category": "Image Generation"
     },
     {
         "name": "NeaMx",
         "url": "https://neamx.com/",
-        "purpose": "Thumbnail generation tool",
+        "purpose": "Design professional thumbnails with AI assistance",
         "category": "Image Generation"
     },
     {
         "name": "SVGator",
         "url": "https://www.svgator.com/",
-        "purpose": "To animate icons/logos",
+        "purpose": "Animate SVG icons and logos with a visual editor",
         "category": "Design"
     },
     {
         "name": "Formia",
         "url": "https://formia.so",
-        "purpose": "To animate icons/logos",
+        "purpose": "Create animated icons and logo effects for web and apps",
         "category": "Design"
     },
     {
@@ -1094,13 +1094,13 @@
     {
         "name": "Imagica",
         "url": "https://get.imagica.ai/",
-        "purpose": "Build AI tools and applications",
+        "purpose": "Build AI-powered apps without coding",
         "category": "Web Builder"
     },
     {
         "name": "Convex Chef",
         "url": "https://chef.convex.dev/",
-        "purpose": "Build AI tools and applications",
+        "purpose": "Build AI applications with Convex backend templates",
         "category": "Web Builder"
     },
     {
@@ -1118,13 +1118,13 @@
     {
         "name": "Ewasion Github",
         "url": "https://ewasion.github.io/opendirectory-finder/",
-        "purpose": "Open directory and resource index tool",
+        "purpose": "Search and browse open directories for resources",
         "category": "Developer Tools"
     },
     {
         "name": "Deep Web Nest",
         "url": "https://deepwebnest.com/",
-        "purpose": "Open directory and resource index tool",
+        "purpose": "Find and explore open directories and hidden resources",
         "category": "Developer Tools"
     },
     {
@@ -1148,13 +1148,13 @@
     {
         "name": "Hacking loops",
         "url": "https://hackingloops.com",
-        "purpose": "Free ethical hacking learning resource",
+        "purpose": "Learn ethical hacking with free tutorials and guides",
         "category": "Cybersecurity"
     },
     {
         "name": "Pentest GPT",
         "url": "https://pentestgpt.ai/",
-        "purpose": "Free ethical hacking learning resource",
+        "purpose": "Learn penetration testing with AI-guided tutorials",
         "category": "Cybersecurity"
     },
     {
@@ -1166,31 +1166,31 @@
     {
         "name": "CSS Battle",
         "url": "https://cssbattle.dev/",
-        "purpose": "Coding practice platform",
+        "purpose": "Practice CSS by recreating visual targets with code",
         "category": "Coding Practice"
     },
     {
         "name": "JS Challenger",
         "url": "https://www.jschallenger.com/",
-        "purpose": "Coding practice platform",
+        "purpose": "Practice JavaScript with short coding exercises",
         "category": "Coding Practice"
     },
     {
-        "name": "Hacker Rank",
+        "name": "HackerRank",
         "url": "https://www.hackerrank.com/",
-        "purpose": "Coding practice platform",
+        "purpose": "Prepare for coding interviews with programming challenges",
         "category": "Coding Practice"
     },
     {
-        "name": "Leet Code",
+        "name": "LeetCode",
         "url": "https://leetcode.com/",
-        "purpose": "Coding practice platform",
+        "purpose": "Practice data structures and algorithms for interviews",
         "category": "Coding Practice"
     },
     {
         "name": "Coddy",
         "url": "https://coddy.tech/",
-        "purpose": "Coding practice platform",
+        "purpose": "Learn and practice coding through interactive lessons",
         "category": "Coding Practice"
     },
     {
@@ -1226,25 +1226,25 @@
     {
         "name": "Uizard",
         "url": "https://uizard.io/",
-        "purpose": "Converts screenshots into editable layouts",
+        "purpose": "Convert screenshots into editable UI mockups and prototypes",
         "category": "Design"
     },
     {
         "name": "Rapcut",
         "url": "https://rapcut.app/",
-        "purpose": "Converts screenshots into editable layouts",
+        "purpose": "Transform screenshots into editable designs and templates",
         "category": "Design"
     },
     {
         "name": "Hailuo AI",
         "url": "https://hailuoai.video/",
-        "purpose": "Converts text into videos with AI voices",
+        "purpose": "Generate videos with AI avatars and voiceovers from text",
         "category": "Video"
     },
     {
         "name": "Fliki",
         "url": "https://fliki.ai",
-        "purpose": "Converts text into videos with AI voices",
+        "purpose": "Create videos with AI voiceovers from text and scripts",
         "category": "Video"
     },
     {
@@ -1274,25 +1274,25 @@
     {
         "name": "Durable",
         "url": "https://durable.co/",
-        "purpose": "Website builder platform",
+        "purpose": "Generate business websites with AI",
         "category": "Web Builder"
     },
     {
         "name": "Modulify",
         "url": "https://www.modulify.ai/",
-        "purpose": "Website builder platform",
+        "purpose": "Build websites using AI-assisted modular sections",
         "category": "Web Builder"
     },
     {
         "name": "With Diode",
         "url": "https://withdiode.com/",
-        "purpose": "Digital Electronics simulator",
+        "purpose": "Simulate digital circuits and electronics in the browser",
         "category": "Hardware & Simulation"
     },
     {
         "name": "WokWi",
         "url": "https://wokwi.com/",
-        "purpose": "Digital Electronics simulator",
+        "purpose": "Simulate Arduino and electronic circuits online",
         "category": "Hardware & Simulation"
     },
     {
@@ -1316,49 +1316,49 @@
     {
         "name": "SQL Squid Game",
         "url": "https://datalemur.com/sql-game",
-        "purpose": "Learn SQL",
+        "purpose": "Practice SQL through an interactive survival-style game",
         "category": "Coding Practice"
     },
     {
         "name": "SQL Island",
         "url": "https://sql-island.informatik.uni-kl.de/",
-        "purpose": "Learn SQL",
+        "purpose": "Learn SQL through an interactive adventure game",
         "category": "Coding Practice"
     },
     {
         "name": "SQL Murder Mystery",
         "url": "https://mystery.knightlab.com/",
-        "purpose": "Learn SQL",
+        "purpose": "Solve a mystery using SQL queries",
         "category": "Coding Practice"
     },
     {
         "name": "SQL Zoo",
         "url": "https://sqlzoo.net/wiki/SQL_Tutorial",
-        "purpose": "Learn SQL",
+        "purpose": "Learn SQL with interactive tutorials and exercises",
         "category": "Coding Practice"
     },
     {
         "name": "VisuAlgo",
         "url": "https://visualgo.net/en",
-        "purpose": "Learn DSA",
+        "purpose": "Visualize data structures and algorithms interactively",
         "category": "Learning"
     },
     {
         "name": "Csvis Tool",
         "url": "https://csvistool.com/",
-        "purpose": "Learn DSA",
+        "purpose": "Visualize computer science algorithms and data structures",
         "category": "Learning"
     },
     {
         "name": "University of San Francisco",
         "url": "https://www.cs.usfca.edu/~galles/visualization/Algorithms.html",
-        "purpose": "Learn DSA",
+        "purpose": "Explore algorithm visualizations from USF",
         "category": "Learning"
     },
     {
         "name": "Michael Sambol",
         "url": "https://www.youtube.com/@MichaelSambol",
-        "purpose": "Learn DSA",
+        "purpose": "Learn data structures and algorithms through video explanations",
         "category": "Learning"
     },
     {
@@ -1448,19 +1448,19 @@
     {
         "name": "Framer",
         "url": "https://www.framer.com/",
-        "purpose": "AI app / website builder",
+        "purpose": "Design and publish responsive websites visually",
         "category": "Web Builder"
     },
     {
         "name": "Orchid",
         "url": "https://www.orchids.app/",
-        "purpose": "AI app / website builder",
+        "purpose": "Build websites and apps with AI assistance",
         "category": "Web Builder"
     },
     {
         "name": "Deep Site",
         "url": "https://enzostvs-deepsite.hf.space/",
-        "purpose": "AI app / website builder",
+        "purpose": "Generate websites from prompts using AI",
         "category": "Web Builder"
     },
     {
@@ -1508,13 +1508,13 @@
     {
         "name": "Newly",
         "url": "https://newly.app/",
-        "purpose": "Mobile app builder with AI assistance",
+        "purpose": "Build mobile apps with AI assistance",
         "category": "Web Builder"
     },
     {
         "name": "DSA Animator",
         "url": "https://dsaanimator.com/",
-        "purpose": "Visualize data structures and algorithms",
+        "purpose": "Animate data structures and algorithms step by step",
         "category": "Learning"
     },
     {
@@ -1561,26 +1561,26 @@
     },
     {
         "name": "DeploySafe",
-        "url" : "https://deploysafe.io/",
-        "purpose" : "Runs cyber attack simulations on deployments",
+        "url": "https://deploysafe.io/",
+        "purpose": "Runs cyber attack simulations on deployments",
         "category": "Cybersecurity"
     },
     {
-        "name" : "LearnKata",
-        "url" : "https://learnkata.ai/",
+        "name": "LearnKata",
+        "url": "https://learnkata.ai/",
         "purpose": "AI learning assistant",
-        "category" : "Learning"
+        "category": "Learning"
     },
     {
-        "name" : "OpenCode",
+        "name": "OpenCode",
         "url": "https://github.com/anomalyco/opencode",
-        "purpose" : "Repository of OpenCode TUI coding agent",
+        "purpose": "Repository of OpenCode TUI coding agent",
         "category": "Developer Tools"
     },
     {
         "name": "Anything AI",
         "url": "https://www.anything.ai/",
-        "purpose": "AI app builder for creating and deploying full-stack applications",
+        "purpose": "Build and deploy full-stack apps with an AI agent",
         "category": "Web Builder"
     },
     {
