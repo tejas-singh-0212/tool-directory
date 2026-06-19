@@ -134,7 +134,7 @@
     {
         "name": "fitgirl-repacks",
         "url": "https://fitgirl-repacks.site/popular-repacks/",
-        "purpose": "Download compressed and repacked PC games",
+        "purpose": "Game archive discovery resource",
         "category": "Games"
     },
     {
@@ -212,7 +212,7 @@
     {
         "name": "Globfone",
         "url": "https://globfone.com/",
-        "purpose": "Call or SMS without SIM",
+        "purpose": "Browser-based calling and messaging utility",
         "category": "Utilities"
     },
     {
@@ -236,7 +236,7 @@
     {
         "name": "NeaPay",
         "url": "https://neapay.com",
-        "purpose": "Card generator",
+        "purpose": "Generate test card data for development workflows",
         "category": "Developer Tools"
     },
     {
@@ -488,7 +488,7 @@
     {
         "name": "Adescargar",
         "url": "https://adescargar.online/category/aplicaciones/",
-        "purpose": "Directory for app resources",
+        "purpose": "Directory of app-related web resources",
         "category": "Utilities"
     },
     {
@@ -566,7 +566,7 @@
     {
         "name": "POG unblocked",
         "url": "https://sites.google.com/view/pogunblocked",
-        "purpose": "Browser-based games collection",
+        "purpose": "Browser-based casual games collection",
         "category": "Games"
     },
     {
@@ -824,7 +824,7 @@
     {
         "name": "Emu Games",
         "url": "https://www.emugames.com/",
-        "purpose": "Online console games",
+        "purpose": "Browser-based retro game emulator collection",
         "category": "Games"
     },
     {
@@ -914,7 +914,7 @@
     {
         "name": "Key Gen Ninja",
         "url": "https://keygenninja.com/",
-        "purpose": "Product key generator",
+        "purpose": "Software key lookup and reference resource",
         "category": "Utilities"
     },
     {
@@ -1118,13 +1118,13 @@
     {
         "name": "Ewasion Github",
         "url": "https://ewasion.github.io/opendirectory-finder/",
-        "purpose": "Search and browse open directories for resources",
+        "purpose": "Search public open directories and resource indexes",
         "category": "Developer Tools"
     },
     {
         "name": "Deep Web Nest",
         "url": "https://deepwebnest.com/",
-        "purpose": "Find and explore open directories and hidden resources",
+        "purpose": "Index of public web directories and resources",
         "category": "Developer Tools"
     },
     {
@@ -1136,25 +1136,25 @@
     {
         "name": "Osint techniques",
         "url": "https://osinttechniques.com",
-        "purpose": "Public data investigation toolkit",
+        "purpose": "Public OSINT resources for ethical investigations",
         "category": "Cybersecurity"
     },
     {
         "name": "Fakename generators",
         "url": "https://fakenamegenerator.com",
-        "purpose": "Test data and persona generation",
+        "purpose": "Generate placeholder identities for testing and demos",
         "category": "Developer Tools"
     },
     {
         "name": "Hacking loops",
         "url": "https://hackingloops.com",
-        "purpose": "Learn ethical hacking with free tutorials and guides",
+        "purpose": "Ethical hacking tutorials and cybersecurity learning",
         "category": "Cybersecurity"
     },
     {
         "name": "Pentest GPT",
         "url": "https://pentestgpt.ai/",
-        "purpose": "Learn penetration testing with AI-guided tutorials",
+        "purpose": "AI-assisted learning tool for penetration testing concepts",
         "category": "Cybersecurity"
     },
     {
@@ -1202,7 +1202,7 @@
     {
         "name": "Homework is trash",
         "url": "https://www.homeworkistrash.ml/",
-        "purpose": "Web proxy and access tool",
+        "purpose": "Web access utility and proxy-style browsing tool",
         "category": "Utilities"
     },
     {
@@ -1370,7 +1370,7 @@
     {
         "name": "Creepy Link",
         "url": "https://creepylink.com/",
-        "purpose": "Make any URL look suspicious",
+        "purpose": "Preview how URLs can appear misleading or suspicious",
         "category": "Utilities"
     },
     {
@@ -1442,7 +1442,7 @@
     {
         "name": "Quenq GTA",
         "url": "https://quenq.com/apps/vice-city/",
-        "purpose": "Play GTA Vice City in browser",
+        "purpose": "Browser-based retro game experience",
         "category": "Games"
     },
     {
@@ -1478,7 +1478,7 @@
     {
         "name": "Medical certificates generator",
         "url": "https://medicalcertificategenerator.com/",
-        "purpose": "Generate fake medical certificates (not for misuse)",
+        "purpose": "Create sample medical certificate templates for demos",
         "category": "Utilities"
     },
     {
