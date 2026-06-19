@@ -26,4 +26,7 @@ Each item in `tools.json` follows this shape:
   "url": "https://example.com",
   "purpose": "Short description"
 }
-```
+
+## Disclaimer
+
+This directory is maintained as a personal collection of useful web tools and resources. Some entries are included for learning, testing, archival, awareness, or personal-reference purposes. Users are responsible for following applicable laws, platform terms, and ethical usage guidelines.
