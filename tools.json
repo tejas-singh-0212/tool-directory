@@ -1612,5 +1612,11 @@
         "url": "https://leadiq.com/",
         "purpose": "Capture sales leads, enrich contacts, and sync prospecting data",
         "category": "Automation"
+    },
+    {
+        "name": "Close CRM",
+        "url": "https://close.com/",
+        "purpose": "Manage sales outreach, calls, emails, and CRM workflows",
+        "category": "Automation"
     }
 ]
