@@ -1594,5 +1594,11 @@
         "url": "https://www.ocean.io/",
         "purpose": "Find lookalike companies and generate B2B sales leads",
         "category": "Automation"
+    },
+    {
+        "name": "Snov.io",
+        "url": "https://snov.io/",
+        "purpose": "Find leads, verify emails, and automate outreach campaigns",
+        "category": "Automation"
     }
 ]
