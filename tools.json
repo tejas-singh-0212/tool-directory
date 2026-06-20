@@ -1588,5 +1588,11 @@
         "url": "https://manus.im/",
         "purpose": "Autonomous AI agent for planning and executing complex tasks",
         "category": "AI Agents"
+    },
+    {
+        "name": "Ocean.io",
+        "url": "https://www.ocean.io/",
+        "purpose": "Find lookalike companies and generate B2B sales leads",
+        "category": "Automation"
     }
 ]
