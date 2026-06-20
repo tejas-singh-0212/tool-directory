@@ -1606,5 +1606,11 @@
         "url": "https://taplio.com/",
         "purpose": "Create, schedule, and manage LinkedIn content with AI",
         "category": "Automation"
+    },
+    {
+        "name": "LeadIQ",
+        "url": "https://leadiq.com/",
+        "purpose": "Capture sales leads, enrich contacts, and sync prospecting data",
+        "category": "Automation"
     }
 ]
