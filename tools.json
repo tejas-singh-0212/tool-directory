@@ -1600,5 +1600,11 @@
         "url": "https://snov.io/",
         "purpose": "Find leads, verify emails, and automate outreach campaigns",
         "category": "Automation"
+    },
+    {
+        "name": "Taplio",
+        "url": "https://taplio.com/",
+        "purpose": "Create, schedule, and manage LinkedIn content with AI",
+        "category": "Automation"
     }
 ]
