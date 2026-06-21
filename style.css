@@ -13,6 +13,9 @@
     --neon-pink: #f0f;
     --border-color: #0ff;
     --shadow-color: rgba(0, 255, 255, 0.4);
+    --bg-header: #000;
+    --text-muted: rgba(209, 209, 224, 0.85);
+    --cell-border: #1f1f2e;
 }
 
 /* 2. DEFINE LIGHT MODE OVERRIDES */
@@ -26,7 +29,18 @@ body.light-mode {
     --neon-cyan: #0077ff;
     --neon-pink: #9d00ff;
     --border-color: #0077ff;
-    --shadow-color: rgba(0, 119, 255, 0.2);
+    --shadow-color: rgba(0, 119, 255, 0.14);
+    --bg-header: #e8edf5;
+    --text-muted: rgba(26, 26, 46, 0.75);
+    --cell-border: #d8deea;
+}
+
+body.light-mode .site-header h1,
+body.light-mode th,
+body.light-mode a,
+body.light-mode tr:hover td,
+body.light-mode #toast {
+    text-shadow: none;
 }
 
 /* 3. GLOBAL STYLES */
@@ -75,10 +89,9 @@ body {
 .site-header p {
     max-width: 760px;
     margin: 0 auto;
-    color: var(--text-main);
+    color: var(--text-muted);
     font-size: clamp(14px, 2vw, 17px);
     line-height: 1.6;
-    opacity: 0.85;
 }
 
 /* 4. SEARCH BAR */
@@ -156,6 +169,11 @@ a:focus-visible {
     color: var(--text-main);
 }
 
+body.light-mode #categoryFilter option {
+    background: #ffffff;
+    color: #1a1a2e;
+}
+
 /* 5. TABLE STYLES */
 .table-wrap {
     width: 100%;
@@ -181,7 +199,7 @@ table {
 }
 
 th {
-    background-color: #000; /* Headers stay dark for high contrast */
+    background-color: var(--bg-header);
     color: var(--neon-pink);
     font-size: 18px;
     padding: 15px;
@@ -201,7 +219,7 @@ th {
 td {
     font-size: 16px;
     padding: 12px 15px;
-    border-bottom: 1px solid #1f1f2e;
+    border-bottom: 1px solid var(--cell-border);
     text-align: center;
 }
 
