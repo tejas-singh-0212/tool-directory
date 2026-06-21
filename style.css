@@ -43,6 +43,11 @@ body.light-mode #toast {
     text-shadow: none;
 }
 
+body.light-mode tr:hover a,
+body.light-mode tr:hover .copy-btn {
+    text-shadow: none;
+}
+
 /* 3. GLOBAL STYLES */
 body {
     font-family: 'Orbitron', sans-serif;
@@ -233,7 +238,6 @@ tr:hover {
 
 tr:hover td {
     color: var(--text-hover);
-    text-shadow: 0 0 5px var(--neon-cyan);
 }
 
 .loading-cell {
@@ -270,6 +274,17 @@ a {
 a:hover {
     color: var(--neon-pink);
     text-shadow: 0 0 10px var(--neon-pink);
+}
+
+tr:hover a {
+    color: var(--neon-pink);
+    text-shadow: 0 0 8px var(--neon-pink);
+}
+
+tr:hover .copy-btn {
+    border-color: var(--neon-pink);
+    color: var(--neon-pink);
+    box-shadow: 0 0 8px var(--shadow-color);
 }
 
 /* 7. FLOATING CONTROLS */
