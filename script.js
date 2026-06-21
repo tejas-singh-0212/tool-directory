@@ -1,4 +1,4 @@
-﻿/* script.js */
+/* script.js */
 
 let allTools = [];
 let currentCategory = 'all';
