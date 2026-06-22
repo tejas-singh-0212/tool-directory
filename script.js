@@ -6,6 +6,23 @@ let currentCategory = 'all';
 const planeSVG = `<svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="transform: translate(-1px, 1px);"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>`;
 const checkSVG = `<svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M9 16.17 4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>`;
 
+function getStoredTheme() {
+    try {
+        return localStorage.getItem('theme');
+    } catch (error) {
+        console.warn('Unable to read theme preference:', error);
+        return null;
+    }
+}
+
+function setStoredTheme(theme) {
+    try {
+        localStorage.setItem('theme', theme);
+    } catch (error) {
+        console.warn('Unable to save theme preference:', error);
+    }
+}
+
 function sortToolsByName(tools) {
     return [...tools].sort((a, b) => {
         const nameA = (a.name || '').toLowerCase();
@@ -266,13 +283,16 @@ function toggleTheme() {
     body.classList.toggle('light-mode');
 
     const isLight = body.classList.contains('light-mode');
-    localStorage.setItem('theme', isLight ? 'light' : 'dark');
+    setStoredTheme(isLight ? 'light' : 'dark');
 
-    btn.textContent = isLight ? 'DARK_MODE' : 'LIGHT_MODE';
+    if (btn) {
+        btn.textContent = isLight ? 'DARK_MODE' : 'LIGHT_MODE';
+    }
 }
 
 (function applyTheme() {
-    const savedTheme = localStorage.getItem('theme');
+    const savedTheme = getStoredTheme();
+
     if (savedTheme === 'light') {
         document.body.classList.add('light-mode');
         document.addEventListener('DOMContentLoaded', () => {
