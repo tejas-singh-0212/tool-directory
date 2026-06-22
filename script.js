@@ -283,7 +283,13 @@ function toggleTheme() {
 })();
 
 document.addEventListener('DOMContentLoaded', () => {
+    const searchInput = document.getElementById('toolSearch');
     const categoryFilter = document.getElementById('categoryFilter');
+    const themeToggle = document.querySelector('.theme-toggle');
+
+    if (searchInput) {
+        searchInput.addEventListener('input', searchTable);
+    }
 
     if (categoryFilter) {
         categoryFilter.addEventListener('change', () => {
@@ -293,6 +299,10 @@ document.addEventListener('DOMContentLoaded', () => {
             renderTableRows(filteredTools);
             updateToolCount(filteredTools.length);
         });
+    }
+
+    if (themeToggle) {
+        themeToggle.addEventListener('click', toggleTheme);
     }
 
     loadTools();
