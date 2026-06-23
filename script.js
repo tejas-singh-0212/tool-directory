@@ -154,7 +154,32 @@ function renderTableRows(tools) {
         tbody.appendChild(row);
     });
 
-    noResults.style.display = tools.length === 0 ? 'block' : 'none';
+    updateEmptyState(tools.length === 0);
+}
+
+function updateEmptyState(isEmpty) {
+    const noResults = document.getElementById('noResults');
+    const noResultsMessage = document.getElementById('noResultsMessage');
+    const searchInput = document.getElementById('toolSearch');
+
+    if (!noResults) return;
+
+    noResults.hidden = !isEmpty;
+
+    if (!isEmpty || !noResultsMessage) return;
+
+    const searchTerm = searchInput ? searchInput.value.trim() : '';
+    const selectedCategory = currentCategory !== 'all' ? currentCategory : '';
+
+    if (searchTerm && selectedCategory) {
+        noResultsMessage.textContent = `No tools found for "${searchTerm}" in ${selectedCategory}. Try clearing the search or choosing another category.`;
+    } else if (searchTerm) {
+        noResultsMessage.textContent = `No tools found for "${searchTerm}". Try a different keyword.`;
+    } else if (selectedCategory) {
+        noResultsMessage.textContent = `No tools found in ${selectedCategory}. Try another category.`;
+    } else {
+        noResultsMessage.textContent = 'Try a different search term or category.';
+    }
 }
 
 function getToolCategory(tool) {
@@ -217,7 +242,9 @@ function showLoadingState() {
         </tr>
     `;
 
-    noResults.style.display = 'none';
+    if (noResults) {
+        noResults.hidden = true;
+    }
 }
 
 async function loadTools() {
@@ -250,6 +277,11 @@ async function loadTools() {
                 </td>
             </tr>
         `;
+
+        const noResults = document.getElementById('noResults');
+        if (noResults) {
+            noResults.hidden = true;
+        }
 
         updateToolCount(0);
     }
