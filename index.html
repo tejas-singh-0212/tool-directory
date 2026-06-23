@@ -75,9 +75,13 @@
         </table>
     </div>
 
-    <p id="noResults" style="text-align:center; display:none; margin-top:20px; color:#f0f;">
-        No matching tools found.
-    </p>
+    <div id="noResults" class="empty-state" hidden>
+        <div class="empty-state-icon" aria-hidden="true">⌕</div>
+        <h2>No matching tools found</h2>
+        <p id="noResultsMessage">
+            Try a different search term or category.
+        </p>
+    </div>
 
     <script src="script.js?v=3"></script>
 
