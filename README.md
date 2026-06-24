@@ -24,8 +24,20 @@ Each item in `tools.json` follows this shape:
 {
   "name": "Tool Name",
   "url": "https://example.com",
-  "purpose": "Short description"
+  "purpose": "Short description",
+  "category": "Category Name"
 }
+
+## Validating tools.json
+
+Before committing changes to `tools.json`, run:
+
+```bash
+python3 -m json.tool tools.json > /tmp/tools.valid.json
+python3 scripts/validate-tools-json.py
+```
+
+The validation checks JSON syntax, required fields, duplicate names, duplicate URLs, URL format, and approved categories.
 
 ## Disclaimer
 

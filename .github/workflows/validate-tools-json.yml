@@ -1,0 +1,35 @@
+name: Validate tools.json
+
+on:
+  pull_request:
+    paths:
+      - "tools.json"
+      - "scripts/validate-tools-json.py"
+      - ".github/workflows/validate-tools-json.yml"
+  push:
+    branches:
+      - main
+    paths:
+      - "tools.json"
+      - "scripts/validate-tools-json.py"
+      - ".github/workflows/validate-tools-json.yml"
+  workflow_dispatch:
+
+jobs:
+  validate-tools-json:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Validate JSON syntax
+        run: python -m json.tool tools.json > /tmp/tools.valid.json
+
+      - name: Validate tool records
+        run: python scripts/validate-tools-json.py
