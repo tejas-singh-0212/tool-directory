@@ -1,6 +1,6 @@
 # Ultimate Tool Directory
 
-A searchable, cyberpunk-styled directory of AI tools, developer resources, design apps, productivity utilities, learning platforms, and useful web experiments. Fully client-side — no build step, no backend, no frameworks.
+A searchable, cyberpunk-styled directory of AI tools, developer resources, design apps, productivity utilities, learning platforms, and useful web experiments. Fully client-side: no build step, no backend, no frameworks.
 
 ## Features
 
@@ -20,7 +20,7 @@ A searchable, cyberpunk-styled directory of AI tools, developer resources, desig
 
 ```
 .
-├── index.html              # Page shell — search input, filter, table, toast
+├── index.html              # Page shell: search input, filter, table, toast
 ├── style.css               # Themes (dark/light), layout, responsive, components
 ├── script.js               # Fetch, sort, filter, render, copy, theme toggle
 ├── tools.json              # Tool catalog (~270 records)
@@ -44,10 +44,10 @@ Each entry in `tools.json` is an object with four required fields:
 }
 ```
 
-- `name` — Display name (must be unique, case-insensitive)
-- `url` — Link to the tool (must start with `http://` or `https://`)
-- `purpose` — Brief one-line description
-- `category` — Must be one of the approved categories (see below)
+- `name`: Display name (must be unique, case-insensitive)
+- `url`: Link to the tool (must start with `http://` or `https://`)
+- `purpose`: Brief one-line description
+- `category`: Must be one of the approved categories (see below)
 
 ## Approved Categories
 
@@ -66,7 +66,7 @@ Each entry in `tools.json` is an object with four required fields:
 ## Adding or Editing a Tool
 
 1. Open `tools.json` in any text editor.
-2. Add a new object to the top-level array (order does not matter — tools are sorted alphabetically at runtime).
+2. Add a new object to the top-level array (order does not matter as tools are sorted alphabetically at runtime).
 3. Ensure all four fields are present and valid (see record format above).
 4. Make sure the `name` is not already used by another tool.
 5. Make sure the `url` is not a duplicate of an existing entry.
@@ -82,7 +82,7 @@ python3 -m http.server 8000
 
 Then open http://localhost:8000 in your browser.
 
-Do **not** open `index.html` directly via `file://` — `fetch()` requires HTTP.
+Do **not** open `index.html` directly via `file://` - `fetch()` requires HTTP.
 
 ## Validating tools.json
 
@@ -115,7 +115,7 @@ The site is deployed from the `main` branch via **GitHub Pages**:
 
 1. Go to your repository **Settings > Pages**.
 2. Under "Branch", select `main` and the root `/` folder.
-3. Save — the site will be available at `https://<username>.github.io/<repo>/`.
+3. Save: the site will be available at `https://<username>.github.io/<repo>/`.
 
 Changes pushed to `main` are automatically deployed. The CI workflow (`.github/workflows/validate-tools-json.yml`) runs on every push and pull request that modifies `tools.json` to catch issues before deployment.
 
@@ -135,7 +135,7 @@ Changes pushed to `main` are automatically deployed. The CI workflow (`.github/w
 - Tool names and URLs must be unique. Run validation to catch duplicates.
 - Commits that only change `tools.json` will trigger CI. Fix any validation failures before merging.
 - When adding a new category, update the `ALLOWED_CATEGORIES` set in `scripts/validate-tools-json.py` and the approved categories table in this README.
-- The site has no build step — deploy by pushing to `main`.
+- The site has no build step: deploy by pushing to `main`.
 
 ## Disclaimer
 
