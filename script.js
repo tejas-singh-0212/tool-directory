@@ -192,15 +192,21 @@ function populateCategoryFilter(tools) {
 
     if (!categoryFilter) return;
 
-    const categories = [...new Set(tools.map(getToolCategory))]
+    const categoryCounts = {};
+    tools.forEach((tool) => {
+        const cat = getToolCategory(tool);
+        categoryCounts[cat] = (categoryCounts[cat] || 0) + 1;
+    });
+
+    const categories = Object.keys(categoryCounts)
         .sort((a, b) => a.localeCompare(b));
 
-    categoryFilter.innerHTML = '<option value="all">All categories</option>';
+    categoryFilter.innerHTML = `<option value="all">All categories (${tools.length})</option>`;
 
     categories.forEach((category) => {
         const option = document.createElement('option');
         option.value = category;
-        option.textContent = category;
+        option.textContent = `${category} (${categoryCounts[category]})`;
         categoryFilter.appendChild(option);
     });
 
