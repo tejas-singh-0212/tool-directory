@@ -26,9 +26,11 @@ A searchable, cyberpunk-styled directory of AI tools, developer resources, desig
 ├── tools.json              # Tool catalog (~270 records)
 ├── README.md               # This file
 ├── scripts/
-│   └── validate-tools-json.py   # Python validation script for CI and local use
+│   ├── validate-tools-json.py   # Python validation script for CI and local use
+│   └── check-links.py           # Link health checker
 └── .github/workflows/
-    └── validate-tools-json.yml   # GitHub Actions workflow
+    ├── validate-tools-json.yml   # GitHub Actions workflow
+    └── check-links.yml           # Link check workflow
 ```
 
 ## Tool Record Format
@@ -108,6 +110,24 @@ Expected output on success:
 ```
 tools.json validation passed. Total tools: 270
 ```
+
+## Checking Links
+
+To check whether tool URLs are reachable, run:
+
+```bash
+python3 scripts/check-links.py
+```
+
+The link checker follows redirects and treats `200-399`, `401`, `403`, and `429` as acceptable responses. This avoids marking bot-blocked or rate-limited sites as broken too aggressively.
+
+To fail with a non-zero exit code when broken links are found, run:
+
+```bash
+python3 scripts/check-links.py --strict
+```
+
+A GitHub Actions workflow is also available under **Actions > Check links**. It can be triggered manually and also runs monthly.
 
 ## GitHub Pages Deployment
 

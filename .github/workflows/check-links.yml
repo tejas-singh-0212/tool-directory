@@ -1,0 +1,36 @@
+name: Check links
+
+on:
+  workflow_dispatch:
+    inputs:
+      strict:
+        description: "Fail workflow if broken links are found"
+        required: false
+        default: "false"
+        type: choice
+        options:
+          - "false"
+          - "true"
+  schedule:
+    - cron: "0 0 1 * *"
+
+jobs:
+  check-links:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Run link checker
+        run: |
+          if [ "${{ github.event.inputs.strict }}" = "true" ]; then
+            python scripts/check-links.py --strict
+          else
+            python scripts/check-links.py
+          fi
