@@ -42,20 +42,25 @@
         </div>
     </header>
 
-    <label for="toolSearch" class="sr-only">Search tools</label>
-    <input
-        type="text"
-        id="toolSearch"
-        placeholder="Search for tools..."
-        autocomplete="off"
-    >
+    <section class="controls-panel" aria-label="Tool search and filters">
+        <label for="toolSearch" class="sr-only">Search tools</label>
+        <input
+            type="text"
+            id="toolSearch"
+            placeholder="Search for tools..."
+            autocomplete="off"
+        >
 
-    <div class="filter-bar">
-        <label for="categoryFilter" class="sr-only">Filter tools by category</label>
-        <select id="categoryFilter" aria-label="Filter tools by category">
-            <option value="all">All categories</option>
-        </select>
-    </div>
+        <div class="filter-bar">
+            <label for="categoryFilter" class="sr-only">Filter tools by category</label>
+            <select id="categoryFilter" aria-label="Filter tools by category">
+                <option value="all">All categories</option>
+            </select>
+            <button id="clearFilters" type="button" class="clear-btn" hidden>
+                Clear
+            </button>
+        </div>
+    </section>
     
     <div class="table-wrap" tabindex="0" aria-label="Scrollable tools table">
         <table id="myTable">
