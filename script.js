@@ -232,10 +232,33 @@ function getFilteredTools() {
     });
 }
 
+function updateClearButton() {
+    const searchInput = document.getElementById('toolSearch');
+    const clearBtn = document.getElementById('clearFilters');
+    if (!clearBtn) return;
+    const hasSearch = searchInput && searchInput.value.trim().length > 0;
+    const hasCategory = currentCategory !== 'all';
+    clearBtn.hidden = !(hasSearch || hasCategory);
+}
+
+function clearFilters() {
+    const searchInput = document.getElementById('toolSearch');
+    const categoryFilter = document.getElementById('categoryFilter');
+    if (searchInput) searchInput.value = '';
+    currentCategory = 'all';
+    if (categoryFilter) categoryFilter.value = 'all';
+    const filteredTools = getFilteredTools();
+    renderTableRows(filteredTools);
+    updateToolCount(filteredTools.length);
+    updateClearButton();
+    searchInput.focus();
+}
+
 function searchTable() {
     const filteredTools = getFilteredTools();
     renderTableRows(filteredTools);
     updateToolCount(filteredTools.length);
+    updateClearButton();
 }
 
 function showLoadingState() {
@@ -356,11 +379,17 @@ document.addEventListener('DOMContentLoaded', () => {
             const filteredTools = getFilteredTools();
             renderTableRows(filteredTools);
             updateToolCount(filteredTools.length);
+            updateClearButton();
         });
     }
 
     if (themeToggle) {
         themeToggle.addEventListener('click', toggleTheme);
+    }
+
+    const clearBtn = document.getElementById('clearFilters');
+    if (clearBtn) {
+        clearBtn.addEventListener('click', clearFilters);
     }
 
     loadTools();

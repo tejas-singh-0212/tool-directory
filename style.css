@@ -12,27 +12,31 @@
     --neon-cyan: #0ff;
     --neon-pink: #f0f;
     --border-color: #0ff;
-    --shadow-color: rgba(0, 255, 255, 0.4);
+    --shadow-color: rgba(0, 255, 255, 0.25);
     --bg-header: #000;
-    --text-muted: rgba(209, 209, 224, 0.85);
+    --text-muted: rgba(209, 209, 224, 0.8);
     --cell-border: #1f1f2e;
+    --panel-bg: rgba(15, 15, 19, 0.85);
+    --glow-subtle: rgba(0, 255, 255, 0.12);
 }
 
 /* 2. DEFINE LIGHT MODE OVERRIDES */
 body.light-mode {
     --bg-body: #f0f2f5;
     --bg-table: #ffffff;
-    --bg-row-even: #f9f9fb;
-    --bg-hover: #e0e6ed;
+    --bg-row-even: #f5f6fa;
+    --bg-hover: #e4e9f2;
     --text-main: #1a1a2e;
     --text-hover: #000;
-    --neon-cyan: #0077ff;
-    --neon-pink: #9d00ff;
-    --border-color: #0077ff;
-    --shadow-color: rgba(0, 119, 255, 0.14);
+    --neon-cyan: #0066cc;
+    --neon-pink: #8b00cc;
+    --border-color: #0066cc;
+    --shadow-color: rgba(0, 102, 204, 0.1);
     --bg-header: #e8edf5;
-    --text-muted: rgba(26, 26, 46, 0.75);
+    --text-muted: rgba(26, 26, 46, 0.7);
     --cell-border: #d8deea;
+    --panel-bg: rgba(255, 255, 255, 0.9);
+    --glow-subtle: rgba(0, 102, 204, 0.06);
 }
 
 body.light-mode .site-header h1,
@@ -43,20 +47,34 @@ body.light-mode #toast {
     text-shadow: none;
 }
 
-body.light-mode tr:hover a,
-body.light-mode tr:hover .copy-btn {
+body.light-mode tr:hover a {
     text-shadow: none;
 }
 
 body.light-mode .site-header {
     background:
-        radial-gradient(circle at top left, rgba(0, 119, 255, 0.10), transparent 32%),
-        radial-gradient(circle at bottom right, rgba(157, 0, 255, 0.10), transparent 32%),
+        radial-gradient(circle at top left, rgba(0, 102, 204, 0.08), transparent 32%),
+        radial-gradient(circle at bottom right, rgba(139, 0, 204, 0.08), transparent 32%),
         var(--bg-table);
 }
 
 body.light-mode .header-badges span {
-    background: rgba(0, 119, 255, 0.06);
+    background: rgba(0, 102, 204, 0.05);
+}
+
+body.light-mode .controls-panel {
+    background: var(--panel-bg);
+}
+
+body.light-mode .clear-btn {
+    border-color: var(--text-muted);
+    color: var(--text-muted);
+}
+
+body.light-mode .clear-btn:hover,
+body.light-mode .clear-btn:focus-visible {
+    border-color: var(--neon-pink);
+    color: var(--neon-pink);
 }
 
 /* 3. GLOBAL STYLES */
@@ -71,7 +89,7 @@ body {
     background-color: var(--bg-body);
     color: var(--text-main);
     margin: 0;
-    padding: 20px 20px 90px;
+    padding: 20px 20px 100px;
     transition: background-color 0.3s, color 0.3s;
 }
 
@@ -95,41 +113,41 @@ body {
 /* 3.1 SITE HEADER */
 .site-header {
     max-width: 1200px;
-    margin: 20px auto 30px;
-    padding: 28px 20px;
+    margin: 20px auto 28px;
+    padding: 32px 24px;
     text-align: center;
     background:
-        radial-gradient(circle at top left, rgba(0, 255, 255, 0.12), transparent 32%),
-        radial-gradient(circle at bottom right, rgba(255, 0, 255, 0.12), transparent 32%),
+        radial-gradient(circle at top left, rgba(0, 255, 255, 0.1), transparent 32%),
+        radial-gradient(circle at bottom right, rgba(255, 0, 255, 0.1), transparent 32%),
         var(--bg-table);
-    border: 2px solid var(--border-color);
+    border: 1px solid var(--border-color);
     border-radius: 16px;
-    box-shadow: 0 0 20px var(--shadow-color);
+    box-shadow: 0 0 15px var(--shadow-color);
 }
 
 .eyebrow {
     margin: 0 0 10px;
     color: var(--neon-pink);
-    font-size: 12px;
+    font-size: 11px;
     font-weight: bold;
-    letter-spacing: 3px;
+    letter-spacing: 4px;
     text-transform: uppercase;
 }
 
 .site-header h1 {
     margin: 0 0 12px;
     color: var(--neon-cyan);
-    font-size: clamp(30px, 6vw, 58px);
+    font-size: clamp(28px, 5vw, 52px);
     letter-spacing: 3px;
     text-transform: uppercase;
-    text-shadow: 0 0 12px var(--shadow-color);
+    text-shadow: 0 0 8px var(--shadow-color);
 }
 
 .site-tagline {
-    max-width: 820px;
+    max-width: 780px;
     margin: 0 auto;
     color: var(--text-muted);
-    font-size: clamp(14px, 2vw, 17px);
+    font-size: clamp(13px, 1.8vw, 16px);
     line-height: 1.7;
 }
 
@@ -142,38 +160,54 @@ body {
 }
 
 .header-badges span {
-    padding: 7px 10px;
+    padding: 6px 12px;
     color: var(--neon-cyan);
-    background: rgba(0, 255, 255, 0.06);
-    border: 1px solid var(--neon-cyan);
+    background: var(--glow-subtle);
+    border: 1px solid rgba(0, 255, 255, 0.2);
     border-radius: 999px;
-    font-size: 11px;
+    font-size: 10px;
     font-weight: bold;
-    letter-spacing: 1px;
+    letter-spacing: 1.5px;
     text-transform: uppercase;
-    box-shadow: 0 0 8px var(--shadow-color);
+    box-shadow: 0 0 5px var(--shadow-color);
 }
 
-/* 4. SEARCH BAR */
+body.light-mode .header-badges span {
+    border-color: rgba(0, 102, 204, 0.15);
+}
+
+/* 4. CONTROLS PANEL */
+.controls-panel {
+    max-width: 1200px;
+    margin: 0 auto 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    background: var(--panel-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 0 12px var(--shadow-color);
+}
+
+/* SEARCH BAR */
 #toolSearch {
     display: block;
     width: 100%;
-    max-width: 1200px;
-    margin: 0 auto 20px;
-    padding: 15px;
-    background: var(--bg-table);
-    border: 2px solid var(--neon-cyan);
-    color: var(--text-main);
-    font-family: 'Orbitron';
+    padding: 14px 16px;
+    background: var(--bg-body);
+    border: 1px solid var(--neon-cyan);
     border-radius: 8px;
+    color: var(--text-main);
+    font-family: 'Orbitron', sans-serif;
+    font-size: 15px;
     outline: none;
-    box-shadow: 0 0 10px var(--shadow-color);
-    transition: 0.3s;
+    transition: border-color 0.2s, box-shadow 0.2s;
 }
 
 #toolSearch:focus {
-    box-shadow: 0 0 20px var(--shadow-color);
     border-color: var(--neon-pink);
+    box-shadow: 0 0 8px var(--shadow-color);
 }
 
 #toolSearch:focus-visible {
@@ -181,47 +215,38 @@ body {
     outline-offset: 4px;
 }
 
-a:focus-visible,
-.copy-btn:focus-visible,
-.theme-toggle:focus-visible {
-    outline: 3px solid var(--neon-pink);
-    outline-offset: 4px;
+#toolSearch::placeholder {
+    color: var(--text-muted);
+    opacity: 0.6;
 }
 
-a:focus-visible {
-    color: var(--neon-pink);
-    text-shadow: 0 0 10px var(--neon-pink);
-}
-
-/* CATEGORY FILTER */
+/* FILTER BAR */
 .filter-bar {
-    width: 100%;
-    max-width: 1200px;
-    margin: -8px auto 20px;
     display: flex;
-    justify-content: center;
+    gap: 10px;
+    align-items: center;
 }
 
 #categoryFilter {
-    width: 100%;
-    max-width: 360px;
-    padding: 12px 14px;
-    background: var(--bg-table);
-    border: 2px solid var(--neon-cyan);
+    flex: 1;
+    max-width: 320px;
+    padding: 10px 12px;
+    background: var(--bg-body);
+    border: 1px solid var(--neon-cyan);
+    border-radius: 8px;
     color: var(--text-main);
     font-family: 'Orbitron', sans-serif;
     font-weight: bold;
-    border-radius: 8px;
+    font-size: 12px;
     outline: none;
-    box-shadow: 0 0 10px var(--shadow-color);
     cursor: pointer;
-    transition: 0.3s;
+    transition: border-color 0.2s, box-shadow 0.2s;
 }
 
 #categoryFilter:hover,
 #categoryFilter:focus {
     border-color: var(--neon-pink);
-    box-shadow: 0 0 20px var(--shadow-color);
+    box-shadow: 0 0 6px var(--shadow-color);
 }
 
 #categoryFilter option {
@@ -234,14 +259,44 @@ body.light-mode #categoryFilter option {
     color: #1a1a2e;
 }
 
+/* CLEAR BUTTON */
+.clear-btn {
+    padding: 10px 16px;
+    background: transparent;
+    border: 1px solid var(--neon-cyan);
+    border-radius: 8px;
+    color: var(--neon-cyan);
+    font-family: 'Orbitron', sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: border-color 0.2s, color 0.2s, box-shadow 0.2s;
+}
+
+.clear-btn:hover {
+    border-color: var(--neon-pink);
+    color: var(--neon-pink);
+    box-shadow: 0 0 6px var(--shadow-color);
+}
+
+.clear-btn:focus-visible {
+    outline: 3px solid var(--neon-pink);
+    outline-offset: 3px;
+}
+
+.clear-btn[hidden] {
+    display: none;
+}
+
 /* 5. TABLE STYLES */
 .table-wrap {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
     overflow-x: auto;
-    border-radius: 8px;
-    box-shadow: 0 0 20px var(--shadow-color);
+    border-radius: 10px;
+    box-shadow: 0 0 12px var(--shadow-color);
 }
 
 .table-wrap:focus-visible {
@@ -254,33 +309,37 @@ table {
     width: 100%;
     min-width: 720px;
     background-color: var(--bg-table);
-    border: 2px solid var(--border-color);
+    border: 1px solid var(--border-color);
     table-layout: fixed;
 }
 
 th {
     background-color: var(--bg-header);
     color: var(--neon-pink);
-    font-size: 18px;
-    padding: 15px;
+    font-size: 14px;
+    padding: 14px 18px;
     position: sticky;
     top: 0;
     z-index: 10;
     border-bottom: 2px solid var(--neon-pink);
     text-transform: uppercase;
     letter-spacing: 2px;
-    text-shadow: 0 0 8px var(--neon-pink);
+    text-shadow: 0 0 5px rgba(255, 0, 255, 0.4);
 }
 
 .copy-col {
-    width: 80px; /* Exact size to snugly fit the copy button */
+    width: 72px;
 }
 
 td {
-    font-size: 16px;
-    padding: 12px 15px;
+    font-size: 14px;
+    padding: 14px 18px;
     border-bottom: 1px solid var(--cell-border);
     text-align: center;
+}
+
+td:nth-child(2) {
+    text-align: left;
 }
 
 tr:nth-child(even) {
@@ -296,20 +355,19 @@ tr:hover td {
 }
 
 .loading-cell {
-    padding: 24px;
+    padding: 40px 24px;
     color: var(--neon-cyan);
     text-align: center;
     font-weight: bold;
     letter-spacing: 2px;
-    text-shadow: 0 0 8px var(--neon-cyan);
+    text-shadow: 0 0 5px var(--neon-cyan);
     animation: pulseLoading 1.2s ease-in-out infinite;
 }
 
 @keyframes pulseLoading {
     0%, 100% {
-        opacity: 0.45;
+        opacity: 0.4;
     }
-
     50% {
         opacity: 1;
     }
@@ -317,16 +375,16 @@ tr:hover td {
 
 /* 6. EMPTY STATE */
 .empty-state {
-    max-width: 720px;
-    margin: 24px auto 0;
-    padding: 28px 20px;
+    max-width: 620px;
+    margin: 32px auto 0;
+    padding: 32px 24px;
     text-align: center;
     background:
-        radial-gradient(circle at top, rgba(255, 0, 255, 0.10), transparent 34%),
+        radial-gradient(circle at top, rgba(255, 0, 255, 0.08), transparent 34%),
         var(--bg-table);
-    border: 2px solid var(--neon-pink);
+    border: 1px solid var(--neon-pink);
     border-radius: 14px;
-    box-shadow: 0 0 18px var(--shadow-color);
+    box-shadow: 0 0 12px rgba(255, 0, 255, 0.15);
 }
 
 .empty-state[hidden] {
@@ -342,24 +400,24 @@ tr:hover td {
     color: var(--neon-pink);
     border: 2px solid var(--neon-pink);
     border-radius: 50%;
-    font-size: 30px;
+    font-size: 28px;
     line-height: 1;
-    box-shadow: 0 0 12px var(--shadow-color);
 }
 
 .empty-state h2 {
     margin: 0 0 10px;
     color: var(--neon-pink);
-    font-size: clamp(18px, 3vw, 24px);
+    font-size: clamp(17px, 2.5vw, 22px);
     text-transform: uppercase;
     letter-spacing: 2px;
 }
 
 .empty-state p {
-    max-width: 560px;
+    max-width: 500px;
     margin: 0 auto;
     color: var(--text-muted);
     line-height: 1.6;
+    font-size: 14px;
 }
 
 body.light-mode .empty-state,
@@ -370,7 +428,7 @@ body.light-mode .empty-state-icon {
 
 body.light-mode .empty-state {
     background:
-        radial-gradient(circle at top, rgba(157, 0, 255, 0.08), transparent 34%),
+        radial-gradient(circle at top, rgba(139, 0, 204, 0.06), transparent 34%),
         var(--bg-table);
 }
 
@@ -382,30 +440,33 @@ a {
     color: var(--neon-cyan);
     text-decoration: none;
     font-weight: bold;
-    text-shadow: 0 0 5px var(--shadow-color);
+    font-size: 14px;
 }
 
 a:hover {
     color: var(--neon-pink);
-    text-shadow: 0 0 10px var(--neon-pink);
 }
 
 tr:hover a {
     color: var(--neon-pink);
-    text-shadow: 0 0 8px var(--neon-pink);
+}
+
+a:focus-visible {
+    color: var(--neon-pink);
+    outline: 3px solid var(--neon-pink);
+    outline-offset: 3px;
 }
 
 tr:hover .copy-btn {
     border-color: var(--neon-pink);
     color: var(--neon-pink);
-    box-shadow: 0 0 8px var(--shadow-color);
 }
 
 /* 8. FLOATING CONTROLS */
 .floating-controls {
     position: fixed;
-    right: 20px;
-    bottom: 20px;
+    right: 24px;
+    bottom: 24px;
     display: flex;
     align-items: center;
     gap: 10px;
@@ -414,15 +475,18 @@ tr:hover .copy-btn {
 
 .theme-toggle,
 .tool-counter {
-    padding: 12px;
-    background: var(--bg-table);
-    border: 2px solid var(--neon-cyan);
+    padding: 10px 14px;
+    background: var(--panel-bg);
+    border: 1px solid var(--neon-cyan);
     color: var(--neon-cyan);
-    font-family: 'Orbitron';
+    font-family: 'Orbitron', sans-serif;
     font-weight: bold;
-    border-radius: 5px;
-    box-shadow: 0 0 10px var(--shadow-color);
-    transition: 0.3s;
+    font-size: 12px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px var(--shadow-color);
+    backdrop-filter: blur(4px);
+    transition: border-color 0.2s, color 0.2s, transform 0.2s;
+    -webkit-backdrop-filter: blur(4px);
 }
 
 .theme-toggle {
@@ -435,8 +499,7 @@ tr:hover .copy-btn {
     white-space: nowrap;
 }
 
-.theme-toggle:hover,
-.tool-counter:hover {
+.theme-toggle:hover {
     border-color: var(--neon-pink);
     color: var(--neon-pink);
     transform: scale(1.05);
@@ -445,22 +508,23 @@ tr:hover .copy-btn {
 /* 9. COPY BUTTON */
 .copy-btn {
     background: transparent;
-    border: 1px solid var(--neon-cyan);
+    border: 1px solid var(--border-color);
     color: var(--neon-cyan);
-    width: 40px;
-    height: 40px;
+    width: 38px;
+    height: 38px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
     padding: 0;
     cursor: pointer;
-    border-radius: 50%;
-    transition: 0.3s;
+    border-radius: 8px;
+    transition: border-color 0.2s, color 0.2s, background 0.2s;
 }
 
 .copy-btn:hover {
     border-color: var(--neon-pink);
     color: var(--neon-pink);
+    background: rgba(255, 0, 255, 0.06);
 }
 
 .copy-btn:focus-visible {
@@ -472,21 +536,22 @@ tr:hover .copy-btn {
 #toast {
     position: fixed;
     bottom: 80px;
-    right: 20px;
-    background: var(--bg-table);
+    right: 24px;
+    background: var(--panel-bg);
     color: var(--neon-cyan);
-    border: 2px solid var(--neon-cyan);
+    border: 1px solid var(--neon-cyan);
     padding: 12px 20px;
     border-radius: 8px;
-    font-family: 'Orbitron';
-    font-size: 13px;
-    box-shadow: 0 0 15px var(--shadow-color);
+    font-family: 'Orbitron', sans-serif;
+    font-size: 12px;
+    box-shadow: 0 0 12px var(--shadow-color);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
     opacity: 0;
     transform: translateY(10px);
-    transition: opacity 0.3s, transform 0.3s;
+    transition: opacity 0.25s, transform 0.25s;
     pointer-events: none;
     z-index: 1100;
-    text-shadow: 0 0 5px var(--neon-cyan);
 }
 
 #toast.show {
@@ -497,29 +562,186 @@ tr:hover .copy-btn {
 #toast.error {
     color: #ff4d6d;
     border-color: #ff4d6d;
-    text-shadow: 0 0 5px #ff4d6d;
-    box-shadow: 0 0 15px rgba(255, 77, 109, 0.4);
+    box-shadow: 0 0 12px rgba(255, 77, 109, 0.3);
 }
 
 /* 11. MOBILE RESPONSIVENESS */
-@media screen and (max-width: 600px) {
-    td, th {
+
+/* Tablet adjustments */
+@media screen and (max-width: 768px) {
+    body {
+        padding: 14px 14px 100px;
+    }
+
+    .site-header {
+        padding: 24px 18px;
+        border-radius: 14px;
+    }
+
+    .controls-panel {
+        padding: 16px;
+        border-radius: 10px;
+    }
+
+    #categoryFilter {
+        max-width: none;
+    }
+
+    th {
+        font-size: 12px;
+        padding: 12px 14px;
+    }
+
+    td {
         font-size: 13px;
-        padding: 8px 10px;
+        padding: 12px 14px;
     }
-    .copy-col {
-        width: 65px; /* Scaled down for mobile font sizes */
+}
+
+/* Small mobile: card layout */
+@media screen and (max-width: 640px) {
+    body {
+        padding: 12px 12px 110px;
     }
-    #toast {
-        bottom: 140px;
-        font-size: 11px;
-        padding: 10px 16px;
-        transition: opacity 0.3s, transform 0.3s;
+
+    .site-header {
+        margin: 12px auto 20px;
+        padding: 20px 14px;
+        border-radius: 12px;
     }
+
+    .eyebrow {
+        font-size: 10px;
+        letter-spacing: 3px;
+    }
+
+    .header-badges {
+        gap: 6px;
+    }
+
+    .header-badges span {
+        font-size: 9px;
+        padding: 5px 9px;
+    }
+
+    .controls-panel {
+        padding: 14px;
+        gap: 12px;
+        border-radius: 10px;
+    }
+
     #toolSearch {
-        padding: 10px;
+        padding: 12px 14px;
         font-size: 14px;
     }
+
+    .filter-bar {
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+
+    #categoryFilter {
+        min-width: 0;
+        flex: 1 1 auto;
+        font-size: 11px;
+        padding: 9px 10px;
+    }
+
+    .clear-btn {
+        font-size: 10px;
+        padding: 9px 12px;
+    }
+
+    /* Table → Card layout */
+    .table-wrap {
+        overflow-x: visible;
+        border-radius: 10px;
+    }
+
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+
+    table {
+        min-width: 0;
+        border: none;
+        background: transparent;
+    }
+
+    thead {
+        display: none;
+    }
+
+    #myTable tbody {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    #myTable tbody tr {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        background: var(--bg-table);
+        border: 1px solid var(--border-color);
+        border-radius: 10px;
+        padding: 14px 16px;
+        margin: 0;
+        box-shadow: 0 0 8px var(--shadow-color);
+        transition: border-color 0.2s;
+    }
+
+    #myTable tbody tr:hover {
+        border-color: var(--neon-pink);
+        background: var(--bg-table);
+    }
+
+    #myTable tbody tr:hover td {
+        color: var(--text-main);
+    }
+
+    #myTable tbody td {
+        border: none;
+        padding: 4px 0;
+        text-align: left;
+    }
+
+    /* Name cell */
+    #myTable tbody td:first-child {
+        flex: 1 1 auto;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    #myTable tbody td:first-child a {
+        display: inline;
+        padding: 0;
+        margin: 0;
+        font-size: 15px;
+    }
+
+    /* Purpose cell */
+    #myTable tbody td:nth-child(2) {
+        flex: 0 0 100%;
+        font-size: 12px;
+        color: var(--text-muted);
+        padding-top: 6px;
+        padding-bottom: 6px;
+        text-align: left;
+    }
+
+    /* Copy cell */
+    #myTable tbody td:last-child {
+        flex: 0 0 auto;
+        padding-left: 8px;
+    }
+
+    .copy-btn {
+        width: 36px;
+        height: 36px;
+    }
+
+    /* Floating controls */
     .floating-controls {
         right: 10px;
         bottom: 10px;
@@ -528,67 +750,53 @@ tr:hover .copy-btn {
 
     .theme-toggle,
     .tool-counter {
-        padding: 10px;
+        padding: 8px 12px;
+        font-size: 10px;
+    }
+
+    /* Toast */
+    #toast {
+        bottom: 70px;
+        right: 12px;
         font-size: 11px;
-    }
-    
-    body {
-        padding: 14px 12px 110px;
+        padding: 10px 16px;
     }
 
-    table {
-        min-width: 680px;
-    }
-
-    .table-wrap {
-        border-radius: 6px;
-    }
-
-    .site-header {
-        margin-top: 12px;
-        padding: 22px 14px;
-        border-radius: 12px;
-    }
-
-    .eyebrow {
-        font-size: 10px;
-        letter-spacing: 2px;
-    }
-
-    .header-badges {
-        gap: 8px;
-    }
-
-    .header-badges span {
-        font-size: 10px;
-        padding: 6px 8px;
-    }
-
+    /* Empty state */
     .empty-state {
-        margin-top: 18px;
-        padding: 22px 14px;
+        margin-top: 20px;
+        padding: 24px 18px;
         border-radius: 12px;
     }
 
     .empty-state-icon {
         width: 46px;
         height: 46px;
-        font-size: 25px;
+        font-size: 24px;
+    }
+
+    .empty-state h2 {
+        font-size: 16px;
+    }
+
+    .empty-state p {
+        font-size: 13px;
     }
 }
 
+/* 12. ERROR STATE */
 .error-cell {
-    padding: 24px;
+    padding: 40px 24px;
     color: var(--neon-pink);
     text-align: center;
-    line-height: 1.6;
+    line-height: 1.7;
     font-weight: bold;
-    text-shadow: 0 0 8px var(--neon-pink);
+    font-size: 14px;
 }
 
 .error-cell code {
     color: var(--neon-cyan);
     background: rgba(0, 255, 255, 0.08);
-    padding: 2px 5px;
+    padding: 2px 6px;
     border-radius: 4px;
 }
