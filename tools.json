@@ -1672,5 +1672,11 @@
         "url": "https://logosystem.co/",
         "purpose": "Browse 1,200+ curated logos and animated logos for inspiration",
         "category": "Design"
+    },
+    {
+        "name": "PaperAnimator",
+        "url": "https://paperanimator.com/",
+        "purpose": "Turn photos into paper cut-out graphics and fold-out animations",
+        "category": "Image Editing"
     }
 ]
