@@ -1678,5 +1678,11 @@
         "url": "https://paperanimator.com/",
         "purpose": "Turn photos into paper cut-out graphics and fold-out animations",
         "category": "Image Editing"
+    },
+    {
+        "name": "Calligraphr",
+        "url": "https://www.calligraphr.com/",
+        "purpose": "Create fonts from your own handwriting or calligraphy",
+        "category": "Design"
     }
 ]
