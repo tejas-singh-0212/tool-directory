@@ -1642,5 +1642,11 @@
         "url": "https://gitingest.com/",
         "purpose": "Convert any GitHub repo into LLM-ready text digests",
         "category": "Developer Tools"
+    },
+    {
+        "name": "Rork",
+        "url": "https://rork.com/",
+        "purpose": "Build native mobile apps from text prompts with AI",
+        "category": "Web Builder"
     }
 ]
