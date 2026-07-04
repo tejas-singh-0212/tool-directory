@@ -1684,5 +1684,11 @@
         "url": "https://www.calligraphr.com/",
         "purpose": "Create fonts from your own handwriting or calligraphy",
         "category": "Design"
+    },
+    {
+        "name": "CleanPNG",
+        "url": "https://www.cleanpng.com/",
+        "purpose": "Download free transparent PNG images and cliparts",
+        "category": "Design"
     }
 ]
