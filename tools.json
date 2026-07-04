@@ -1654,5 +1654,11 @@
         "url": "https://viralcast.app/",
         "purpose": "Generate and auto-post faceless short videos with AI",
         "category": "Video"
+    },
+    {
+        "name": "Can You Run It",
+        "url": "https://www.systemrequirementslab.com/cyri",
+        "purpose": "Check if your PC meets the system requirements for a game",
+        "category": "Games"
     }
 ]
