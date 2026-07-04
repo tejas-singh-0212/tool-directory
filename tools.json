@@ -1660,5 +1660,11 @@
         "url": "https://www.systemrequirementslab.com/cyri",
         "purpose": "Check if your PC meets the system requirements for a game",
         "category": "Games"
+    },
+    {
+        "name": "ZXZ (heyzxz)",
+        "url": "http://www.heyzxz.me/",
+        "purpose": "Interactive web-based 3D graphics and animation experiments",
+        "category": "Other"
     }
 ]
