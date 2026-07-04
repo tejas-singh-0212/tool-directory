@@ -1636,5 +1636,11 @@
         "url": "https://gitmcp.io/",
         "purpose": "Turn any GitHub repo into an MCP server for AI assistants",
         "category": "Developer Tools"
+    },
+    {
+        "name": "Gitingest",
+        "url": "https://gitingest.com/",
+        "purpose": "Convert any GitHub repo into LLM-ready text digests",
+        "category": "Developer Tools"
     }
 ]
