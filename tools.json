@@ -1666,5 +1666,11 @@
         "url": "http://www.heyzxz.me/",
         "purpose": "Interactive web-based 3D graphics and animation experiments",
         "category": "Other"
+    },
+    {
+        "name": "Logosystem",
+        "url": "https://logosystem.co/",
+        "purpose": "Browse 1,200+ curated logos and animated logos for inspiration",
+        "category": "Design"
     }
 ]
