@@ -1618,5 +1618,11 @@
         "url": "https://close.com/",
         "purpose": "Manage sales outreach, calls, emails, and CRM workflows",
         "category": "Automation"
+    },
+    {
+        "name": "LeetHub v2",
+        "url": "https://chromewebstore.google.com/detail/leethub-v2/mhanfgfagplhgemhjfeolkkdidbakocm",
+        "purpose": "Chrome extension that auto-pushes accepted LeetCode solutions to GitHub",
+        "category": "Coding Practice"
     }
 ]
