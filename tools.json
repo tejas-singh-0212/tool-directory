@@ -1648,5 +1648,11 @@
         "url": "https://rork.com/",
         "purpose": "Build native mobile apps from text prompts with AI",
         "category": "Web Builder"
+    },
+    {
+        "name": "ViralCast",
+        "url": "https://viralcast.app/",
+        "purpose": "Generate and auto-post faceless short videos with AI",
+        "category": "Video"
     }
 ]
