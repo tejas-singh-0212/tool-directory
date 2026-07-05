@@ -1690,5 +1690,11 @@
         "url": "https://www.cleanpng.com/",
         "purpose": "Download free transparent PNG images and cliparts",
         "category": "Design"
+    },
+    {
+        "name": "Careerflow",
+        "url": "https://www.careerflow.ai/",
+        "purpose": "AI job search copilot with LinkedIn optimization and tracking",
+        "category": "Jobs & Career"
     }
 ]
