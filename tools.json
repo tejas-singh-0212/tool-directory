@@ -1696,5 +1696,11 @@
         "url": "https://www.careerflow.ai/",
         "purpose": "AI job search copilot with LinkedIn optimization and tracking",
         "category": "Jobs & Career"
+    },
+    {
+        "name": "LockedIn AI",
+        "url": "https://lockedinai.com/",
+        "purpose": "Real-time AI copilot for job interviews and online meetings",
+        "category": "Jobs & Career"
     }
 ]
