@@ -1702,5 +1702,11 @@
         "url": "https://lockedinai.com/",
         "purpose": "Real-time AI copilot for job interviews and online meetings",
         "category": "Jobs & Career"
+    },
+    {
+        "name": "Teal",
+        "url": "https://www.tealhq.com/",
+        "purpose": "AI resume builder with job application tracker",
+        "category": "Jobs & Career"
     }
 ]
