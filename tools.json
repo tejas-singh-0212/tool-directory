@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "Jobright",
+        "url": "https://jobright.ai/",
+        "purpose": "AI job search agent with matched jobs and tailored resumes",
+        "category": "Jobs & Career"
+    },
+    {
         "name": "Intangible",
         "url": "https://intangible.ai",
         "purpose": "3D videos",
