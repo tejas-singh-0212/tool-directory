@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "React Bits",
+        "url": "https://reactbits.dev/",
+        "purpose": "Animated React components for building stunning websites",
+        "category": "Developer Tools"
+    },
+    {
         "name": "Jobright",
         "url": "https://jobright.ai/",
         "purpose": "AI job search agent with matched jobs and tailored resumes",
