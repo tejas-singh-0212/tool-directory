@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "YesChat",
+        "url": "https://www.yeschat.ai/",
+        "purpose": "Access GPT-4o, Claude and other AI models without login",
+        "category": "AI Chat"
+    },
+    {
         "name": "Exercism",
         "url": "https://exercism.org/",
         "purpose": "Free coding exercises with mentoring in 65+ languages",
