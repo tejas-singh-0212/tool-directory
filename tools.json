@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "Exercism",
+        "url": "https://exercism.org/",
+        "purpose": "Free coding exercises with mentoring in 65+ languages",
+        "category": "Coding Practice"
+    },
+    {
         "name": "trace.moe",
         "url": "https://trace.moe/",
         "purpose": "Find the anime title and episode from a screenshot",
