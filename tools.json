@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "Alison",
+        "url": "https://alison.com/",
+        "purpose": "Free online courses with certificates across many fields",
+        "category": "Learning"
+    },
+    {
         "name": "YesChat",
         "url": "https://www.yeschat.ai/",
         "purpose": "Access GPT-4o, Claude and other AI models without login",
