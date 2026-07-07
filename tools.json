@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "Rewritify",
+        "url": "https://rewritify.ai/",
+        "purpose": "Humanize AI text to bypass AI detectors undetected",
+        "category": "AI Writing"
+    },
+    {
         "name": "10 Minute Mail",
         "url": "https://10minutemail.com/",
         "purpose": "Self-destructing temporary email inbox that lasts 10 minutes",
