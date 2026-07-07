@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "VULK",
+        "url": "https://vulk.dev/",
+        "purpose": "Build and deploy full-stack apps from prompts with AI",
+        "category": "Web Builder"
+    },
+    {
         "name": "Rewritify",
         "url": "https://rewritify.ai/",
         "purpose": "Humanize AI text to bypass AI detectors undetected",
