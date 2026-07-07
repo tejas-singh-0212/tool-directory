@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "Mail Wave",
+        "url": "https://mailwave.dev/",
+        "purpose": "Free temporary email addresses to avoid spam and protect privacy",
+        "category": "Utilities"
+    },
+    {
         "name": "TwainGPT",
         "url": "https://www.twaingpt.com/",
         "purpose": "AI humanizer and detector for AI-generated text",
