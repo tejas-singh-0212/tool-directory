@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "10 Minute Mail",
+        "url": "https://10minutemail.com/",
+        "purpose": "Self-destructing temporary email inbox that lasts 10 minutes",
+        "category": "Utilities"
+    },
+    {
         "name": "Mail Wave",
         "url": "https://mailwave.dev/",
         "purpose": "Free temporary email addresses to avoid spam and protect privacy",
