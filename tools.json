@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "Genspark",
+        "url": "https://www.genspark.ai/",
+        "purpose": "AI super agent for research, slides, sheets and calls",
+        "category": "AI Agents"
+    },
+    {
         "name": "Grow with Google",
         "url": "https://grow.google/",
         "purpose": "Free Google courses and career certificates in digital skills",
