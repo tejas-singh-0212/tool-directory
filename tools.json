@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "10x",
+        "url": "https://www.10x.app/",
+        "purpose": "Build native iOS apps with AI and ship to the App Store",
+        "category": "Web Builder"
+    },
+    {
         "name": "VULK",
         "url": "https://vulk.dev/",
         "purpose": "Build and deploy full-stack apps from prompts with AI",
