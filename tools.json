@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "InfinityFree",
+        "url": "https://www.infinityfree.com/",
+        "purpose": "Free unlimited web hosting with PHP and MySQL support",
+        "category": "Developer Tools"
+    },
+    {
         "name": "10x",
         "url": "https://www.10x.app/",
         "purpose": "Build native iOS apps with AI and ship to the App Store",
