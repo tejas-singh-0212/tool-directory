@@ -5,7 +5,13 @@
         "purpose": "3D Human Visualization",
         "category": "3D & CAD"
     },
-        {
+    {
+        "name": "Driver.js",
+        "url": "https://driverjs.com/",
+        "purpose": "Lightweight JavaScript library for product tours and onboarding",
+        "category": "Developer Tools"
+    },
+    {
         "name": "Atropos",
         "url": "https://atroposjs.com/",
         "purpose": "JavaScript library for touch-friendly 3D parallax hover effects",
