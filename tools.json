@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "Animmaster Lib",
+        "url": "https://animmasterlib.dev/",
+        "purpose": "300 animated web components rebuilt from award-winning sites",
+        "category": "Developer Tools"
+    },
+    {
         "name": "Driver.js",
         "url": "https://driverjs.com/",
         "purpose": "Lightweight JavaScript library for product tours and onboarding",
