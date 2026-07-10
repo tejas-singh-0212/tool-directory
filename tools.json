@@ -5,6 +5,12 @@
         "purpose": "3D Human Visualization",
         "category": "3D & CAD"
     },
+        {
+        "name": "Atropos",
+        "url": "https://atroposjs.com/",
+        "purpose": "JavaScript library for touch-friendly 3D parallax hover effects",
+        "category": "Developer Tools"
+    },
     {
         "name": "InfinityFree",
         "url": "https://www.infinityfree.com/",
