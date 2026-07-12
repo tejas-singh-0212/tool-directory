@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "Watermelon UI",
+        "url": "https://ui.watermelon.sh/",
+        "purpose": "600+ free open-source React components and templates",
+        "category": "Developer Tools"
+    },
+    {
         "name": "Skiper UI",
         "url": "https://skiper-ui.com/",
         "purpose": "Animated UI components for React and Next.js websites",
