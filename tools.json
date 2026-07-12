@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "Skiper UI",
+        "url": "https://skiper-ui.com/",
+        "purpose": "Animated UI components for React and Next.js websites",
+        "category": "Developer Tools"
+    },
+    {
         "name": "Anti-Akinator",
         "url": "https://www.anti-akinator.in/",
         "purpose": "Anime character guessing game with card battles and collection",
