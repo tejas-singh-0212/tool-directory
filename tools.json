@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "Anti-Akinator",
+        "url": "https://www.anti-akinator.in/",
+        "purpose": "Anime character guessing game with card battles and collection",
+        "category": "Games"
+    },
+    {
         "name": "Animmaster Lib",
         "url": "https://animmasterlib.dev/",
         "purpose": "300 animated web components rebuilt from award-winning sites",
