@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "Cult UI",
+        "url": "https://www.cult-ui.com/",
+        "purpose": "Shadcn-compatible animated React components to copy and paste",
+        "category": "Developer Tools"
+    },
+    {
         "name": "Watermelon UI",
         "url": "https://ui.watermelon.sh/",
         "purpose": "600+ free open-source React components and templates",
