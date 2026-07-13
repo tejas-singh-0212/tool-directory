@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "Erase.bg",
+        "url": "https://www.erase.bg/",
+        "purpose": "Remove image backgrounds free in high resolution",
+        "category": "Image Editing"
+    },
+    {
         "name": "60sec",
         "url": "https://60sec.site/",
         "purpose": "Generate a landing page from an idea in 60 seconds with AI",
