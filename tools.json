@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "Noba Project",
+        "url": "https://nobaproject.com/",
+        "purpose": "Free open psychology textbooks and modules for students",
+        "category": "Learning"
+    },
+    {
         "name": "Uiverse",
         "url": "https://uiverse.io/",
         "purpose": "Community library of open-source CSS and Tailwind UI elements",
