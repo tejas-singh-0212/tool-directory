@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "Motion by Mosaic",
+        "url": "https://motion.so/",
+        "purpose": "AI agent that turns prompts into motion design videos",
+        "category": "Video"
+    },
+    {
         "name": "Prezi",
         "url": "https://prezi.com/",
         "purpose": "Create zooming non-linear presentations and visuals",
