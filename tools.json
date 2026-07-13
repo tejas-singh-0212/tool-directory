@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "Prezi",
+        "url": "https://prezi.com/",
+        "purpose": "Create zooming non-linear presentations and visuals",
+        "category": "Presentation"
+    },
+    {
         "name": "Undetectable AI",
         "url": "https://undetectable.ai/",
         "purpose": "AI detector and humanizer to make AI text undetectable",
