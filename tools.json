@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "60sec",
+        "url": "https://60sec.site/",
+        "purpose": "Generate a landing page from an idea in 60 seconds with AI",
+        "category": "Web Builder"
+    },
+    {
         "name": "Cult UI",
         "url": "https://www.cult-ui.com/",
         "purpose": "Shadcn-compatible animated React components to copy and paste",
