@@ -4,7 +4,7 @@ A searchable, cyberpunk-styled directory of AI tools, developer resources, desig
 
 ## Features
 
-- **270+ tools** across 26 categories, from AI Agents to 3D & CAD
+- **300+ tools** across 26 categories, from AI Agents to 3D & CAD
 - **Live client-side search** that filters by name, purpose, URL, or category
 - **Category filter dropdown** dynamically populated from the data
 - **Real-time result counter** showing visible vs total counts
@@ -157,6 +157,15 @@ Changes pushed to `main` are automatically deployed. The CI workflow (`.github/w
 - When adding a new category, update the `ALLOWED_CATEGORIES` set in `scripts/validate-tools-json.py` and the approved categories table in this README.
 - The site has no build step: deploy by pushing to `main`.
 
+
 ## Disclaimer
 
 This directory is maintained as a personal collection of useful web tools and resources. Some entries are included for learning, testing, archival, awareness, or personal-reference purposes. Users are responsible for following applicable laws, platform terms, and ethical usage guidelines.
+
+---
+
+#### Non deployable
+- <a href="https://apk4all.com.im/">APK4All</a>
+- <a href="https://www.oxaam.com/">Oxaam</a>
+- <a href="https://purehd.cc/">PureHD</a>
+- <a href="https://flixer.su/">Flixer</a>
