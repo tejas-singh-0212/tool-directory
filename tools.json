@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "VMEG",
+        "url": "https://www.vmeg.ai/",
+        "purpose": "AI video dubbing and translation into 170+ languages",
+        "category": "Video"
+    },
+    {
         "name": "Motion by Mosaic",
         "url": "https://motion.so/",
         "purpose": "AI agent that turns prompts into motion design videos",
