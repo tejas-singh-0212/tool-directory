@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "PopAi",
+        "url": "https://www.popai.pro/",
+        "purpose": "AI workspace for chatting with PDFs and generating slides",
+        "category": "Productivity"
+    },
+    {
         "name": "Decktopus",
         "url": "https://decktopus.com/",
         "purpose": "AI presentation maker with smart layouts and templates",
