@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "Decktopus",
+        "url": "https://decktopus.com/",
+        "purpose": "AI presentation maker with smart layouts and templates",
+        "category": "Presentation"
+    },
+    {
         "name": "Jabali",
         "url": "https://www.jabali.ai/",
         "purpose": "Create playable 2D and 3D games from prompts with AI",
