@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "Full Stack Open",
+        "url": "https://fullstackopen.com/en/",
+        "purpose": "Free University of Helsinki course on modern web development",
+        "category": "Learning"
+    },
+    {
         "name": "FirstPrompt",
         "url": "https://www.firstprompt.build/",
         "purpose": "Hands-on courses to learn Claude Code and ship real projects",
