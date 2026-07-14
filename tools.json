@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "Hi3D",
+        "url": "https://www.hi3d.ai/",
+        "purpose": "Generate high-detail 3D models from images with AI",
+        "category": "3D & CAD"
+    },
+    {
         "name": "VMEG",
         "url": "https://www.vmeg.ai/",
         "purpose": "AI video dubbing and translation into 170+ languages",
