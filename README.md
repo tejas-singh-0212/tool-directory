@@ -171,3 +171,5 @@ This directory is maintained as a personal collection of useful web tools and re
 - <a href="https://flixer.su/">Flixer</a>
 - <a href="https://cinezo.net/">CineZo</a>
 - <a href="https://flikhub.net/">FlikHub</a>
+- <a href="https://yenime.net/">Yenime</a>
+- <a href="https://arrowtv.net/">Arrow Tv</a>
