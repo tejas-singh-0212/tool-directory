@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "Anime.js",
+        "url": "https://animejs.com/",
+        "purpose": "Lightweight JavaScript animation library for the web",
+        "category": "Developer Tools"
+    },
+    {
         "name": "PopAi",
         "url": "https://www.popai.pro/",
         "purpose": "AI workspace for chatting with PDFs and generating slides",
