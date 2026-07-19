@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "Originkit",
+        "url": "https://www.originkit.dev/",
+        "purpose": "Free animated component library for modern websites",
+        "category": "Developer Tools"
+    },
+    {
         "name": "Neurascapes",
         "url": "https://neurascapes.com/",
         "purpose": "Free curated AI stock images with prompts included",
