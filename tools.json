@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "shadcn/ui",
+        "url": "https://ui.shadcn.com/",
+        "purpose": "Copy-paste React component library built on Radix and Tailwind",
+        "category": "Developer Tools"
+    },
+    {
         "name": "Anime.js",
         "url": "https://animejs.com/",
         "purpose": "Lightweight JavaScript animation library for the web",
