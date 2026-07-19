@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "Neurascapes",
+        "url": "https://neurascapes.com/",
+        "purpose": "Free curated AI stock images with prompts included",
+        "category": "Design"
+    },
+    {
         "name": "Magic Animator",
         "url": "https://magicanimator.com/",
         "purpose": "Animate Figma designs and static visuals in one click with AI",
