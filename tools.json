@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "Magic Animator",
+        "url": "https://magicanimator.com/",
+        "purpose": "Animate Figma designs and static visuals in one click with AI",
+        "category": "Design"
+    },
+    {
         "name": "Antlii",
         "url": "https://antlii.work/",
         "purpose": "Free web-based generative art and typography tools",
