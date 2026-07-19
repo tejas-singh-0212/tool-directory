@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "Pydle",
+        "url": "https://pydle.net/",
+        "purpose": "Daily Wordle-style puzzle solved by writing Python code",
+        "category": "Coding Practice"
+    },
+    {
         "name": "NueForm",
         "url": "https://nueform.io/",
         "purpose": "AI form builder with payments, logic and React export",
