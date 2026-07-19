@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "NueForm",
+        "url": "https://nueform.io/",
+        "purpose": "AI form builder with payments, logic and React export",
+        "category": "Productivity"
+    },
+    {
         "name": "Lottieflow",
         "url": "https://finsweet.com/lottieflow",
         "purpose": "Free Lottie animations library for web and app projects",
