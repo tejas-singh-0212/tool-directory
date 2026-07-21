@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "Kokonut UI",
+        "url": "https://kokonutui.com/",
+        "purpose": "Open-source UI components for React, Next.js and Tailwind",
+        "category": "Developer Tools"
+    },
+    {
         "name": "Motion.dev",
         "url": "https://motion.dev/",
         "purpose": "Animation library for JavaScript, React and Vue",
