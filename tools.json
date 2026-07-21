@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "fffuel",
+        "url": "https://www.fffuel.co/",
+        "purpose": "Collection of free SVG generators for gradients and patterns",
+        "category": "Design"
+    },
+    {
         "name": "Refero Styles",
         "url": "https://styles.refero.design/",
         "purpose": "AI-readable design systems and DESIGN.md examples for agents",
