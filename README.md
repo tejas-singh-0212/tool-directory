@@ -4,7 +4,7 @@ A searchable, cyberpunk-styled directory of AI tools, developer resources, desig
 
 ## Features
 
-- **300+ tools** across 26 categories, from AI Agents to 3D & CAD
+- **350+ tools** across 26 categories, from AI Agents to 3D & CAD
 - **Live client-side search** that filters by name, purpose, URL, or category
 - **Category filter dropdown** dynamically populated from the data
 - **Real-time result counter** showing visible vs total counts
