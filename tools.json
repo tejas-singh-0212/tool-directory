@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "The Odin Project",
+        "url": "https://www.theodinproject.com/",
+        "purpose": "Free open-source full stack web development curriculum",
+        "category": "Learning"
+    },
+    {
         "name": "Ultimate Web Scraper",
         "url": "https://ultimatewebscraper.com/",
         "purpose": "No-code Chrome extension to scrape data from any website",
