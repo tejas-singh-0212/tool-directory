@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "LottieFiles",
+        "url": "https://lottiefiles.com/",
+        "purpose": "Create, edit and download Lottie animations for web and apps",
+        "category": "Design"
+    },
+    {
         "name": "Haikei",
         "url": "https://haikei.app/",
         "purpose": "Generate unique SVG backgrounds, blobs and waves for designs",
