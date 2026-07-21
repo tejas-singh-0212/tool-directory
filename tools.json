@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "Motion.dev",
+        "url": "https://motion.dev/",
+        "purpose": "Animation library for JavaScript, React and Vue",
+        "category": "Developer Tools"
+    },
+    {
         "name": "OSINT4ALL",
         "url": "https://start.me/p/L1rEYQ/osint4all",
         "purpose": "Curated start.me dashboard of OSINT tools and resources",
