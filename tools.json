@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "Vengeance UI",
+        "url": "https://www.vengenceui.com/",
+        "purpose": "Animated React components with hover and scroll interactions",
+        "category": "Developer Tools"
+    },
+    {
         "name": "fffuel",
         "url": "https://www.fffuel.co/",
         "purpose": "Collection of free SVG generators for gradients and patterns",
