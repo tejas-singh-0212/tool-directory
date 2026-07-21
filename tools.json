@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "Bunny Fonts",
+        "url": "https://fonts.bunny.net/",
+        "purpose": "Privacy-first GDPR-friendly drop-in replacement for Google Fonts",
+        "category": "Developer Tools"
+    },
+    {
         "name": "Jitter",
         "url": "https://jitter.video/",
         "purpose": "Browser-based motion design tool for animated UI and social content",
