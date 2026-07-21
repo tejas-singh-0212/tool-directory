@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "21st.dev",
+        "url": "https://21st.dev/",
+        "purpose": "Community marketplace of React UI components for AI coding",
+        "category": "Developer Tools"
+    },
+    {
         "name": "The Odin Project",
         "url": "https://www.theodinproject.com/",
         "purpose": "Free open-source full stack web development curriculum",
