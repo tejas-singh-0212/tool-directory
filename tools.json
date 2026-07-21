@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "Bklit UI",
+        "url": "https://bklit.com/",
+        "purpose": "React chart and data visualization components with a studio",
+        "category": "Developer Tools"
+    },
+    {
         "name": "Kokonut UI",
         "url": "https://kokonutui.com/",
         "purpose": "Open-source UI components for React, Next.js and Tailwind",
