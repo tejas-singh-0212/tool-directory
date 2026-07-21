@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "Refero Styles",
+        "url": "https://styles.refero.design/",
+        "purpose": "AI-readable design systems and DESIGN.md examples for agents",
+        "category": "Design"
+    },
+    {
         "name": "Componentry",
         "url": "https://componentry.dev/",
         "purpose": "Animated shadcn-compatible React components with WebGL effects",
