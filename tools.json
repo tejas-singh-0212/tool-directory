@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "HorizonX",
+        "url": "https://horizonx.so/",
+        "purpose": "Premium UI kits, templates and Figma files subscription library",
+        "category": "Design"
+    },
+    {
         "name": "Bklit UI",
         "url": "https://bklit.com/",
         "purpose": "React chart and data visualization components with a studio",
