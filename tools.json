@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "Ultimate Web Scraper",
+        "url": "https://ultimatewebscraper.com/",
+        "purpose": "No-code Chrome extension to scrape data from any website",
+        "category": "Utilities"
+    },
+    {
         "name": "Bunny Fonts",
         "url": "https://fonts.bunny.net/",
         "purpose": "Privacy-first GDPR-friendly drop-in replacement for Google Fonts",
