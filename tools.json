@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "OSINT4ALL",
+        "url": "https://start.me/p/L1rEYQ/osint4all",
+        "purpose": "Curated start.me dashboard of OSINT tools and resources",
+        "category": "Cybersecurity"
+    },
+    {
         "name": "Pydle",
         "url": "https://pydle.net/",
         "purpose": "Daily Wordle-style puzzle solved by writing Python code",
