@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "CSS Gradient",
+        "url": "https://cssgradient.io/",
+        "purpose": "Visual CSS gradient generator with copy-ready code",
+        "category": "Developer Tools"
+    },
+    {
         "name": "Templyo",
         "url": "https://templyo.io/",
         "purpose": "Free and premium Framer website templates to remix and launch",
