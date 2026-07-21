@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "Componentry",
+        "url": "https://componentry.dev/",
+        "purpose": "Animated shadcn-compatible React components with WebGL effects",
+        "category": "Developer Tools"
+    },
+    {
         "name": "21st.dev",
         "url": "https://21st.dev/",
         "purpose": "Community marketplace of React UI components for AI coding",
