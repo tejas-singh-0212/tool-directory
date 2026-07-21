@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "Jitter",
+        "url": "https://jitter.video/",
+        "purpose": "Browser-based motion design tool for animated UI and social content",
+        "category": "Design"
+    },
+    {
         "name": "CSS Gradient",
         "url": "https://cssgradient.io/",
         "purpose": "Visual CSS gradient generator with copy-ready code",
