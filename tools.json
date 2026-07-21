@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "Saner.AI",
+        "url": "https://www.saner.ai/",
+        "purpose": "AI assistant for notes, tasks and email built for ADHD minds",
+        "category": "Productivity"
+    },
+    {
         "name": "LottieFiles",
         "url": "https://lottiefiles.com/",
         "purpose": "Create, edit and download Lottie animations for web and apps",
