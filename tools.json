@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "Learn Anything",
+        "url": "https://learn-anything.xyz/",
+        "purpose": "Open-source knowledge maps and learning paths for any topic",
+        "category": "Learning"
+    },
+    {
         "name": "Aura Design Systems",
         "url": "https://www.aura.build/design-systems",
         "purpose": "Generate and browse DESIGN.md files for AI web design",
