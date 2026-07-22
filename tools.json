@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "Ray.so",
+        "url": "https://ray.so/",
+        "purpose": "Create beautiful shareable images of your code snippets",
+        "category": "Developer Tools"
+    },
+    {
         "name": "OpenStatus",
         "url": "https://www.openstatus.dev/",
         "purpose": "Open-source uptime monitoring and status pages",
