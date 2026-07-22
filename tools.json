@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "APIVault",
+        "url": "https://apivault.dev/",
+        "purpose": "Curated directory of free public APIs for developers",
+        "category": "Developer Tools"
+    },
+    {
         "name": "DevDocs",
         "url": "https://devdocs.io/",
         "purpose": "Fast searchable API documentation for 100+ languages offline",
