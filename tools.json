@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "micro1",
+        "url": "https://www.micro1.ai/experts/opportunities",
+        "purpose": "Remote AI training and expert jobs with high hourly pay",
+        "category": "Jobs & Career"
+    },
+    {
         "name": "Vite",
         "url": "https://vite.dev/",
         "purpose": "Fast frontend build tool with instant dev server and HMR",
