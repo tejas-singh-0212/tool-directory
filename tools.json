@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "Vite",
+        "url": "https://vite.dev/",
+        "purpose": "Fast frontend build tool with instant dev server and HMR",
+        "category": "Developer Tools"
+    },
+    {
         "name": "Learn Anything",
         "url": "https://learn-anything.xyz/",
         "purpose": "Open-source knowledge maps and learning paths for any topic",
