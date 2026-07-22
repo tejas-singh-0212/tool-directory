@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "Aura Design Systems",
+        "url": "https://www.aura.build/design-systems",
+        "purpose": "Generate and browse DESIGN.md files for AI web design",
+        "category": "Design"
+    },
+    {
         "name": "Cleanup.pictures",
         "url": "https://cleanup.pictures/",
         "purpose": "Remove objects, people and text from photos with AI",
