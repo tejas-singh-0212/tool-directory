@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "OpenCut",
+        "url": "https://opencut.app/",
+        "purpose": "Free open-source browser-based video editor",
+        "category": "Video"
+    },
+    {
         "name": "Ray.so",
         "url": "https://ray.so/",
         "purpose": "Create beautiful shareable images of your code snippets",
