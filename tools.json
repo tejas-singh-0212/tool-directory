@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "Cleanup.pictures",
+        "url": "https://cleanup.pictures/",
+        "purpose": "Remove objects, people and text from photos with AI",
+        "category": "Image Editing"
+    },
+    {
         "name": "Vengeance UI",
         "url": "https://www.vengenceui.com/",
         "purpose": "Animated React components with hover and scroll interactions",
