@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "DevDocs",
+        "url": "https://devdocs.io/",
+        "purpose": "Fast searchable API documentation for 100+ languages offline",
+        "category": "Developer Tools"
+    },
+    {
         "name": "Fake Update",
         "url": "https://fakeupdate.net/",
         "purpose": "Fake OS update screens to prank friends and coworkers",
