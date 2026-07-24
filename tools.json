@@ -2142,12 +2142,6 @@
         "category": "Learning"
     },
     {
-        "name": "Free Claude Code",
-        "url": "https://github.com/Alishahryar1/free-claude-code",
-        "purpose": "Repository to setup Claude code for free",
-        "category": "Developer Tools"
-    },
-    {
         "name": "DeploySafe",
         "url": "https://deploysafe.io/",
         "purpose": "Runs cyber attack simulations on deployments",
@@ -2161,9 +2155,9 @@
     },
     {
         "name": "OpenCode",
-        "url": "https://github.com/anomalyco/opencode",
-        "purpose": "Repository of OpenCode TUI coding agent",
-        "category": "Developer Tools"
+        "url": "https://opencode.ai/",
+        "purpose": "Open-source AI coding agent for the terminal",
+        "category": "AI Coding"
     },
     {
         "name": "Anything AI",
