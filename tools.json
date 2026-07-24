@@ -6,6 +6,18 @@
         "category": "3D & CAD"
     },
     {
+        "name": "Creatify",
+        "url": "https://creatify.ai/",
+        "purpose": "Generate AI video ads with avatars from product links",
+        "category": "Video"
+    },
+    {
+        "name": "Python for Everybody",
+        "url": "https://www.py4e.com/",
+        "purpose": "Free Python course with videos, exercises and autograder",
+        "category": "Learning"
+    },
+    {
         "name": "Slaide",
         "url": "https://www.slaide.de/",
         "purpose": "AI that designs pitch decks and documents from scratch",
