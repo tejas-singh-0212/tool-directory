@@ -42,4 +42,4 @@ Personal collection. Users are responsible for following applicable laws, platfo
 
 #### Non-deployable
 
-[APK4All](https://apk4all.com.im/) · [Oxaam](https://www.oxaam.com/) · [PureHD](https://purehd.cc/) · [Flixer](https://flixer.su/) · [CineZo](https://cinezo.net/) · [FlikHub](https://flikhub.net/) · [Yenime](https://yenime.net/) · [Arrow Tv](https://arrowtv.net/)
+[APK4All](https://apk4all.com.im/) · [Oxaam](https://www.oxaam.com/) · [PureHD](https://purehd.cc/) · [Flixer](https://flixer.su/) · [CineZo](https://cinezo.net/) · [FlikHub](https://flikhub.net/) · [Yenime](https://yenime.net/) · [Arrow Tv](https://arrowtv.net/) · [TBCPL](https://tbcpl.lol/) · [AnkerGames](https://ankergames.net/)
