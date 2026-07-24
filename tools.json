@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "Onshape",
+        "url": "https://www.onshape.com/en/",
+        "purpose": "Cloud-native CAD platform for product design in the browser",
+        "category": "3D & CAD"
+    },
+    {
         "name": "OpenCut",
         "url": "https://opencut.app/",
         "purpose": "Free open-source browser-based video editor",
