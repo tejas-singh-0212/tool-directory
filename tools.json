@@ -6,6 +6,30 @@
         "category": "3D & CAD"
     },
     {
+        "name": "Design Spells",
+        "url": "https://designspells.com/",
+        "purpose": "Gallery of delightful UI details and easter eggs in software",
+        "category": "Design"
+    },
+    {
+        "name": "Fuse",
+        "url": "https://www.fuse.kiwi/",
+        "purpose": "Curated guide for discovering creative design and art on the web",
+        "category": "Design"
+    },
+    {
+        "name": "Vibe Coder Blog",
+        "url": "https://blog.vibecoder.me/",
+        "purpose": "Tutorials and tool guides for AI-assisted vibe coding",
+        "category": "Learning"
+    },
+    {
+        "name": "MotionSites AI",
+        "url": "https://motionsites.ai/",
+        "purpose": "Copy-paste AI website prompts for animated hero sections",
+        "category": "Web Builder"
+    },
+    {
         "name": "Supahero",
         "url": "https://supahero.io/",
         "purpose": "Curated gallery of hero section designs for inspiration",
