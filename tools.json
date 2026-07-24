@@ -6,6 +6,24 @@
         "category": "3D & CAD"
     },
     {
+        "name": "Slaide",
+        "url": "https://www.slaide.de/",
+        "purpose": "AI that designs pitch decks and documents from scratch",
+        "category": "Presentation"
+    },
+    {
+        "name": "Tesana",
+        "url": "https://tesana.ai/",
+        "purpose": "Build playable 3D games and worlds by chatting with AI",
+        "category": "Games"
+    },
+    {
+        "name": "AI Line Studio",
+        "url": "https://ailinestudio.com/",
+        "purpose": "Generate cloud architecture diagrams from text with AI",
+        "category": "Developer Tools"
+    },
+    {
         "name": "Onshape",
         "url": "https://www.onshape.com/en/",
         "purpose": "Cloud-native CAD platform for product design in the browser",
