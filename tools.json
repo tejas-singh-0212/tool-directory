@@ -6,6 +6,66 @@
         "category": "3D & CAD"
     },
     {
+        "name": "Supahero",
+        "url": "https://supahero.io/",
+        "purpose": "Curated gallery of hero section designs for inspiration",
+        "category": "Design"
+    },
+    {
+        "name": "CallToInspiration",
+        "url": "https://calltoinspiration.com/",
+        "purpose": "UX pattern inspiration for buttons, forms and page sections",
+        "category": "Design"
+    },
+    {
+        "name": "Durves",
+        "url": "https://www.durves.com/",
+        "purpose": "Generate curved dot patterns exportable as SVG or PNG",
+        "category": "Design"
+    },
+    {
+        "name": "Dark Design",
+        "url": "https://www.dark.design/",
+        "purpose": "Curated gallery of dark themed website design inspiration",
+        "category": "Design"
+    },
+    {
+        "name": "ShaderGradient",
+        "url": "https://shadergradient.co/",
+        "purpose": "Create animated 3D gradients for web, Figma and Framer",
+        "category": "Design"
+    },
+    {
+        "name": "StudyAgent",
+        "url": "https://studyagent.com/",
+        "purpose": "AI academic writing workspace with drafting and originality checks",
+        "category": "AI Writing"
+    },
+    {
+        "name": "Remaker AI",
+        "url": "https://remaker.ai/home/",
+        "purpose": "All-in-one AI photo and video tools with upscaler and eraser",
+        "category": "Image Editing"
+    },
+    {
+        "name": "Hacksplaining",
+        "url": "https://www.hacksplaining.com/",
+        "purpose": "Interactive lessons on web security vulnerabilities",
+        "category": "Cybersecurity"
+    },
+    {
+        "name": "DevInterview.AI",
+        "url": "https://devinterview.ai/",
+        "purpose": "AI voice mock interviews for coding, system design and behavioral",
+        "category": "Jobs & Career"
+    },
+    {
+        "name": "Learnara",
+        "url": "https://learnara.ai/",
+        "purpose": "Generate interactive visual simulations for any topic with AI",
+        "category": "Learning"
+    },
+    {
         "name": "Creatify",
         "url": "https://creatify.ai/",
         "purpose": "Generate AI video ads with avatars from product links",
