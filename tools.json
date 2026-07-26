@@ -6,6 +6,30 @@
         "category": "3D & CAD"
     },
     {
+        "name": "Bored.com",
+        "url": "https://www.bored.com/",
+        "purpose": "Random games, quizzes and fun activities to kill boredom",
+        "category": "Games"
+    },
+    {
+        "name": "World Monitor",
+        "url": "https://www.worldmonitor.app/",
+        "purpose": "Free real-time global intelligence dashboard on a live map",
+        "category": "Research"
+    }.
+    {
+        "name": "Poe",
+        "url": "https://poe.com/",
+        "purpose": "Chat with GPT, Claude, Gemini and more AI models in one app",
+        "category": "AI Chat"
+    },
+    {
+        "name": "Aceternity UI",
+        "url": "https://ui.aceternity.com/",
+        "purpose": "Trending animated React and Tailwind components to copy-paste",
+        "category": "Developer Tools"
+    },
+    {
         "name": "Design Spells",
         "url": "https://designspells.com/",
         "purpose": "Gallery of delightful UI details and easter eggs in software",
