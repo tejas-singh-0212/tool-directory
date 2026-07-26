@@ -6,6 +6,42 @@
         "category": "3D & CAD"
     },
     {
+        "name": "Public API Lists",
+        "url": "https://public-api-lists.github.io/public-api-lists/",
+        "purpose": "Community-maintained list of free public APIs for development",
+        "category": "Developer Tools"
+    },
+    {
+        "name": "Reticle",
+        "url": "https://www.reticle.sh/",
+        "purpose": "Verifies AI-built apps by reading state and catching silent bugs",
+        "category": "Developer Tools"
+    },
+    {
+        "name": "Strix",
+        "url": "https://www.strix.ai/",
+        "purpose": "Autonomous AI pentesting that finds and fixes vulnerabilities",
+        "category": "Cybersecurity"
+    },
+    {
+        "name": "Open Generative AI",
+        "url": "https://muapi.ai/open-generative-ai",
+        "purpose": "Free open-source AI image and video studio with 500+ models",
+        "category": "Image Generation"
+    },
+    {
+        "name": "OpenSEO",
+        "url": "https://openseo.so/",
+        "purpose": "Open-source SEO platform with keyword research and MCP for AI",
+        "category": "Developer Tools"
+    },
+    {
+        "name": "Open Notebook",
+        "url": "https://www.open-notebook.ai/",
+        "purpose": "Open-source private NotebookLM alternative with podcast generator",
+        "category": "Research"
+    },
+    {
         "name": "Bored.com",
         "url": "https://www.bored.com/",
         "purpose": "Random games, quizzes and fun activities to kill boredom",
