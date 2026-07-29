@@ -2374,5 +2374,11 @@
         "url": "https://www.tealhq.com/",
         "purpose": "AI resume builder with job application tracker",
         "category": "Jobs & Career"
+    },
+    {
+        "name": "Payload Components",
+        "url": "https://www.payload-components.xyz",
+        "purpose": "67 MIT Payload CMS blocks with source installs and automated Payload v3 + Next.js wiring",
+        "category": "Developer Tools"
     }
 ]
