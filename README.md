@@ -1,6 +1,6 @@
 # Ultimate Tool Directory
 
-380+ tools across several categories. Static site, no build step, no backend, no frameworks.
+400+ tools across several categories. Static site, no build step, no backend, no frameworks.
 
 ## Tool Record
 
