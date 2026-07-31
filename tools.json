@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "StartMyCar",
+        "url": "https://www.startmycar.com/",
+        "purpose": "Community database of car problems, causes and solutions",
+        "category": "Other"
+    },
+    {
         "name": "Public API Lists",
         "url": "https://public-api-lists.github.io/public-api-lists/",
         "purpose": "Community-maintained list of free public APIs for development",
