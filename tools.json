@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "Elements of AI",
+        "url": "https://www.elementsofai.com/",
+        "purpose": "Free University of Helsinki course on AI basics for everyone",
+        "category": "Learning"
+    },
+    {
         "name": "ProjectAI",
         "url": "https://projectai.in/",
         "purpose": "Learn coding by building real projects with steps and AI help",
