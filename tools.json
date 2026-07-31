@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "Artificial Analysis",
+        "url": "https://artificialanalysis.ai/",
+        "purpose": "Independent benchmarks comparing AI models on quality and price",
+        "category": "Research"
+    },
+    {
         "name": "AI Dungeon",
         "url": "https://aidungeon.com/",
         "purpose": "AI-powered text adventure game with infinite storylines",
