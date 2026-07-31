@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "AI Dungeon",
+        "url": "https://aidungeon.com/",
+        "purpose": "AI-powered text adventure game with infinite storylines",
+        "category": "Games"
+    },
+    {
         "name": "3D Logo Spin",
         "url": "https://3dlogospin.com/",
         "purpose": "Turn 2D logos into spinning 3D animations as GIF or video",
