@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "ProjectAI",
+        "url": "https://projectai.in/",
+        "purpose": "Learn coding by building real projects with steps and AI help",
+        "category": "Coding Practice"
+    },
+    {
         "name": "StartMyCar",
         "url": "https://www.startmycar.com/",
         "purpose": "Community database of car problems, causes and solutions",
