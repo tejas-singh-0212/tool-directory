@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "AI SDK Playground",
+        "url": "https://ai-sdk.dev/playground",
+        "purpose": "Compare LLM outputs side by side across providers",
+        "category": "Developer Tools"
+    },
+    {
         "name": "Artificial Analysis",
         "url": "https://artificialanalysis.ai/",
         "purpose": "Independent benchmarks comparing AI models on quality and price",
