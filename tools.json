@@ -60,6 +60,12 @@
         "category": "Developer Tools"
     },
     {
+        "name": "Agent QA",
+        "url": "https://github.com/vostride/agent-qa",
+        "purpose": "Test AI agents across browser and mobile workflows through a CLI and MCP server",
+        "category": "Developer Tools"
+    },
+    {
         "name": "Strix",
         "url": "https://www.strix.ai/",
         "purpose": "Autonomous AI pentesting that finds and fixes vulnerabilities",
