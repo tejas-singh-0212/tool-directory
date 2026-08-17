@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "Flash AI",
+        "url": "https://flash.co/home",
+        "purpose": "AI shopping assistant that researches and rates products",
+        "category": "Utilities"
+    },
+    {
         "name": "Poko Motion",
         "url": "https://poko.video/",
         "purpose": "Turn repos, websites, PDFs and slides into videos with local AI",
