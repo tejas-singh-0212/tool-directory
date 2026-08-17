@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "Its Hover",
+        "url": "https://www.itshover.com/icons",
+        "purpose": "Animated icons for React to copy-paste via shadcn CLI",
+        "category": "Developer Tools"
+    },
+    {
         "name": "AI SDK Playground",
         "url": "https://ai-sdk.dev/playground",
         "purpose": "Compare LLM outputs side by side across providers",
