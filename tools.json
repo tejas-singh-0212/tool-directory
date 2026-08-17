@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "Pandas Tutor",
+        "url": "https://pandastutor.com/",
+        "purpose": "Visualize pandas code step by step to learn data science",
+        "category": "Learning"
+    },
+    {
         "name": "selfh.st Apps",
         "url": "https://selfh.st/apps/",
         "purpose": "Directory of self-hosted apps and open-source alternatives",
