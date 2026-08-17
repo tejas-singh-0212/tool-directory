@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "selfh.st Apps",
+        "url": "https://selfh.st/apps/",
+        "purpose": "Directory of self-hosted apps and open-source alternatives",
+        "category": "Developer Tools"
+    },
+    {
         "name": "MCP Market",
         "url": "https://mcpmarket.com/",
         "purpose": "Directory of MCP servers to connect AI agents to tools",
