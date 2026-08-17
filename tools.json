@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "HTTrack",
+        "url": "https://www.httrack.com/",
+        "purpose": "Free tool to download entire websites for offline browsing",
+        "category": "Utilities"
+    },
+    {
         "name": "Flash AI",
         "url": "https://flash.co/home",
         "purpose": "AI shopping assistant that researches and rates products",
