@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "Bytez",
+        "url": "https://bytez.com/",
+        "purpose": "Run 175,000+ AI models via one API and explore research papers",
+        "category": "Developer Tools"
+    },
+    {
         "name": "HTTrack",
         "url": "https://www.httrack.com/",
         "purpose": "Free tool to download entire websites for offline browsing",
