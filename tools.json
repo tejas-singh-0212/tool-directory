@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "MCP Market",
+        "url": "https://mcpmarket.com/",
+        "purpose": "Directory of MCP servers to connect AI agents to tools",
+        "category": "Developer Tools"
+    },
+    {
         "name": "Bytez",
         "url": "https://bytez.com/",
         "purpose": "Run 175,000+ AI models via one API and explore research papers",
