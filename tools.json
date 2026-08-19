@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "Starthack",
+        "url": "https://starthack.io/",
+        "purpose": "AI resume analysis with mock interviews based on your CV",
+        "category": "Jobs & Career"
+    },
+    {
         "name": "Invio",
         "url": "https://invio.dev/",
         "purpose": "Free self-hosted open-source invoicing without the bloat",
