@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "Tapju",
+        "url": "https://tapju.ai/",
+        "purpose": "AI shopping guide with review analysis and price comparison",
+        "category": "Utilities"
+    },
+    {
         "name": "ScraperCity",
         "url": "https://scrapercity.com/",
         "purpose": "No-code web scrapers for lead lists with API and MCP support",
