@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "GitReverse",
+        "url": "https://www.gitreverse.com/",
+        "purpose": "Reverse engineer any codebase or website into an AI prompt",
+        "category": "Developer Tools"
+    },
+    {
         "name": "Tapju",
         "url": "https://tapju.ai/",
         "purpose": "AI shopping guide with review analysis and price comparison",
