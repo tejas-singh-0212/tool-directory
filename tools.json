@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "ExplainGitHub",
+        "url": "https://explaingithub.com/",
+        "purpose": "Chat with any GitHub repository to understand its code",
+        "category": "Developer Tools"
+    },
+    {
         "name": "GitReverse",
         "url": "https://www.gitreverse.com/",
         "purpose": "Reverse engineer any codebase or website into an AI prompt",
