@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "GitHub1s",
+        "url": "https://github1s.com/",
+        "purpose": "Browse any GitHub repo in VS Code UI with one keystroke",
+        "category": "Developer Tools"
+    },
+    {
         "name": "ExplainGitHub",
         "url": "https://explaingithub.com/",
         "purpose": "Chat with any GitHub repository to understand its code",
