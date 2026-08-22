@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "Taste Skill",
+        "url": "https://www.tasteskill.dev/",
+        "purpose": "Open-source skill files that stop AI agents making generic UIs",
+        "category": "AI Coding"
+    },
+    {
         "name": "GitHub1s",
         "url": "https://github1s.com/",
         "purpose": "Browse any GitHub repo in VS Code UI with one keystroke",
