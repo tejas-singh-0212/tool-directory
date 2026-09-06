@@ -1500,12 +1500,6 @@
         "category": "Learning"
     },
     {
-        "name": "Java Point",
-        "url": "https://www.javatpoint.com/",
-        "purpose": "Learn Java and related technologies with tutorials",
-        "category": "Learning"
-    },
-    {
         "name": "Tutorials Point",
         "url": "https://www.tutorialspoint.com/index.htm",
         "purpose": "Learn programming and technologies with online tutorials",
@@ -1534,12 +1528,6 @@
         "url": "https://ltx.studio",
         "purpose": "AI video editing and match-cut workflows",
         "category": "Video"
-    },
-    {
-        "name": "Piggy AI",
-        "url": "https://www.piggy.to/",
-        "purpose": "Mobile-first content creation tool",
-        "category": "AI Writing"
     },
     {
         "name": "InterviewAI",
@@ -1716,12 +1704,6 @@
         "category": "Image Generation"
     },
     {
-        "name": "Dora",
-        "url": "https://dora.run/",
-        "purpose": "Professional 3D website Builder",
-        "category": "Web Builder"
-    },
-    {
         "name": "Quick Ref",
         "url": "https://quickref.me/",
         "purpose": "Quick references and cheatsheets for coding",
@@ -1750,12 +1732,6 @@
         "url": "https://www.altered.ai/",
         "purpose": "Record and edit voice recording",
         "category": "Audio & Music"
-    },
-    {
-        "name": "Air Gram",
-        "url": "https://www.airgram.io/",
-        "purpose": "Record, transcribe, summarize, and share meeting conversations",
-        "category": "Productivity"
     },
     {
         "name": "FishBowl",
@@ -1986,12 +1962,6 @@
         "category": "Coding Practice"
     },
     {
-        "name": "Wise One",
-        "url": "https://wiseone.io",
-        "purpose": "Summarizes research papers",
-        "category": "Research"
-    },
-    {
         "name": "Homework is trash",
         "url": "https://www.homeworkistrash.ml/",
         "purpose": "Web access utility and proxy-style browsing tool",
@@ -2058,12 +2028,6 @@
         "category": "Video"
     },
     {
-        "name": "Muse AI",
-        "url": "https://muse.ai/",
-        "purpose": "Video hosting and management platform",
-        "category": "Video"
-    },
-    {
         "name": "Durable",
         "url": "https://durable.co/",
         "purpose": "Generate business websites with AI",
@@ -2074,12 +2038,6 @@
         "url": "https://www.modulify.ai/",
         "purpose": "Build websites using AI-assisted modular sections",
         "category": "Web Builder"
-    },
-    {
-        "name": "With Diode",
-        "url": "https://withdiode.com/",
-        "purpose": "Simulate digital circuits and electronics in the browser",
-        "category": "Hardware & Simulation"
     },
     {
         "name": "WokWi",
@@ -2233,7 +2191,7 @@
     },
     {
         "name": "Quenq GTA",
-        "url": "https://quenq.com/apps/vice-city/",
+        "url": "https://quenq.com/apps/vc-web/",
         "purpose": "Browser-based retro game experience",
         "category": "Games"
     },
