@@ -2322,6 +2322,12 @@
         "category": "AI Coding"
     },
     {
+        "name": "YYLO",
+        "url": "https://github.com/yylo-dev/yylo",
+        "purpose": "Command-line orchestrator for coding agents, repeatable workflows, and receipt-backed repository changes",
+        "category": "AI Coding"
+    },
+    {
         "name": "Anything AI",
         "url": "https://www.anything.ai/",
         "purpose": "Build and deploy full-stack apps with an AI agent",
