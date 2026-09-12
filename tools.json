@@ -157,7 +157,7 @@
     },
     {
         "name": "Reticle",
-        "url": "https://www.reticle.sh/",
+        "url": "https://github.com/reticlehq/reticle",
         "purpose": "Verifies AI-built apps by reading state and catching silent bugs",
         "category": "Developer Tools"
     },
