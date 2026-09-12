@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "Obscura",
+        "url": "https://obscura.sh/",
+        "purpose": "Fast isolated browser sessions for AI agents and automation",
+        "category": "Developer Tools"
+    },
+    {
         "name": "Openship",
         "url": "https://openship.io/",
         "purpose": "Open-source self-hostable deployment platform with zero lock-in",
