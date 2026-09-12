@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "Openship",
+        "url": "https://openship.io/",
+        "purpose": "Open-source self-hostable deployment platform with zero lock-in",
+        "category": "Developer Tools"
+    },
+    {
         "name": "Dioxus",
         "url": "https://dioxuslabs.com/",
         "purpose": "Rust framework for building web, desktop and mobile apps",
