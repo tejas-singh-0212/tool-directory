@@ -6,6 +6,18 @@
         "category": "3D & CAD"
     },
     {
+        "name": "APILayer",
+        "url": "https://apilayer.com/",
+        "purpose": "Marketplace of ready-to-use APIs for data and automation",
+        "category": "Developer Tools"
+    },
+    {
+        "name": "Pinchtab",
+        "url": "https://pinchtab.com/",
+        "purpose": "Browser automation bridge with stealth and multi-instance control",
+        "category": "Automation"
+    },
+    {
         "name": "DigitalPlat Domains",
         "url": "https://domain.digitalplat.org/",
         "purpose": "Register free subdomains with your own DNS for projects",
