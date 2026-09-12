@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "Dioxus",
+        "url": "https://dioxuslabs.com/",
+        "purpose": "Rust framework for building web, desktop and mobile apps",
+        "category": "Developer Tools"
+    },
+    {
         "name": "Taste Skill",
         "url": "https://www.tasteskill.dev/",
         "purpose": "Open-source skill files that stop AI agents making generic UIs",
