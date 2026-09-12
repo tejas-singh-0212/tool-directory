@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "Cloudflare Computer",
+        "url": "https://github.com/cloudflare/computer",
+        "purpose": "Give AI agents a sandboxed computer with filesystem and exec",
+        "category": "AI Agents"
+    },
+    {
         "name": "Obscura",
         "url": "https://obscura.sh/",
         "purpose": "Fast isolated browser sessions for AI agents and automation",
