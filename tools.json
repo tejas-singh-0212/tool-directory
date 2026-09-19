@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "GitDiagram",
+        "url": "https://gitdiagram.com/",
+        "purpose": "Turn any GitHub repo into an interactive architecture diagram",
+        "category": "Developer Tools"
+    },
+    {
         "name": "APILayer",
         "url": "https://apilayer.com/",
         "purpose": "Marketplace of ready-to-use APIs for data and automation",
