@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "LightPDF",
+        "url": "https://lightpdf.com/",
+        "purpose": "Online PDF editor, converter and AI chat for documents",
+        "category": "Utilities"
+    },
+    {
         "name": "GitDiagram",
         "url": "https://gitdiagram.com/",
         "purpose": "Turn any GitHub repo into an interactive architecture diagram",
