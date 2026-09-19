@@ -6,6 +6,12 @@
         "category": "3D & CAD"
     },
     {
+        "name": "Argos Atlas",
+        "url": "https://argosatlas.com/map/",
+        "purpose": "Live world map of 175,000+ public cameras, flights and ships",
+        "category": "Utilities"
+    },
+    {
         "name": "LightPDF",
         "url": "https://lightpdf.com/",
         "purpose": "Online PDF editor, converter and AI chat for documents",
