@@ -6,6 +6,24 @@
         "category": "3D & CAD"
     },
     {
+        "name": "Karpathy Skills",
+        "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+        "purpose": "CLAUDE.md guidelines that curb common LLM coding mistakes",
+        "category": "AI Coding"
+    },
+    {
+        "name": "OmniRoute",
+        "url": "https://github.com/diegosouzapw/OmniRoute",
+        "purpose": "Free AI gateway routing 1200+ models with auto-fallback",
+        "category": "Developer Tools"
+    },
+    {
+        "name": "claude-mem",
+        "url": "https://github.com/thedotmack/claude-mem",
+        "purpose": "Persistent memory across sessions for Claude Code and agents",
+        "category": "AI Coding"
+    }'
+    {
         "name": "code-review-graph",
         "url": "https://code-review-graph.com/",
         "purpose": "Local code graph that gives AI reviewers context with fewer tokens",
