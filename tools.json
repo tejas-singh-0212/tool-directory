@@ -6,6 +6,24 @@
         "category": "3D & CAD"
     },
     {
+        "name": "code-review-graph",
+        "url": "https://code-review-graph.com/",
+        "purpose": "Local code graph that gives AI reviewers context with fewer tokens",
+        "category": "Developer Tools"
+    },
+    {
+        "name": "RunAnywhere",
+        "url": "https://www.runanywhere.ai/",
+        "purpose": "Run open AI models locally on NPUs or hosted via one API",
+        "category": "Developer Tools"
+    },
+    {
+        "name": "Headroom",
+        "url": "https://github.com/headroomlabs-ai/headroom",
+        "purpose": "Compress tool outputs and RAG chunks to cut LLM token costs",
+        "category": "Developer Tools"
+    },
+    {
         "name": "Argos Atlas",
         "url": "https://argosatlas.com/map/",
         "purpose": "Live world map of 175,000+ public cameras, flights and ships",
