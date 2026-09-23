@@ -22,7 +22,7 @@
         "url": "https://github.com/thedotmack/claude-mem",
         "purpose": "Persistent memory across sessions for Claude Code and agents",
         "category": "AI Coding"
-    }'
+    },
     {
         "name": "code-review-graph",
         "url": "https://code-review-graph.com/",
