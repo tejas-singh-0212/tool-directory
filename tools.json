@@ -6,6 +6,120 @@
         "category": "3D & CAD"
     },
     {
+        "name": "PixelRAG",
+        "url": "https://pixelrag.ai/",
+        "purpose": "Pixel-native RAG that searches rendered pages without parsing",
+        "category": "Developer Tools"
+    },
+    {
+        "name": "Unlimited OCR",
+        "url": "https://github.com/baidu/Unlimited-OCR",
+        "purpose": "Baidu's open OCR model for one-shot long document parsing",
+        "category": "Utilities"
+    },
+    {
+        "name": "Whisper",
+        "url": "https://github.com/openai/whisper",
+        "purpose": "OpenAI's open-source speech recognition and transcription model",
+        "category": "Audio & Music"
+    },
+    {
+        "name": "Stickman Video Director",
+        "url": "https://github.com/kaomei/stickman-video-director",
+        "purpose": "Turn text into stickman video prompt packages for Gemini",
+        "category": "Video"
+    },
+    {
+        "name": "PhotoGIMP",
+        "url": "https://github.com/Diolinux/PhotoGIMP",
+        "purpose": "Patch that makes GIMP look and behave like Photoshop",
+        "category": "Image Editing"
+    },
+    {
+        "name": "VoiceStudio",
+        "url": "https://voicestudio.sh/",
+        "purpose": "Local open-source voice cloning, dubbing and transcription",
+        "category": "Audio & Music"
+    },
+    {
+        "name": "AI Job Search",
+        "url": "https://github.com/MadsLorentzen/ai-job-search",
+        "purpose": "Claude Code framework to tailor CVs and run your job hunt",
+        "category": "Jobs & Career"
+    },
+    {
+        "name": "CADAM",
+        "url": "https://adam.new/cadam/",
+        "purpose": "Generate CAD models from text with AI, works in SolidWorks",
+        "category": "3D & CAD"
+    },
+    {
+        "name": "Wigolo",
+        "url": "https://github.com/KnockOutEZ/wigolo",
+        "purpose": "Local-first web search and crawl for AI agents over MCP",
+        "category": "AI Coding"
+    },
+    {
+        "name": "Ponytail",
+        "url": "https://github.com/DietrichGebert/ponytail",
+        "purpose": "Rules that make AI agents write less, simpler code",
+        "category": "AI Coding"
+    },
+    {
+        "name": "Freebuff",
+        "url": "https://freebuff.com/",
+        "purpose": "Free ad-funded coding agent for desktop, CLI, web and cloud",
+        "category": "AI Coding"
+    },
+    {
+        "name": "MiMo Code",
+        "url": "https://github.com/XiaomiMiMo/MiMo-Code",
+        "purpose": "Xiaomi's open-source terminal coding agent with MiMo models",
+        "category": "AI Coding"
+    },
+    {
+        "name": "jcode",
+        "url": "https://github.com/1jehuang/jcode",
+        "purpose": "RAM-efficient Rust coding agent harness for the terminal",
+        "category": "AI Coding"
+    },
+    {
+        "name": "Free Claude Code",
+        "url": "https://github.com/Alishahryar1/free-claude-code",
+        "purpose": "Set up and run Claude Code for free with alternative backends",
+        "category": "AI Coding"
+    },
+    {
+        "name": "i-have-adhd",
+        "url": "https://github.com/ayghri/i-have-adhd",
+        "purpose": "Agent skill that forces concise ADHD-friendly answers first",
+        "category": "AI Coding"
+    },
+    {
+        "name": "Book to Skill",
+        "url": "https://github.com/virgiliojr94/book-to-skill",
+        "purpose": "Turn any technical book PDF into a Claude Code skill",
+        "category": "AI Coding"
+    },
+    {
+        "name": "No AI Slop",
+        "url": "https://github.com/petergyang/no-ai-slop",
+        "purpose": "Agent skill that strips 20+ AI slop patterns from writing",
+        "category": "AI Writing"
+    },
+    {
+        "name": "Spec Kit",
+        "url": "https://github.com/github/spec-kit",
+        "purpose": "GitHub's toolkit for spec-driven development with AI agents",
+        "category": "AI Coding"
+    },
+    {
+        "name": "Agent Reach",
+        "url": "https://github.com/Panniantong/Agent-Reach",
+        "purpose": "CLI that lets AI agents read Twitter, Reddit, YouTube and more",
+        "category": "AI Agents"
+    },
+    {
         "name": "Karpathy Skills",
         "url": "https://github.com/multica-ai/andrej-karpathy-skills",
         "purpose": "CLAUDE.md guidelines that curb common LLM coding mistakes",
