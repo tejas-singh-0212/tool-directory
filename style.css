@@ -465,7 +465,7 @@ tr:hover .copy-btn {
 /* 8. FLOATING CONTROLS */
 .floating-controls {
     position: fixed;
-    right: 24px;
+    left: 24px;
     bottom: 24px;
     display: flex;
     align-items: center;
@@ -549,7 +549,7 @@ tr:hover .copy-btn {
 @media screen and (max-width: 640px) {
     .floating-controls {
         gap: 8px;
-        right: 12px;
+        left: 12px;
         bottom: 12px;
     }
     
