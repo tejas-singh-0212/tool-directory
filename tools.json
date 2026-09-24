@@ -2668,5 +2668,113 @@
         "url": "https://bfl.ai/",
         "purpose": "Frontier AI lab behind FLUX models - state-of-the-art multimodal image, video, and audio generation via API, open weights, and playground",
         "category": "Image Generation"
+    },
+    {
+        "name": "Masonry",
+        "url": "https://masonry.so/",
+        "purpose": "AI creative studio with 50+ models (FLUX, GPT Image, Veo, Kling) for image/video generation, editing, upscaling, plus AI interior/landscape/exterior design tools",
+        "category": "Image Generation"
+    },
+    {
+        "name": "Hunyuan Video",
+        "url": "https://www.hunyuanvideo.org/",
+        "purpose": "Free online AI video generation tool from Tencent with 13B parameter model - text/image to video with cinematic quality",
+        "category": "Video"
+    },
+    {
+        "name": "SeaVerse",
+        "url": "https://seaverse.ai/",
+        "purpose": "Platform for playable AI experiences - create games, chat apps, and interactive apps from prompts, publish and share instantly",
+        "category": "AI Agents"
+    },
+    {
+        "name": "Originality.ai",
+        "url": "https://originality.ai/",
+        "purpose": "Most accurate AI detector for ChatGPT, GPT-6, Claude, Gemini with plagiarism, fact-checking, readability, and grammar tools",
+        "category": "AI Writing"
+    },
+    {
+        "name": "Feedough",
+        "url": "https://www.feedough.com/",
+        "purpose": "Free AI tools directory with 170+ AI agents and tools for startups - prompt generators, business plan generator, market research, branding, and productivity tools",
+        "category": "Developer Tools"
+    },
+    {
+        "name": "Junia AI",
+        "url": "https://www.junia.ai/",
+        "purpose": "AI SEO writer that auto-generates and publishes ranking content to WordPress, Shopify, Webflow - includes keyword research, internal linking, and AI autoblogging",
+        "category": "AI Writing"
+    },
+    {
+        "name": "Prompt Hackers",
+        "url": "https://www.prompthackers.co/",
+        "purpose": "Free prompt library and database for ChatGPT, Claude, Gemini with prompt generator, optimizer, and categorized prompts for writing, coding, marketing, and creative tasks",
+        "category": "AI Writing"
+    },
+    {
+        "name": "Insidr.ai",
+        "url": "https://www.insidr.ai/",
+        "purpose": "AI platform for learning, implementing & monetizing AI - 500+ tools directory, AI roadmap, community, and business solutions",
+        "category": "Developer Tools"
+    },
+    {
+        "name": "There's An AI For That",
+        "url": "https://theresanaiforthat.com/",
+        "purpose": "Largest AI tools directory (TAAFT) with thousands of tools, tasks, prompts, models, papers, news - 1.5M+ newsletter subscribers",
+        "category": "Developer Tools"
+    },
+    {
+        "name": "What AI Can Do Today",
+        "url": "https://whataicandotoday.com/",
+        "purpose": "AI task-based tool finder - 18K+ tools analyzed, 119K+ tasks mapped, search by task description to find matching AI tools",
+        "category": "Developer Tools"
+    },
+    {
+        "name": "Best Free AI Websites",
+        "url": "https://bestfreeaiwebsites.com/",
+        "purpose": "Curated directory of free AI tools updated daily - AI tools, prompt guides, video tutorials, and money-making AI methods",
+        "category": "Developer Tools"
+    },
+    {
+        "name": "AI Engineering Hub",
+        "url": "https://github.com/patchy631/ai-engineering-hub",
+        "purpose": "GitHub repo with in-depth tutorials on LLMs, RAGs, and real-world AI agent applications - 550+ commits, 38k stars",
+        "category": "AI Coding"
+    },
+    {
+        "name": "AI Templates (aitmpl)",
+        "url": "https://www.aitmpl.com/",
+        "purpose": "Claude Code templates marketplace with 1000+ agents, commands, skills, MCPs, hooks - 1.6M downloads, 31.7k GitHub stars",
+        "category": "AI Coding"
+    },
+    {
+        "name": "Opal (Google Labs)",
+        "url": "https://opal.google/landing/",
+        "purpose": "Build AI mini-apps with natural language - no-code creation, rapid prototyping, visual editing, gallery of templates",
+        "category": "Web Builder"
+    },
+    {
+        "name": "Codev",
+        "url": "https://www.co.dev/",
+        "purpose": "App builder for AI agents - works with Claude Code, Codex, Cursor; builds app + backend, custom domains, 10x cheaper",
+        "category": "Web Builder"
+    },
+    {
+        "name": "Gemini Notebook (NotebookLM)",
+        "url": "https://notebook.google/",
+        "purpose": "AI research tool & thinking partner - audio overviews, mind maps, reports, flashcards, quizzes, data tables from your sources",
+        "category": "Research"
+    },
+    {
+        "name": "Stitch (Google Labs)",
+        "url": "https://stitch.withgoogle.com/",
+        "purpose": "Design with AI - generate UI designs and frontend code from natural language descriptions",
+        "category": "Design"
+    },
+    {
+        "name": "Llama Coder",
+        "url": "https://llamacoder.together.ai/",
+        "purpose": "AI code generator powered by Together AI - turn ideas into apps with DeepSeek/Llama models, 1.1M+ users, 7k stars",
+        "category": "AI Coding"
     }
 ]
