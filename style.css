@@ -200,7 +200,7 @@ body.light-mode .header-badges span {
     border-radius: 8px;
     color: var(--text-main);
     font-family: 'Orbitron', sans-serif;
-    font-size: 15px;
+    font-size: 16px;
     outline: none;
     transition: border-color 0.2s, box-shadow 0.2s;
 }
@@ -230,14 +230,14 @@ body.light-mode .header-badges span {
 #categoryFilter {
     flex: 1;
     max-width: 320px;
-    padding: 10px 12px;
+    padding: 12px 14px;
     background: var(--bg-body);
     border: 1px solid var(--neon-cyan);
     border-radius: 8px;
     color: var(--text-main);
     font-family: 'Orbitron', sans-serif;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 16px;
     outline: none;
     cursor: pointer;
     transition: border-color 0.2s, box-shadow 0.2s;
@@ -307,7 +307,6 @@ body.light-mode #categoryFilter option {
 table {
     border-collapse: collapse;
     width: 100%;
-    min-width: 720px;
     background-color: var(--bg-table);
     border: 1px solid var(--border-color);
     table-layout: fixed;
@@ -564,8 +563,8 @@ tr:hover .copy-btn {
 @media screen and (max-width: 640px) {
     .floating-controls-left {
         gap: 8px;
-        right: 16px;
-        top: 16px;
+        right: 12px;
+        top: 12px;
         padding: 4px;
         background: var(--panel-bg);
         border: 1px solid var(--neon-cyan);
@@ -574,20 +573,20 @@ tr:hover .copy-btn {
     
     .floating-controls-right {
         gap: 8px;
-        right: 16px;
-        bottom: 16px;
+        left: 12px;
+        bottom: 80px;
     }
     
     .theme-toggle,
     .tool-counter,
     .github-link {
-        padding: 8px 12px;
-        font-size: 10px;
+        padding: 10px 14px;
+        font-size: 11px;
     }
     
     .github-link svg {
-        width: 14px;
-        height: 14px;
+        width: 16px;
+        height: 16px;
     }
 }
 
@@ -623,6 +622,9 @@ tr:hover .copy-btn {
     position: fixed;
     bottom: 80px;
     right: 24px;
+    left: 24px;
+    max-width: 320px;
+    margin-left: auto;
     background: var(--panel-bg);
     color: var(--neon-cyan);
     border: 1px solid var(--neon-cyan);
@@ -638,6 +640,17 @@ tr:hover .copy-btn {
     transition: opacity 0.25s, transform 0.25s;
     pointer-events: none;
     z-index: 1100;
+}
+
+@media screen and (max-width: 640px) {
+    #toast {
+        bottom: 70px;
+        right: 12px;
+        left: 12px;
+        max-width: none;
+        font-size: 11px;
+        padding: 10px 16px;
+    }
 }
 
 #toast.show {
@@ -682,6 +695,11 @@ tr:hover .copy-btn {
         font-size: 13px;
         padding: 12px 14px;
     }
+
+    .copy-btn {
+        width: 44px;
+        height: 44px;
+    }
 }
 
 /* Small mobile: card layout */
@@ -717,25 +735,27 @@ tr:hover .copy-btn {
     }
 
     #toolSearch {
-        padding: 12px 14px;
-        font-size: 14px;
+        padding: 14px 16px;
+        font-size: 16px;
     }
 
     .filter-bar {
-        flex-wrap: wrap;
-        gap: 8px;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 10px;
     }
 
     #categoryFilter {
         min-width: 0;
-        flex: 1 1 auto;
-        font-size: 11px;
-        padding: 9px 10px;
+        width: 100%;
+        font-size: 16px;
+        padding: 12px 14px;
     }
 
     .clear-btn {
-        font-size: 10px;
-        padding: 9px 12px;
+        font-size: 14px;
+        padding: 12px 16px;
+        width: 100%;
     }
 
     /* Table → Card layout */
@@ -823,27 +843,22 @@ tr:hover .copy-btn {
     }
 
     .copy-btn {
-        width: 36px;
-        height: 36px;
-    }
-
-    /* Floating controls */
-    .floating-controls {
-        right: 10px;
-        bottom: 10px;
-        gap: 8px;
+        width: 44px;
+        height: 44px;
     }
 
     .theme-toggle,
     .tool-counter {
-        padding: 8px 12px;
-        font-size: 10px;
+        padding: 10px 14px;
+        font-size: 11px;
     }
 
     /* Toast */
     #toast {
         bottom: 70px;
         right: 12px;
+        left: 12px;
+        max-width: none;
         font-size: 11px;
         padding: 10px 16px;
     }
