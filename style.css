@@ -506,22 +506,25 @@ tr:hover .copy-btn {
     transform: scale(1.05);
 }
 
-/* GitHub link in floating controls */
+/* GitHub link in floating controls - matches theme-toggle exactly */
 .github-link {
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 38px;
-    height: 38px;
+    padding: 10px 12px;
     background: var(--panel-bg);
     border: 1px solid var(--neon-cyan);
     color: var(--neon-cyan);
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
     border-radius: 8px;
     box-shadow: 0 0 8px var(--shadow-color);
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
     transition: border-color 0.2s, color 0.2s, transform 0.2s, background 0.2s;
     text-decoration: none;
+    line-height: 1;
 }
 
 .github-link:hover {
@@ -537,20 +540,21 @@ tr:hover .copy-btn {
 }
 
 .github-link svg {
-    width: 20px;
-    height: 20px;
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
 }
 
 /* Mobile responsive */
 @media screen and (max-width: 640px) {
     .github-link {
-        width: 36px;
-        height: 36px;
+        padding: 8px 10px;
+        font-size: 10px;
     }
     
     .github-link svg {
-        width: 18px;
-        height: 18px;
+        width: 14px;
+        height: 14px;
     }
 }
 
