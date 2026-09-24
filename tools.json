@@ -354,12 +354,6 @@
         "category": "Coding Practice"
     },
     {
-        "name": "StartMyCar",
-        "url": "https://www.startmycar.com/",
-        "purpose": "Community database of car problems, causes and solutions",
-        "category": "Other"
-    },
-    {
         "name": "Public API Lists",
         "url": "https://public-api-lists.github.io/public-api-lists/",
         "purpose": "Community-maintained list of free public APIs for development",
@@ -574,12 +568,6 @@
         "url": "https://devdocs.io/",
         "purpose": "Fast searchable API documentation for 100+ languages offline",
         "category": "Developer Tools"
-    },
-    {
-        "name": "Fake Update",
-        "url": "https://fakeupdate.net/",
-        "purpose": "Fake OS update screens to prank friends and coworkers",
-        "category": "Games"
     },
     {
         "name": "micro1",
@@ -1014,12 +1002,6 @@
         "category": "Coding Practice"
     },
     {
-        "name": "trace.moe",
-        "url": "https://trace.moe/",
-        "purpose": "Find the anime title and episode from a screenshot",
-        "category": "Utilities"
-    },
-    {
         "name": "React Bits",
         "url": "https://reactbits.dev/",
         "purpose": "Animated React components for building stunning websites",
@@ -1248,12 +1230,6 @@
         "category": "Design"
     },
     {
-        "name": "3D Tuning",
-        "url": "https://www.3dtuning.com/en-US/",
-        "purpose": "Car tuning",
-        "category": "3D & CAD"
-    },
-    {
         "name": "NeaPay",
         "url": "https://neapay.com",
         "purpose": "Generate test card data for development workflows",
@@ -1392,12 +1368,6 @@
         "category": "Video"
     },
     {
-        "name": "My Fridge Food",
-        "url": "https://myfridgefood.com/",
-        "purpose": "Recipe suggestions based on available ingredients",
-        "category": "Utilities"
-    },
-    {
         "name": "Moe Walls",
         "url": "https://moewalls.com/",
         "purpose": "Download anime and themed wallpapers for desktop",
@@ -1408,12 +1378,6 @@
         "url": "https://wallpaperflare.com/",
         "purpose": "Browse and download HD wallpapers across categories",
         "category": "Design"
-    },
-    {
-        "name": "Watabou",
-        "url": "https://watabou.github.io/",
-        "purpose": "Dungeon Customize",
-        "category": "Games"
     },
     {
         "name": "Twain",
@@ -1438,12 +1402,6 @@
         "url": "https://imagineexplainers.com/",
         "purpose": "Explainer video for anything",
         "category": "Video"
-    },
-    {
-        "name": "Whitescreen",
-        "url": "https://www.whitescreen.online/",
-        "purpose": "Blank white screen utility",
-        "category": "Utilities"
     },
     {
         "name": "Lightning",
@@ -1570,12 +1528,6 @@
         "url": "https://www.supremo.co.uk/designers-eye/",
         "purpose": "Sharpen design eye and layout judgment skills",
         "category": "Design"
-    },
-    {
-        "name": "POG unblocked",
-        "url": "https://sites.google.com/view/pogunblocked",
-        "purpose": "Browser-based casual games collection",
-        "category": "Games"
     },
     {
         "name": "Stock IMG",
