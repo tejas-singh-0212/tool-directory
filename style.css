@@ -469,7 +469,7 @@ tr:hover .copy-btn {
     bottom: 24px;
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 12px;
     z-index: 1000;
 }
 
@@ -511,7 +511,7 @@ tr:hover .copy-btn {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    padding: 10px 12px;
+    padding: 10px 14px;
     background: var(--panel-bg);
     border: 1px solid var(--neon-cyan);
     color: var(--neon-cyan);
@@ -547,8 +547,16 @@ tr:hover .copy-btn {
 
 /* Mobile responsive */
 @media screen and (max-width: 640px) {
+    .floating-controls {
+        gap: 8px;
+        right: 12px;
+        bottom: 12px;
+    }
+    
+    .theme-toggle,
+    .tool-counter,
     .github-link {
-        padding: 8px 10px;
+        padding: 8px 12px;
         font-size: 10px;
     }
     
