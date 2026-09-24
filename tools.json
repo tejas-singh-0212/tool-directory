@@ -2614,5 +2614,35 @@
         "url": "https://www.payload-components.xyz",
         "purpose": "67 MIT Payload CMS blocks with source installs and automated Payload v3 + Next.js wiring",
         "category": "Developer Tools"
+    },
+    {
+        "name": "Ruflo",
+        "url": "https://github.com/ruvnet/ruflo",
+        "purpose": "Agent meta-harness for Claude Code and Codex to deploy intelligent multi-agent swarms with adaptive memory and self-learning",
+        "category": "AI Agents"
+    },
+    {
+        "name": "Qwen Chat",
+        "url": "https://chat.qwen.ai/",
+        "purpose": "Qwen Studio AI chat interface for Alibaba Qwen models with model selection and voice mode",
+        "category": "AI Chat"
+    },
+    {
+        "name": "DeepSeek Chat",
+        "url": "https://chat.deepseek.com",
+        "purpose": "DeepSeek AI chat interface with DeepSeek models for conversation and reasoning",
+        "category": "AI Chat"
+    },
+    {
+        "name": "Cerebras Chat",
+        "url": "https://chat.cerebras.ai/",
+        "purpose": "Cerebras ultra-fast AI inference chat with 1,283 tokens/sec speed, coding agent, and data analysis",
+        "category": "AI Chat"
+    },
+    {
+        "name": "STORM",
+        "url": "https://storm.genie.stanford.edu/",
+        "purpose": "Stanford research prototype that generates Wikipedia-like reports on any topic through interactive AI knowledge curation",
+        "category": "Research"
     }
 ]
