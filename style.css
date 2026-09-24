@@ -474,7 +474,8 @@ tr:hover .copy-btn {
 }
 
 .theme-toggle,
-.tool-counter {
+.tool-counter,
+.github-link {
     padding: 10px 14px;
     background: var(--panel-bg);
     border: 1px solid var(--neon-cyan);
@@ -503,6 +504,54 @@ tr:hover .copy-btn {
     border-color: var(--neon-pink);
     color: var(--neon-pink);
     transform: scale(1.05);
+}
+
+/* GitHub link in floating controls */
+.github-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    background: var(--panel-bg);
+    border: 1px solid var(--neon-cyan);
+    color: var(--neon-cyan);
+    border-radius: 8px;
+    box-shadow: 0 0 8px var(--shadow-color);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    transition: border-color 0.2s, color 0.2s, transform 0.2s, background 0.2s;
+    text-decoration: none;
+}
+
+.github-link:hover {
+    border-color: var(--neon-pink);
+    color: var(--neon-pink);
+    background: rgba(255, 0, 255, 0.06);
+    transform: scale(1.05);
+}
+
+.github-link:focus-visible {
+    outline: 3px solid var(--neon-pink);
+    outline-offset: 3px;
+}
+
+.github-link svg {
+    width: 20px;
+    height: 20px;
+}
+
+/* Mobile responsive */
+@media screen and (max-width: 640px) {
+    .github-link {
+        width: 36px;
+        height: 36px;
+    }
+    
+    .github-link svg {
+        width: 18px;
+        height: 18px;
+    }
 }
 
 /* 9. COPY BUTTON */
