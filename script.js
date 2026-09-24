@@ -347,7 +347,7 @@ function toggleTheme() {
     setStoredTheme(isLight ? 'light' : 'dark');
 
     if (btn) {
-        btn.textContent = isLight ? 'DARK_MODE' : 'LIGHT_MODE';
+        btn.textContent = isLight ? 'DARK MODE' : 'LIGHT MODE';
     }
 }
 
@@ -358,7 +358,7 @@ function toggleTheme() {
         document.body.classList.add('light-mode');
         document.addEventListener('DOMContentLoaded', () => {
             const btn = document.querySelector('.theme-toggle');
-            if (btn) btn.textContent = 'DARK_MODE';
+            if (btn) btn.textContent = 'DARK MODE';
         });
     }
 })();
