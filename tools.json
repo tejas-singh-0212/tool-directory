@@ -2644,5 +2644,29 @@
         "url": "https://storm.genie.stanford.edu/",
         "purpose": "Stanford research prototype that generates Wikipedia-like reports on any topic through interactive AI knowledge curation",
         "category": "Research"
+    },
+    {
+        "name": "iAsk AI",
+        "url": "https://iask.ai/",
+        "purpose": "Free AI question answer engine with citations, document analysis, and AI tutoring for students and researchers",
+        "category": "Research"
+    },
+    {
+        "name": "HIX AI",
+        "url": "https://hix.ai/",
+        "purpose": "All-in-one AI agent workspace with deep research, slide creation, image/video generation, AI writing, and coding \u2014 10M+ users",
+        "category": "AI Agents"
+    },
+    {
+        "name": "ChatHub",
+        "url": "https://chathub.gg/",
+        "purpose": "Compare AI responses side-by-side from GPT-6, Claude 5, Gemini 3, and 20+ models with one subscription",
+        "category": "AI Chat"
+    },
+    {
+        "name": "Black Forest Labs (FLUX)",
+        "url": "https://bfl.ai/",
+        "purpose": "Frontier AI lab behind FLUX models - state-of-the-art multimodal image, video, and audio generation via API, open weights, and playground",
+        "category": "Image Generation"
     }
 ]
