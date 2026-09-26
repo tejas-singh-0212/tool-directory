@@ -2776,5 +2776,23 @@
         "url": "https://llamacoder.together.ai/",
         "purpose": "AI code generator powered by Together AI - turn ideas into apps with DeepSeek/Llama models, 1.1M+ users, 7k stars",
         "category": "AI Coding"
+    },
+    {
+        "name": "Have I Been Pwned",
+        "url": "https://haveibeenpwned.com/",
+        "purpose": "Check if your email or phone appears in data breaches",
+        "category": "Cybersecurity"
+    },
+{
+        "name": "MovieBox TUI",
+        "url": "https://github.com/mesamirh/MovieBox-TUI",
+        "purpose": "Browse and stream movies from the terminal",
+        "category": "Utilities"
+    },
+    {
+        "name": "MiroFish",
+        "url": "https://github.com/666ghj/MiroFish",
+        "purpose": "Collaborate on whiteboards with real-time editing, sticky notes, and diagrams",
+        "category": "Design"
     }
 ]
