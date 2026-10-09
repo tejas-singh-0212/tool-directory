@@ -2800,5 +2800,11 @@
         "url": "https://github.com/latent-spaces/brag",
         "purpose": "Claude Code skill to turn projects into launch videos",
         "category": "AI Coding"
+    },
+    {
+        "name": "Hyperconsciousness",
+        "url": "https://github.com/louis030195/hyperconsciousness",
+        "purpose": "Developer-alpha encrypted, append-only knowledge store with CLI and scoped MCP access for agents",
+        "category": "Developer Tools"
     }
 ]
