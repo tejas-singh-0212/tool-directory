@@ -264,12 +264,6 @@
         "category": "Jobs & Career"
     },
     {
-        "name": "Invio",
-        "url": "https://invio.dev/",
-        "purpose": "Free self-hosted open-source invoicing without the bloat",
-        "category": "Productivity"
-    },
-    {
         "name": "Pandas Tutor",
         "url": "https://pandastutor.com/",
         "purpose": "Visualize pandas code step by step to learn data science",
@@ -684,12 +678,6 @@
         "category": "Learning"
     },
     {
-        "name": "HorizonX",
-        "url": "https://horizonx.so/",
-        "purpose": "Premium UI kits, templates and Figma files subscription library",
-        "category": "Design"
-    },
-    {
         "name": "Bklit UI",
         "url": "https://bklit.com/",
         "purpose": "React chart and data visualization components with a studio",
@@ -750,12 +738,6 @@
         "category": "Design"
     },
     {
-        "name": "Magic Animator",
-        "url": "https://magicanimator.com/",
-        "purpose": "Animate Figma designs and static visuals in one click with AI",
-        "category": "Design"
-    },
-    {
         "name": "Antlii",
         "url": "https://antlii.work/",
         "purpose": "Free web-based generative art and typography tools",
@@ -784,12 +766,6 @@
         "url": "https://www.popai.pro/",
         "purpose": "AI workspace for chatting with PDFs and generating slides",
         "category": "Productivity"
-    },
-    {
-        "name": "Decktopus",
-        "url": "https://decktopus.com/",
-        "purpose": "AI presentation maker with smart layouts and templates",
-        "category": "Presentation"
     },
     {
         "name": "Jabali",
@@ -1032,12 +1008,6 @@
         "category": "AI Writing"
     },
     {
-        "name": "Do Not Pay",
-        "url": "https://donotpay.com/",
-        "purpose": "AI Lawyer",
-        "category": "Productivity"
-    },
-    {
         "name": "Boomy AI",
         "url": "https://boomy.com/song/12907363-We-robot-whoopie-by-BoomyAi",
         "purpose": "AI Music generator",
@@ -1111,7 +1081,7 @@
     },
     {
         "name": "ZeroGPT",
-        "url": "https://zerogpt.com",
+        "url": "https://www.zerogpt.com/",
         "purpose": "AI detector",
         "category": "AI Writing"
     },
@@ -1120,12 +1090,6 @@
         "url": "https://otter.ai/",
         "purpose": "AI note-taking and meeting transcription",
         "category": "Productivity"
-    },
-    {
-        "name": "Synthesia",
-        "url": "https://www.synthesia.io/",
-        "purpose": "AI talking Avatar",
-        "category": "Video"
     },
     {
         "name": "Gog Galaxy",
@@ -1314,34 +1278,10 @@
         "category": "Image Generation"
     },
     {
-        "name": "Thunder Content",
-        "url": "https://thundercontent.com/",
-        "purpose": "Content generator",
-        "category": "AI Writing"
-    },
-    {
-        "name": "Leexi",
-        "url": "https://www.leexi.ai/en/",
-        "purpose": "Conversational Intelligence Platform",
-        "category": "Productivity"
-    },
-    {
         "name": "Auto Regex",
         "url": "https://www.autoregex.xyz/",
         "purpose": "Converts plain English to regex with natural language processing",
         "category": "Developer Tools"
-    },
-    {
-        "name": "Jasper",
-        "url": "https://jasper.ai",
-        "purpose": "Creates content for blog, social media etc.",
-        "category": "AI Writing"
-    },
-    {
-        "name": "Copy",
-        "url": "https://copy.ai",
-        "purpose": "Creates content for marketing needs",
-        "category": "AI Writing"
     },
     {
         "name": "Opus",
@@ -1372,12 +1312,6 @@
         "url": "https://wallpaperflare.com/",
         "purpose": "Browse and download HD wallpapers across categories",
         "category": "Design"
-    },
-    {
-        "name": "Twain",
-        "url": "https://www.twain.ai/",
-        "purpose": "AI-assisted email writing",
-        "category": "AI Writing"
     },
     {
         "name": "Clip Drop",
@@ -1518,12 +1452,6 @@
         "category": "Image Generation"
     },
     {
-        "name": "Bria",
-        "url": "https://bria.ai/",
-        "purpose": "Generates images from text",
-        "category": "Image Generation"
-    },
-    {
         "name": "Nightcafe-Creator",
         "url": "https://creator.nightcafe.studio/",
         "purpose": "AI art generation platform",
@@ -1584,27 +1512,9 @@
         "category": "Image Editing"
     },
     {
-        "name": "Deep-Image",
-        "url": "https://deep-image.ai/",
-        "purpose": "Upscale, denoise, and enhance images with AI",
-        "category": "Image Editing"
-    },
-    {
-        "name": "Lets Enhance",
-        "url": "https://letsenhance.io/",
-        "purpose": "Improve image resolution, sharpness, and quality",
-        "category": "Image Editing"
-    },
-    {
         "name": "Lupa",
         "url": "https://lupa.art/",
         "purpose": "Edit and enhance images with AI-powered tools",
-        "category": "Image Editing"
-    },
-    {
-        "name": "Viesus",
-        "url": "https://www.viesus.com/",
-        "purpose": "Automatically enhance photo quality and color",
         "category": "Image Editing"
     },
     {
@@ -1764,12 +1674,6 @@
         "category": "Travel"
     },
     {
-        "name": "Topaz",
-        "url": "https://www.topazlabs.com/",
-        "purpose": "Photo and Video enhancement",
-        "category": "Image Editing"
-    },
-    {
         "name": "Font Joy",
         "url": "https://fontjoy.com",
         "purpose": "Picks best font pairing",
@@ -1785,12 +1689,6 @@
         "name": "Gamma",
         "url": "https://gamma.app/",
         "purpose": "Create AI-generated presentations, documents, and webpages",
-        "category": "Presentation"
-    },
-    {
-        "name": "Beautiful",
-        "url": "https://beautiful.ai",
-        "purpose": "Design professional presentations with smart slide layouts",
         "category": "Presentation"
     },
     {
@@ -1836,12 +1734,6 @@
         "category": "Utilities"
     },
     {
-        "name": "Stylized",
-        "url": "https://www.stylized.ai/",
-        "purpose": "Product photo generator",
-        "category": "Image Generation"
-    },
-    {
         "name": "Quick Ref",
         "url": "https://quickref.me/",
         "purpose": "Quick references and cheatsheets for coding",
@@ -1863,12 +1755,6 @@
         "name": "Pod Castle",
         "url": "https://podcastle.ai/",
         "purpose": "Record and edit podcast",
-        "category": "Audio & Music"
-    },
-    {
-        "name": "Altered",
-        "url": "https://www.altered.ai/",
-        "purpose": "Record and edit voice recording",
         "category": "Audio & Music"
     },
     {
@@ -1923,12 +1809,6 @@
         "name": "Api Way",
         "url": "https://apiway.ai/",
         "purpose": "Send leads to Google Sheets and CRM tools",
-        "category": "Automation"
-    },
-    {
-        "name": "Hootsuite",
-        "url": "https://www.hootsuite.com/",
-        "purpose": "Social media management platform",
         "category": "Automation"
     },
     {
@@ -1998,12 +1878,6 @@
         "category": "Research"
     },
     {
-        "name": "Imagica",
-        "url": "https://get.imagica.ai/",
-        "purpose": "Build AI-powered apps without coding",
-        "category": "Web Builder"
-    },
-    {
         "name": "Convex Chef",
         "url": "https://chef.convex.dev/",
         "purpose": "Build AI applications with Convex backend templates",
@@ -2025,12 +1899,6 @@
         "name": "Ewasion Github",
         "url": "https://ewasion.github.io/opendirectory-finder/",
         "purpose": "Search public open directories and resource indexes",
-        "category": "Developer Tools"
-    },
-    {
-        "name": "Deep Web Nest",
-        "url": "https://deepwebnest.com/",
-        "purpose": "Index of public web directories and resources",
         "category": "Developer Tools"
     },
     {
@@ -2062,12 +1930,6 @@
         "url": "https://pentestgpt.ai/",
         "purpose": "AI-assisted learning tool for penetration testing concepts",
         "category": "Cybersecurity"
-    },
-    {
-        "name": "D-ID",
-        "url": "https://www.d-id.com/",
-        "purpose": "Create talking-photo style videos",
-        "category": "Video"
     },
     {
         "name": "CSS Battle",
@@ -2104,12 +1966,6 @@
         "url": "https://www.homeworkistrash.ml/",
         "purpose": "Web access utility and proxy-style browsing tool",
         "category": "Utilities"
-    },
-    {
-        "name": "Super Human",
-        "url": "https://superhuman.com/",
-        "purpose": "Faster email drafting assistant",
-        "category": "Productivity"
     },
     {
         "name": "Briefly AI",
@@ -2308,12 +2164,6 @@
         "url": "https://uithub.com/",
         "purpose": "Provides details of repo for context to ask an LLM",
         "category": "Developer Tools"
-    },
-    {
-        "name": "Goalkicker",
-        "url": "https://books.goalkicker.com/",
-        "purpose": "Free programming books on various programming languages and topics",
-        "category": "Learning"
     },
     {
         "name": "Staying",
@@ -2574,12 +2424,6 @@
         "category": "Jobs & Career"
     },
     {
-        "name": "LockedIn AI",
-        "url": "https://lockedinai.com/",
-        "purpose": "Real-time AI copilot for job interviews and online meetings",
-        "category": "Jobs & Career"
-    },
-    {
         "name": "Teal",
         "url": "https://www.tealhq.com/",
         "purpose": "AI resume builder with job application tracker",
@@ -2664,22 +2508,10 @@
         "category": "AI Agents"
     },
     {
-        "name": "Originality.ai",
-        "url": "https://originality.ai/",
-        "purpose": "Most accurate AI detector for ChatGPT, GPT-6, Claude, Gemini with plagiarism, fact-checking, readability, and grammar tools",
-        "category": "AI Writing"
-    },
-    {
         "name": "Feedough",
         "url": "https://www.feedough.com/",
         "purpose": "Free AI tools directory with 170+ AI agents and tools for startups - prompt generators, business plan generator, market research, branding, and productivity tools",
         "category": "Developer Tools"
-    },
-    {
-        "name": "Junia AI",
-        "url": "https://www.junia.ai/",
-        "purpose": "AI SEO writer that auto-generates and publishes ranking content to WordPress, Shopify, Webflow - includes keyword research, internal linking, and AI autoblogging",
-        "category": "AI Writing"
     },
     {
         "name": "Prompt Hackers",
