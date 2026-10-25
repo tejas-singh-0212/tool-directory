@@ -17,9 +17,10 @@ function getFilteredTools(allTools, searchTerm, currentCategory = 'all') {
     return allTools.filter((tool) => {
         const category = getToolCategory(tool);
         const matchesCategory = currentCategory === 'all' || category === currentCategory;
+        if (!matchesCategory) return false;
+        if (!term) return true;
         const haystack = `${tool.name || ''} ${tool.purpose || ''} ${tool.url || ''} ${category}`.toUpperCase();
-        const matchesSearch = !term || haystack.includes(term);
-        return matchesCategory && matchesSearch;
+        return haystack.includes(term);
     });
 }
 
