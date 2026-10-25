@@ -1,0 +1,9 @@
+{
+  "name": "ultimate-tool-directory",
+  "version": "1.0.0",
+  "description": "Static site directory for software and productivity tools",
+  "private": true,
+  "scripts": {
+    "test": "node scripts/test-script.js && node scripts/test-get-tool-category.js && node scripts/test-sort-tools-by-name.js && node scripts/test-url-validation.js"
+  }
+}
