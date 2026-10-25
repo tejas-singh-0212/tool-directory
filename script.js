@@ -128,7 +128,6 @@ function isSafeUrl(url) {
 
 function renderTableRows(tools) {
     const tbody = document.getElementById('toolTableBody');
-    const noResults = document.getElementById('noResults');
 
     tbody.innerHTML = '';
 
