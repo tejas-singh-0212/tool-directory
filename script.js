@@ -23,6 +23,16 @@ function setStoredTheme(theme) {
     }
 }
 
+function debounce(func, delay = 250) {
+    let timeoutId;
+    return function (...args) {
+        clearTimeout(timeoutId);
+        timeoutId = setTimeout(() => {
+            func.apply(this, args);
+        }, delay);
+    };
+}
+
 function sortToolsByName(tools) {
     return [...tools].sort((a, b) => {
         const nameA = (a.name || '').toLowerCase();
@@ -375,7 +385,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const themeToggle = document.querySelector('.theme-toggle');
 
     if (searchInput) {
-        searchInput.addEventListener('input', searchTable);
+        searchInput.addEventListener('input', debounce(searchTable, 250));
     }
 
     if (categoryFilter) {
