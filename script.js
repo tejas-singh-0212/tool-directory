@@ -110,6 +110,12 @@ function showToast(message = 'Link copied to clipboard!', isError = false) {
     }, 2000);
 }
 
+function isSafeUrl(url) {
+    if (typeof url !== 'string') return false;
+    const trimmed = url.trim();
+    return /^https?:\/\//i.test(trimmed);
+}
+
 function renderTableRows(tools) {
     const tbody = document.getElementById('toolTableBody');
     const noResults = document.getElementById('noResults');
@@ -118,7 +124,7 @@ function renderTableRows(tools) {
 
     tools.forEach((tool) => {
         const safeName = tool.name || 'Untitled';
-        const safeUrl = tool.url || '#';
+        const safeUrl = isSafeUrl(tool.url) ? tool.url.trim() : '#';
         const safePurpose = tool.purpose || '';
 
         const row = document.createElement('tr');
