@@ -2638,5 +2638,11 @@
         "url": "https://github.com/louis030195/hyperconsciousness",
         "purpose": "Developer-alpha encrypted, append-only knowledge store with CLI and scoped MCP access for agents",
         "category": "Developer Tools"
+    },
+    {
+        "name": "deed.page",
+        "url": "https://deed.page",
+        "purpose": "Hosting for AI coding agents: publish generated HTML or static files to a public HTTPS link via one HTTP PUT or a remote MCP server",
+        "category": "Developer Tools"
     }
 ]
