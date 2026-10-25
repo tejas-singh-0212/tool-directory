@@ -2638,5 +2638,11 @@
         "url": "https://github.com/louis030195/hyperconsciousness",
         "purpose": "Developer-alpha encrypted, append-only knowledge store with CLI and scoped MCP access for agents",
         "category": "Developer Tools"
+    },
+    {
+        "name": "IdeaHunter",
+        "url": "https://ideahunter.today",
+        "purpose": "Find demand-backed app and micro-SaaS ideas using public signals, buyer pain, and market evidence",
+        "category": "Research"
     }
 ]
