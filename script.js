@@ -239,12 +239,12 @@ function getFilteredTools() {
         const matchesCategory =
             currentCategory === 'all' || category === currentCategory;
 
+        if (!matchesCategory) return false;
+        if (!searchTerm) return true;
+
         const haystack = `${tool.name || ''} ${tool.purpose || ''} ${tool.url || ''} ${category}`.toUpperCase();
 
-        const matchesSearch =
-            !searchTerm || haystack.includes(searchTerm);
-
-        return matchesCategory && matchesSearch;
+        return haystack.includes(searchTerm);
     });
 }
 
